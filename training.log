@@ -1,0 +1,1467 @@
+making imagenet data transforms
+Loaded 100000 .npy files from the first 100000 folders in /raid/biplab/datasets/BENv1/BENMMfinal/
+Loaded 100000 .npy files from the first 100000 folders in /raid/biplab/datasets/BENv1/BENMMfinal/
+Npy dataset created
+Dataset split: 80000 training samples, 20000 test samples
+Train and test dataloaders created
+Epoch 1/50
+making imagenet data transforms
+Loaded 100000 .npy files from the first 100000 folders in /raid/biplab/datasets/BENv1/BENMMfinal/
+Loaded 100000 .npy files from the first 100000 folders in /raid/biplab/datasets/BENv1/BENMMfinal/
+Npy dataset created
+Dataset split: 80000 training samples, 20000 test samples
+Train and test dataloaders created
+Epoch 1/50
+making imagenet data transforms
+Loaded 100000 .npy files from the first 100000 folders in /raid/biplab/datasets/BENv1/BENMMfinal/
+Loaded 100000 .npy files from the first 100000 folders in /raid/biplab/datasets/BENv1/BENMMfinal/
+Npy dataset created
+Dataset split: 80000 training samples, 20000 test samples
+Train and test dataloaders created
+Epoch 1/50
+{"train_loss": 3.2176928520202637, "epoch": 1, "iteration": 1}
+{"train_loss": 2.676731824874878, "epoch": 1, "iteration": 11}
+{"train_loss": 2.184927463531494, "epoch": 1, "iteration": 21}
+{"train_loss": 1.9062542915344238, "epoch": 1, "iteration": 31}
+{"train_loss": 1.6495518684387207, "epoch": 1, "iteration": 41}
+{"train_loss": 1.6664338111877441, "epoch": 1, "iteration": 51}
+{"train_loss": 1.5485613346099854, "epoch": 1, "iteration": 61}
+{"train_loss": 1.5762938261032104, "epoch": 1, "iteration": 71}
+{"train_loss": 1.6416361331939697, "epoch": 1, "iteration": 81}
+{"train_loss": 1.561190128326416, "epoch": 1, "iteration": 91}
+{"train_loss": 1.653876781463623, "epoch": 1, "iteration": 101}
+{"train_loss": 1.643877625465393, "epoch": 1, "iteration": 111}
+{"train_loss": 1.625722885131836, "epoch": 1, "iteration": 121}
+{"train_loss": 2.1280922889709473, "epoch": 1, "iteration": 131}
+{"train_loss": 1.5002734661102295, "epoch": 1, "iteration": 141}
+{"train_loss": 1.4440358877182007, "epoch": 1, "iteration": 151}
+{"train_loss": 1.450659155845642, "epoch": 1, "iteration": 161}
+{"train_loss": 1.596077799797058, "epoch": 1, "iteration": 171}
+{"train_loss": 1.4623863697052002, "epoch": 1, "iteration": 181}
+{"train_loss": 1.7078920602798462, "epoch": 1, "iteration": 191}
+{"train_loss": 1.4012343883514404, "epoch": 1, "iteration": 201}
+{"train_loss": 1.3642104864120483, "epoch": 1, "iteration": 211}
+{"train_loss": 1.2799514532089233, "epoch": 1, "iteration": 221}
+{"train_loss": 1.962020993232727, "epoch": 1, "iteration": 231}
+{"train_loss": 1.6739020347595215, "epoch": 1, "iteration": 241}
+{"train_loss": 1.2822216749191284, "epoch": 1, "iteration": 251}
+{"train_loss": 1.9321588277816772, "epoch": 1, "iteration": 261}
+{"train_loss": 1.2015211582183838, "epoch": 1, "iteration": 271}
+{"train_loss": 0.41112378239631653, "epoch": 1, "iteration": 281}
+{"train_loss": 1.2746586799621582, "epoch": 1, "iteration": 291}
+{"train_loss": 1.2408545017242432, "epoch": 1, "iteration": 301}
+{"train_loss": 1.747476577758789, "epoch": 1, "iteration": 311}
+{"train_loss": 1.3094416856765747, "epoch": 1, "iteration": 321}
+{"train_loss": 1.2920018434524536, "epoch": 1, "iteration": 331}
+{"train_loss": 1.2652174234390259, "epoch": 1, "iteration": 341}
+{"train_loss": 1.2825266122817993, "epoch": 1, "iteration": 351}
+{"train_loss": 1.8110250234603882, "epoch": 1, "iteration": 361}
+{"train_loss": 1.6545039415359497, "epoch": 1, "iteration": 371}
+{"train_loss": 1.989898443222046, "epoch": 1, "iteration": 381}
+{"train_loss": 1.6693296432495117, "epoch": 1, "iteration": 391}
+{"train_loss": 1.3656048774719238, "epoch": 1, "iteration": 401}
+{"train_loss": 1.2700141668319702, "epoch": 1, "iteration": 411}
+{"train_loss": 1.2080498933792114, "epoch": 1, "iteration": 421}
+{"train_loss": 1.055330514907837, "epoch": 1, "iteration": 431}
+{"train_loss": 1.31797456741333, "epoch": 1, "iteration": 441}
+{"train_loss": 1.2472440004348755, "epoch": 1, "iteration": 451}
+{"train_loss": 1.3024972677230835, "epoch": 1, "iteration": 461}
+{"train_loss": 1.2387126684188843, "epoch": 1, "iteration": 471}
+{"train_loss": 1.3213493824005127, "epoch": 1, "iteration": 481}
+{"train_loss": 0.529585599899292, "epoch": 1, "iteration": 491}
+{"train_loss": 0.5413671731948853, "epoch": 1, "iteration": 501}
+{"train_loss": 0.3504260778427124, "epoch": 1, "iteration": 511}
+{"train_loss": 1.7927868366241455, "epoch": 1, "iteration": 521}
+{"train_loss": 1.2496775388717651, "epoch": 1, "iteration": 531}
+{"train_loss": 0.4794732630252838, "epoch": 1, "iteration": 541}
+{"train_loss": 1.2677602767944336, "epoch": 1, "iteration": 551}
+{"train_loss": 0.750416100025177, "epoch": 1, "iteration": 561}
+{"train_loss": 0.8033972382545471, "epoch": 1, "iteration": 571}
+{"train_loss": 1.5986944437026978, "epoch": 1, "iteration": 581}
+{"train_loss": 1.4567344188690186, "epoch": 1, "iteration": 591}
+{"train_loss": 1.5236923694610596, "epoch": 1, "iteration": 601}
+{"train_loss": 1.5050110816955566, "epoch": 1, "iteration": 611}
+{"train_loss": 1.2972924709320068, "epoch": 1, "iteration": 621}
+{"train_loss": 1.3581748008728027, "epoch": 1, "iteration": 631}
+{"train_loss": 1.2461395263671875, "epoch": 1, "iteration": 641}
+{"train_loss": 1.2560967206954956, "epoch": 1, "iteration": 651}
+{"train_loss": 1.285678505897522, "epoch": 1, "iteration": 661}
+{"train_loss": 1.2452454566955566, "epoch": 1, "iteration": 671}
+{"train_loss": 0.38182586431503296, "epoch": 1, "iteration": 681}
+{"train_loss": 1.306387186050415, "epoch": 1, "iteration": 691}
+{"train_loss": 0.27059224247932434, "epoch": 1, "iteration": 701}
+{"train_loss": 0.9995580315589905, "epoch": 1, "iteration": 711}
+{"train_loss": 1.2571083307266235, "epoch": 1, "iteration": 721}
+{"train_loss": 1.3674410581588745, "epoch": 1, "iteration": 731}
+{"train_loss": 1.0958141088485718, "epoch": 1, "iteration": 741}
+{"train_loss": 1.260129690170288, "epoch": 1, "iteration": 751}
+{"train_loss": 1.1021032333374023, "epoch": 1, "iteration": 761}
+{"train_loss": 1.306085228919983, "epoch": 1, "iteration": 771}
+{"train_loss": 1.1927883625030518, "epoch": 1, "iteration": 781}
+{"train_loss": 1.1239897012710571, "epoch": 1, "iteration": 791}
+{"train_loss": 0.38452231884002686, "epoch": 1, "iteration": 801}
+{"train_loss": 0.7784188985824585, "epoch": 1, "iteration": 811}
+{"train_loss": 0.2924550771713257, "epoch": 1, "iteration": 821}
+{"train_loss": 0.8021718263626099, "epoch": 1, "iteration": 831}
+{"train_loss": 0.8370453119277954, "epoch": 1, "iteration": 841}
+{"train_loss": 0.8710645437240601, "epoch": 1, "iteration": 851}
+{"train_loss": 1.2786738872528076, "epoch": 1, "iteration": 861}
+{"train_loss": 0.39431995153427124, "epoch": 1, "iteration": 871}
+making imagenet data transforms
+Loaded 100000 .npy files from the first 100000 folders in /raid/biplab/datasets/BENv1/BENMMfinal/
+Loaded 100000 .npy files from the first 100000 folders in /raid/biplab/datasets/BENv1/BENMMfinal/
+Npy dataset created
+Dataset split: 80000 training samples, 20000 test samples
+Train and test dataloaders created
+making imagenet data transforms
+Loaded 100000 .npy files from the first 100000 folders in /raid/biplab/datasets/BENv1/BENMMfinal/
+Loaded 100000 .npy files from the first 100000 folders in /raid/biplab/datasets/BENv1/BENMMfinal/
+Npy dataset created
+Dataset split: 80000 training samples, 20000 test samples
+Train and test dataloaders created
+making imagenet data transforms
+Loaded 100000 .npy files from the first 100000 folders in /raid/biplab/datasets/BENv1/BENMMfinal/
+Loaded 100000 .npy files from the first 100000 folders in /raid/biplab/datasets/BENv1/BENMMfinal/
+Npy dataset created
+Dataset split: 80000 training samples, 20000 test samples
+Train and test dataloaders created
+making imagenet data transforms
+Loaded 100000 .npy files from the first 100000 folders in /raid/biplab/datasets/BENv1/BENMMfinal/
+Loaded 100000 .npy files from the first 100000 folders in /raid/biplab/datasets/BENv1/BENMMfinal/
+Npy dataset created
+Dataset split: 80000 training samples, 20000 test samples
+Train and test dataloaders created
+making imagenet data transforms
+Loaded 100000 .npy files from the first 100000 folders in /raid/biplab/datasets/BENv1/BENMMfinal/
+Loaded 100000 .npy files from the first 100000 folders in /raid/biplab/datasets/BENv1/BENMMfinal/
+Npy dataset created
+Dataset split: 80000 training samples, 20000 test samples
+Train and test dataloaders created
+making imagenet data transforms
+Loaded 100000 .npy files from the first 100000 folders in /raid/biplab/datasets/BENv1/BENMMfinal/
+Loaded 100000 .npy files from the first 100000 folders in /raid/biplab/datasets/BENv1/BENMMfinal/
+Npy dataset created
+Dataset split: 80000 training samples, 20000 test samples
+Train and test dataloaders created
+making imagenet data transforms
+Loaded 100000 .npy files from the first 100000 folders in /raid/biplab/datasets/BENv1/BENMMfinal/
+Loaded 100000 .npy files from the first 100000 folders in /raid/biplab/datasets/BENv1/BENMMfinal/
+Npy dataset created
+Dataset split: 80000 training samples, 20000 test samples
+Train and test dataloaders created
+Epoch 1/50
+{"train_loss": 3.198124885559082, "epoch": 1, "iteration": 1}
+{"train_loss": 2.636775016784668, "epoch": 1, "iteration": 11}
+{"train_loss": 2.1426963806152344, "epoch": 1, "iteration": 21}
+{"train_loss": 1.7872060537338257, "epoch": 1, "iteration": 31}
+{"train_loss": 1.5591068267822266, "epoch": 1, "iteration": 41}
+{"train_loss": 1.522196650505066, "epoch": 1, "iteration": 51}
+{"train_loss": 1.9156516790390015, "epoch": 1, "iteration": 61}
+{"train_loss": 2.1496992111206055, "epoch": 1, "iteration": 71}
+making imagenet data transforms
+Loaded 100000 .npy files from the first 100000 folders in /raid/biplab/datasets/BENv1/BENMMfinal/
+Loaded 100000 .npy files from the first 100000 folders in /raid/biplab/datasets/BENv1/BENMMfinal/
+Npy dataset created
+Dataset split: 80000 training samples, 20000 test samples
+Train and test dataloaders created
+Epoch 1/50
+{"train_loss": 3.206942081451416, "epoch": 1, "iteration": 1}
+{"train_loss": 2.7248878479003906, "epoch": 1, "iteration": 11}
+{"train_loss": 2.188891887664795, "epoch": 1, "iteration": 21}
+{"train_loss": 1.8459956645965576, "epoch": 1, "iteration": 31}
+{"train_loss": 1.6576859951019287, "epoch": 1, "iteration": 41}
+{"train_loss": 1.8254306316375732, "epoch": 1, "iteration": 51}
+{"train_loss": 1.51517915725708, "epoch": 1, "iteration": 61}
+making imagenet data transforms
+Loaded 100000 .npy files from the first 100000 folders in /raid/biplab/datasets/BENv1/BENMMfinal/
+Loaded 100000 .npy files from the first 100000 folders in /raid/biplab/datasets/BENv1/BENMMfinal/
+Npy dataset created
+Dataset split: 80000 training samples, 20000 test samples
+Train and test dataloaders created
+Epoch 1/50
+{"train_loss": 4.457194805145264, "epoch": 1, "iteration": 1}
+{"train_loss": 2.4136250019073486, "epoch": 1, "iteration": 11}
+making imagenet data transforms
+Loaded 100000 .npy files from the first 100000 folders in /raid/biplab/datasets/BENv1/BENMMfinal/
+Loaded 100000 .npy files from the first 100000 folders in /raid/biplab/datasets/BENv1/BENMMfinal/
+Npy dataset created
+Dataset split: 80000 training samples, 20000 test samples
+Train and test dataloaders created
+Epoch 1/50
+{"train_loss": 4.506587028503418, "epoch": 1, "iteration": 1}
+making imagenet data transforms
+Loaded 100000 .npy files from the first 100000 folders in /raid/biplab/datasets/BENv1/BENMMfinal/
+Loaded 100000 .npy files from the first 100000 folders in /raid/biplab/datasets/BENv1/BENMMfinal/
+Npy dataset created
+Dataset split: 80000 training samples, 20000 test samples
+Train and test dataloaders created
+Epoch 1/50
+{"train_loss": 4.531092166900635, "epoch": 1, "iteration": 1}
+{"train_loss": 2.443065881729126, "epoch": 1, "iteration": 11}
+{"train_loss": 2.1517436504364014, "epoch": 1, "iteration": 21}
+{"train_loss": 1.9272854328155518, "epoch": 1, "iteration": 31}
+{"train_loss": 1.8239822387695312, "epoch": 1, "iteration": 41}
+{"train_loss": 1.8680673837661743, "epoch": 1, "iteration": 51}
+{"train_loss": 1.5841411352157593, "epoch": 1, "iteration": 61}
+{"train_loss": 2.1113948822021484, "epoch": 1, "iteration": 71}
+{"train_loss": 1.6163082122802734, "epoch": 1, "iteration": 81}
+{"train_loss": 1.4137673377990723, "epoch": 1, "iteration": 91}
+{"train_loss": 1.442516565322876, "epoch": 1, "iteration": 101}
+{"train_loss": 1.478657841682434, "epoch": 1, "iteration": 111}
+{"train_loss": 1.4649608135223389, "epoch": 1, "iteration": 121}
+{"train_loss": 1.3981826305389404, "epoch": 1, "iteration": 131}
+{"train_loss": 1.3348605632781982, "epoch": 1, "iteration": 141}
+{"train_loss": 1.3942656517028809, "epoch": 1, "iteration": 151}
+{"train_loss": 1.3308658599853516, "epoch": 1, "iteration": 161}
+{"train_loss": 1.2816685438156128, "epoch": 1, "iteration": 171}
+{"train_loss": 1.287294864654541, "epoch": 1, "iteration": 181}
+{"train_loss": 1.2668389081954956, "epoch": 1, "iteration": 191}
+{"train_loss": 1.255720615386963, "epoch": 1, "iteration": 201}
+{"train_loss": 1.2961667776107788, "epoch": 1, "iteration": 211}
+{"train_loss": 1.2993956804275513, "epoch": 1, "iteration": 221}
+{"train_loss": 1.2230215072631836, "epoch": 1, "iteration": 231}
+{"train_loss": 1.3093719482421875, "epoch": 1, "iteration": 241}
+making imagenet data transforms
+Loaded 100000 .npy files from the first 100000 folders in /raid/biplab/datasets/BENv1/BENMMfinal/
+Loaded 100000 .npy files from the first 100000 folders in /raid/biplab/datasets/BENv1/BENMMfinal/
+Npy dataset created
+Dataset split: 80000 training samples, 20000 test samples
+Train and test dataloaders created
+Epoch 1/50
+{"train_loss": 4.588644027709961, "epoch": 1, "iteration": 1}
+{"train_loss": 2.521345615386963, "epoch": 1, "iteration": 11}
+{"train_loss": 2.1748900413513184, "epoch": 1, "iteration": 21}
+{"train_loss": 1.9593183994293213, "epoch": 1, "iteration": 31}
+{"train_loss": 1.922736406326294, "epoch": 1, "iteration": 41}
+{"train_loss": 1.7250314950942993, "epoch": 1, "iteration": 51}
+{"train_loss": 1.598616600036621, "epoch": 1, "iteration": 61}
+{"train_loss": 1.8184095621109009, "epoch": 1, "iteration": 71}
+{"train_loss": 1.7175178527832031, "epoch": 1, "iteration": 81}
+{"train_loss": 2.0438785552978516, "epoch": 1, "iteration": 91}
+{"train_loss": 1.3694021701812744, "epoch": 1, "iteration": 101}
+{"train_loss": 1.3651431798934937, "epoch": 1, "iteration": 111}
+{"train_loss": 1.525542140007019, "epoch": 1, "iteration": 121}
+{"train_loss": 1.3578699827194214, "epoch": 1, "iteration": 131}
+{"train_loss": 1.3732086420059204, "epoch": 1, "iteration": 141}
+{"train_loss": 1.9129807949066162, "epoch": 1, "iteration": 151}
+{"train_loss": 1.3487472534179688, "epoch": 1, "iteration": 161}
+{"train_loss": 1.2757434844970703, "epoch": 1, "iteration": 171}
+{"train_loss": 1.3182942867279053, "epoch": 1, "iteration": 181}
+{"train_loss": 1.2114486694335938, "epoch": 1, "iteration": 191}
+{"train_loss": 1.2487399578094482, "epoch": 1, "iteration": 201}
+{"train_loss": 1.3851234912872314, "epoch": 1, "iteration": 211}
+{"train_loss": 1.2555619478225708, "epoch": 1, "iteration": 221}
+{"train_loss": 1.3103939294815063, "epoch": 1, "iteration": 231}
+{"train_loss": 1.232312798500061, "epoch": 1, "iteration": 241}
+{"train_loss": 1.267506718635559, "epoch": 1, "iteration": 251}
+{"train_loss": 1.2181596755981445, "epoch": 1, "iteration": 261}
+{"train_loss": 1.244112253189087, "epoch": 1, "iteration": 271}
+{"train_loss": 1.2631232738494873, "epoch": 1, "iteration": 281}
+{"train_loss": 1.1854374408721924, "epoch": 1, "iteration": 291}
+{"train_loss": 1.3918261528015137, "epoch": 1, "iteration": 301}
+{"train_loss": 1.5544164180755615, "epoch": 1, "iteration": 311}
+Epoch 1/50, Val Loss: 3.1254
+making imagenet data transforms
+Loaded 100000 .npy files from the first 100000 folders in /raid/biplab/datasets/BENv1/BENMMfinal/
+Loaded 100000 .npy files from the first 100000 folders in /raid/biplab/datasets/BENv1/BENMMfinal/
+Npy dataset created
+Dataset split: 80000 training samples, 20000 test samples
+Train and test dataloaders created
+Epoch 1/50
+{"train_loss": 4.592606067657471, "epoch": 1, "iteration": 1}
+Epoch 1/50, Val Loss: 3.2184
+making imagenet data transforms
+Loaded 100000 .npy files from the first 100000 folders in /raid/biplab/datasets/BENv1/BENMMfinal/
+Loaded 100000 .npy files from the first 100000 folders in /raid/biplab/datasets/BENv1/BENMMfinal/
+Npy dataset created
+Dataset split: 80000 training samples, 20000 test samples
+Train and test dataloaders created
+Epoch 1/50
+{"train_loss": 4.592606067657471, "epoch": 1, "iteration": 1}
+Epoch 1/50, Val Loss: 3.2184
+making imagenet data transforms
+Loaded 100000 .npy files from the first 100000 folders in /raid/biplab/datasets/BENv1/BENMMfinal/
+Loaded 100000 .npy files from the first 100000 folders in /raid/biplab/datasets/BENv1/BENMMfinal/
+Npy dataset created
+Dataset split: 80000 training samples, 20000 test samples
+Train and test dataloaders created
+Epoch 1/50
+{"train_loss": 4.592606067657471, "epoch": 1, "iteration": 1}
+Epoch 1/50, Val Loss: 3.2184
+making imagenet data transforms
+Loaded 100000 .npy files from the first 100000 folders in /raid/biplab/datasets/BENv1/BENMMfinal/
+Loaded 100000 .npy files from the first 100000 folders in /raid/biplab/datasets/BENv1/BENMMfinal/
+Npy dataset created
+Dataset split: 80000 training samples, 20000 test samples
+Train and test dataloaders created
+Epoch 1/50
+{"train_loss": 4.592606067657471, "epoch": 1, "iteration": 1}
+Epoch 1/50, Val Loss: 3.2184
+making imagenet data transforms
+Loaded 100000 .npy files from the first 100000 folders in /raid/biplab/datasets/BENv1/BENMMfinal/
+Loaded 100000 .npy files from the first 100000 folders in /raid/biplab/datasets/BENv1/BENMMfinal/
+Npy dataset created
+Dataset split: 80000 training samples, 20000 test samples
+Train and test dataloaders created
+Epoch 1/50
+{"train_loss": 4.592606067657471, "epoch": 1, "iteration": 1}
+Epoch 1/50, Val Loss: 3.2184
+making imagenet data transforms
+Loaded 100000 .npy files from the first 100000 folders in /raid/biplab/datasets/BENv1/BENMMfinal/
+Loaded 100000 .npy files from the first 100000 folders in /raid/biplab/datasets/BENv1/BENMMfinal/
+Npy dataset created
+Dataset split: 80000 training samples, 20000 test samples
+Train and test dataloaders created
+Epoch 1/50
+{"train_loss": 4.592606067657471, "epoch": 1, "iteration": 1}
+Epoch 1/50, Val Loss: 3.2184
+New best model saved at epoch 1 with loss 3.2184
+Epoch 2/50
+{"train_loss": 3.7955713272094727, "epoch": 2, "iteration": 1}
+Epoch 2/50, Val Loss: 3.2252
+Epoch 3/50
+{"train_loss": 3.3790810108184814, "epoch": 3, "iteration": 1}
+Epoch 3/50, Val Loss: 3.2270
+Epoch 4/50
+{"train_loss": 3.1261448860168457, "epoch": 4, "iteration": 1}
+Epoch 4/50, Val Loss: 3.2186
+Epoch 5/50
+{"train_loss": 2.9774420261383057, "epoch": 5, "iteration": 1}
+Epoch 5/50, Val Loss: 3.2174
+making imagenet data transforms
+Loaded 100000 .npy files from the first 100000 folders in /raid/biplab/datasets/BENv1/BENMMfinal/
+Loaded 100000 .npy files from the first 100000 folders in /raid/biplab/datasets/BENv1/BENMMfinal/
+Npy dataset created
+Dataset split: 80000 training samples, 20000 test samples
+Train and test dataloaders created
+Epoch 1/50
+making imagenet data transforms
+Loaded 100000 .npy files from the first 100000 folders in /raid/biplab/datasets/BENv1/BENMMfinal/
+Loaded 100000 .npy files from the first 100000 folders in /raid/biplab/datasets/BENv1/BENMMfinal/
+Npy dataset created
+Dataset split: 80000 training samples, 20000 test samples
+Train and test dataloaders created
+Epoch 1/50
+{"train_loss": 4.588644027709961, "epoch": 1, "iteration": 1}
+{"train_loss": 2.521345615386963, "epoch": 1, "iteration": 11}
+{"train_loss": 2.1748900413513184, "epoch": 1, "iteration": 21}
+{"train_loss": 1.9593183994293213, "epoch": 1, "iteration": 31}
+{"train_loss": 1.922736406326294, "epoch": 1, "iteration": 41}
+{"train_loss": 1.7250314950942993, "epoch": 1, "iteration": 51}
+{"train_loss": 1.598616600036621, "epoch": 1, "iteration": 61}
+{"train_loss": 1.8184095621109009, "epoch": 1, "iteration": 71}
+{"train_loss": 1.7175178527832031, "epoch": 1, "iteration": 81}
+{"train_loss": 2.0438785552978516, "epoch": 1, "iteration": 91}
+{"train_loss": 1.3694021701812744, "epoch": 1, "iteration": 101}
+{"train_loss": 1.3651431798934937, "epoch": 1, "iteration": 111}
+{"train_loss": 1.525542140007019, "epoch": 1, "iteration": 121}
+{"train_loss": 1.3578699827194214, "epoch": 1, "iteration": 131}
+{"train_loss": 1.3732086420059204, "epoch": 1, "iteration": 141}
+{"train_loss": 1.9129807949066162, "epoch": 1, "iteration": 151}
+{"train_loss": 1.3487472534179688, "epoch": 1, "iteration": 161}
+{"train_loss": 1.2757434844970703, "epoch": 1, "iteration": 171}
+{"train_loss": 1.3182942867279053, "epoch": 1, "iteration": 181}
+{"train_loss": 1.2114486694335938, "epoch": 1, "iteration": 191}
+{"train_loss": 1.2487399578094482, "epoch": 1, "iteration": 201}
+{"train_loss": 1.3851234912872314, "epoch": 1, "iteration": 211}
+{"train_loss": 1.2555619478225708, "epoch": 1, "iteration": 221}
+{"train_loss": 1.3103939294815063, "epoch": 1, "iteration": 231}
+{"train_loss": 1.232312798500061, "epoch": 1, "iteration": 241}
+{"train_loss": 1.267506718635559, "epoch": 1, "iteration": 251}
+{"train_loss": 1.2181596755981445, "epoch": 1, "iteration": 261}
+{"train_loss": 1.244112253189087, "epoch": 1, "iteration": 271}
+{"train_loss": 1.2631232738494873, "epoch": 1, "iteration": 281}
+{"train_loss": 1.1854374408721924, "epoch": 1, "iteration": 291}
+{"train_loss": 1.3918261528015137, "epoch": 1, "iteration": 301}
+{"train_loss": 1.5544164180755615, "epoch": 1, "iteration": 311}
+Epoch 1/50, Val Loss: 3.1254
+New best model saved at epoch 1 with loss 3.1254
+Epoch 2/50
+{"train_loss": 1.1862640380859375, "epoch": 2, "iteration": 1}
+{"train_loss": 1.159192681312561, "epoch": 2, "iteration": 11}
+{"train_loss": 1.195663571357727, "epoch": 2, "iteration": 21}
+{"train_loss": 1.1641463041305542, "epoch": 2, "iteration": 31}
+{"train_loss": 1.2191330194473267, "epoch": 2, "iteration": 41}
+{"train_loss": 1.1687378883361816, "epoch": 2, "iteration": 51}
+{"train_loss": 1.1554152965545654, "epoch": 2, "iteration": 61}
+{"train_loss": 1.2629704475402832, "epoch": 2, "iteration": 71}
+{"train_loss": 1.2347102165222168, "epoch": 2, "iteration": 81}
+{"train_loss": 1.3445864915847778, "epoch": 2, "iteration": 91}
+{"train_loss": 1.1240988969802856, "epoch": 2, "iteration": 101}
+{"train_loss": 1.1360872983932495, "epoch": 2, "iteration": 111}
+{"train_loss": 1.1877636909484863, "epoch": 2, "iteration": 121}
+{"train_loss": 1.1504579782485962, "epoch": 2, "iteration": 131}
+{"train_loss": 1.153475046157837, "epoch": 2, "iteration": 141}
+{"train_loss": 1.2633330821990967, "epoch": 2, "iteration": 151}
+{"train_loss": 1.1446501016616821, "epoch": 2, "iteration": 161}
+{"train_loss": 1.107650637626648, "epoch": 2, "iteration": 171}
+{"train_loss": 1.1267653703689575, "epoch": 2, "iteration": 181}
+{"train_loss": 1.0945810079574585, "epoch": 2, "iteration": 191}
+{"train_loss": 1.1099352836608887, "epoch": 2, "iteration": 201}
+{"train_loss": 1.1564911603927612, "epoch": 2, "iteration": 211}
+{"train_loss": 1.11106276512146, "epoch": 2, "iteration": 221}
+{"train_loss": 1.1209306716918945, "epoch": 2, "iteration": 231}
+{"train_loss": 1.100716471672058, "epoch": 2, "iteration": 241}
+{"train_loss": 1.1118091344833374, "epoch": 2, "iteration": 251}
+{"train_loss": 1.103646159172058, "epoch": 2, "iteration": 261}
+{"train_loss": 1.0956803560256958, "epoch": 2, "iteration": 271}
+{"train_loss": 1.1063148975372314, "epoch": 2, "iteration": 281}
+{"train_loss": 1.0778745412826538, "epoch": 2, "iteration": 291}
+{"train_loss": 1.1443878412246704, "epoch": 2, "iteration": 301}
+{"train_loss": 1.1544830799102783, "epoch": 2, "iteration": 311}
+Epoch 2/50, Val Loss: 3.0661
+New best model saved at epoch 2 with loss 3.0661
+Epoch 3/50
+{"train_loss": 1.0776088237762451, "epoch": 3, "iteration": 1}
+{"train_loss": 1.0759323835372925, "epoch": 3, "iteration": 11}
+{"train_loss": 1.0756841897964478, "epoch": 3, "iteration": 21}
+{"train_loss": 1.070156455039978, "epoch": 3, "iteration": 31}
+{"train_loss": 1.0866923332214355, "epoch": 3, "iteration": 41}
+{"train_loss": 1.0734373331069946, "epoch": 3, "iteration": 51}
+{"train_loss": 1.0776578187942505, "epoch": 3, "iteration": 61}
+{"train_loss": 1.0944247245788574, "epoch": 3, "iteration": 71}
+{"train_loss": 1.0865051746368408, "epoch": 3, "iteration": 81}
+{"train_loss": 1.1141443252563477, "epoch": 3, "iteration": 91}
+{"train_loss": 1.0602561235427856, "epoch": 3, "iteration": 101}
+{"train_loss": 1.0584832429885864, "epoch": 3, "iteration": 111}
+{"train_loss": 1.0786911249160767, "epoch": 3, "iteration": 121}
+{"train_loss": 1.0632396936416626, "epoch": 3, "iteration": 131}
+{"train_loss": 1.066532850265503, "epoch": 3, "iteration": 141}
+{"train_loss": 1.1034111976623535, "epoch": 3, "iteration": 151}
+{"train_loss": 1.0655901432037354, "epoch": 3, "iteration": 161}
+{"train_loss": 1.0551984310150146, "epoch": 3, "iteration": 171}
+{"train_loss": 1.0657627582550049, "epoch": 3, "iteration": 181}
+{"train_loss": 1.050439476966858, "epoch": 3, "iteration": 191}
+{"train_loss": 1.0572354793548584, "epoch": 3, "iteration": 201}
+{"train_loss": 1.0713582038879395, "epoch": 3, "iteration": 211}
+{"train_loss": 1.0553414821624756, "epoch": 3, "iteration": 221}
+{"train_loss": 1.0602902173995972, "epoch": 3, "iteration": 231}
+{"train_loss": 1.0554136037826538, "epoch": 3, "iteration": 241}
+{"train_loss": 1.0626717805862427, "epoch": 3, "iteration": 251}
+{"train_loss": 1.0541634559631348, "epoch": 3, "iteration": 261}
+{"train_loss": 1.0583635568618774, "epoch": 3, "iteration": 271}
+{"train_loss": 1.0760365724563599, "epoch": 3, "iteration": 281}
+{"train_loss": 1.0518434047698975, "epoch": 3, "iteration": 291}
+{"train_loss": 1.0977532863616943, "epoch": 3, "iteration": 301}
+{"train_loss": 1.0963683128356934, "epoch": 3, "iteration": 311}
+Epoch 3/50, Val Loss: 3.0380
+New best model saved at epoch 3 with loss 3.0380
+Epoch 4/50
+{"train_loss": 1.0530366897583008, "epoch": 4, "iteration": 1}
+{"train_loss": 1.053068995475769, "epoch": 4, "iteration": 11}
+{"train_loss": 1.0535995960235596, "epoch": 4, "iteration": 21}
+{"train_loss": 1.059495210647583, "epoch": 4, "iteration": 31}
+{"train_loss": 1.065754771232605, "epoch": 4, "iteration": 41}
+{"train_loss": 1.066196322441101, "epoch": 4, "iteration": 51}
+{"train_loss": 1.069394826889038, "epoch": 4, "iteration": 61}
+{"train_loss": 1.0712038278579712, "epoch": 4, "iteration": 71}
+{"train_loss": 1.0705182552337646, "epoch": 4, "iteration": 81}
+{"train_loss": 1.0943421125411987, "epoch": 4, "iteration": 91}
+{"train_loss": 1.0527971982955933, "epoch": 4, "iteration": 101}
+{"train_loss": 1.057763934135437, "epoch": 4, "iteration": 111}
+{"train_loss": 1.086125135421753, "epoch": 4, "iteration": 121}
+{"train_loss": 1.062002420425415, "epoch": 4, "iteration": 131}
+{"train_loss": 1.0656570196151733, "epoch": 4, "iteration": 141}
+{"train_loss": 1.0961812734603882, "epoch": 4, "iteration": 151}
+{"train_loss": 1.0695438385009766, "epoch": 4, "iteration": 161}
+{"train_loss": 1.06264066696167, "epoch": 4, "iteration": 171}
+{"train_loss": 1.1038827896118164, "epoch": 4, "iteration": 181}
+{"train_loss": 1.0611867904663086, "epoch": 4, "iteration": 191}
+{"train_loss": 1.0966049432754517, "epoch": 4, "iteration": 201}
+{"train_loss": 1.091978669166565, "epoch": 4, "iteration": 211}
+{"train_loss": 1.0698907375335693, "epoch": 4, "iteration": 221}
+{"train_loss": 1.0833412408828735, "epoch": 4, "iteration": 231}
+{"train_loss": 1.090932846069336, "epoch": 4, "iteration": 241}
+{"train_loss": 1.0781034231185913, "epoch": 4, "iteration": 251}
+{"train_loss": 1.0856525897979736, "epoch": 4, "iteration": 261}
+{"train_loss": 1.0713196992874146, "epoch": 4, "iteration": 271}
+{"train_loss": 1.129143238067627, "epoch": 4, "iteration": 281}
+{"train_loss": 1.0749739408493042, "epoch": 4, "iteration": 291}
+{"train_loss": 1.1178051233291626, "epoch": 4, "iteration": 301}
+{"train_loss": 1.1213500499725342, "epoch": 4, "iteration": 311}
+Epoch 4/50, Val Loss: 3.0317
+New best model saved at epoch 4 with loss 3.0317
+Epoch 5/50
+{"train_loss": 1.0789352655410767, "epoch": 5, "iteration": 1}
+{"train_loss": 1.075705885887146, "epoch": 5, "iteration": 11}
+{"train_loss": 1.0803616046905518, "epoch": 5, "iteration": 21}
+{"train_loss": 1.0952363014221191, "epoch": 5, "iteration": 31}
+{"train_loss": 1.110429286956787, "epoch": 5, "iteration": 41}
+{"train_loss": 1.1083638668060303, "epoch": 5, "iteration": 51}
+{"train_loss": 1.1115061044692993, "epoch": 5, "iteration": 61}
+{"train_loss": 1.0940455198287964, "epoch": 5, "iteration": 71}
+{"train_loss": 1.0962378978729248, "epoch": 5, "iteration": 81}
+{"train_loss": 1.1196006536483765, "epoch": 5, "iteration": 91}
+{"train_loss": 1.0858112573623657, "epoch": 5, "iteration": 101}
+{"train_loss": 1.0881540775299072, "epoch": 5, "iteration": 111}
+{"train_loss": 1.1238020658493042, "epoch": 5, "iteration": 121}
+{"train_loss": 1.0879207849502563, "epoch": 5, "iteration": 131}
+{"train_loss": 1.0853073596954346, "epoch": 5, "iteration": 141}
+{"train_loss": 1.1125061511993408, "epoch": 5, "iteration": 151}
+{"train_loss": 1.0888855457305908, "epoch": 5, "iteration": 161}
+{"train_loss": 1.0854343175888062, "epoch": 5, "iteration": 171}
+{"train_loss": 1.153485894203186, "epoch": 5, "iteration": 181}
+{"train_loss": 1.0916707515716553, "epoch": 5, "iteration": 191}
+{"train_loss": 1.1306986808776855, "epoch": 5, "iteration": 201}
+{"train_loss": 1.1163159608840942, "epoch": 5, "iteration": 211}
+{"train_loss": 1.092432975769043, "epoch": 5, "iteration": 221}
+{"train_loss": 1.1151319742202759, "epoch": 5, "iteration": 231}
+{"train_loss": 1.1268314123153687, "epoch": 5, "iteration": 241}
+{"train_loss": 1.0943677425384521, "epoch": 5, "iteration": 251}
+{"train_loss": 1.111547589302063, "epoch": 5, "iteration": 261}
+{"train_loss": 1.0903204679489136, "epoch": 5, "iteration": 271}
+{"train_loss": 1.165122389793396, "epoch": 5, "iteration": 281}
+{"train_loss": 1.0916316509246826, "epoch": 5, "iteration": 291}
+{"train_loss": 1.1290172338485718, "epoch": 5, "iteration": 301}
+{"train_loss": 1.14265775680542, "epoch": 5, "iteration": 311}
+Epoch 5/50, Val Loss: 3.0295
+New best model saved at epoch 5 with loss 3.0295
+Epoch 6/50
+{"train_loss": 1.0965313911437988, "epoch": 6, "iteration": 1}
+{"train_loss": 1.0874607563018799, "epoch": 6, "iteration": 11}
+{"train_loss": 1.0929248332977295, "epoch": 6, "iteration": 21}
+{"train_loss": 1.116064190864563, "epoch": 6, "iteration": 31}
+{"train_loss": 1.1337003707885742, "epoch": 6, "iteration": 41}
+{"train_loss": 1.1381276845932007, "epoch": 6, "iteration": 51}
+{"train_loss": 1.1417007446289062, "epoch": 6, "iteration": 61}
+{"train_loss": 1.1140787601470947, "epoch": 6, "iteration": 71}
+{"train_loss": 1.103901982307434, "epoch": 6, "iteration": 81}
+{"train_loss": 1.122860312461853, "epoch": 6, "iteration": 91}
+{"train_loss": 1.097785234451294, "epoch": 6, "iteration": 101}
+{"train_loss": 1.09299635887146, "epoch": 6, "iteration": 111}
+{"train_loss": 1.154687523841858, "epoch": 6, "iteration": 121}
+{"train_loss": 1.0965619087219238, "epoch": 6, "iteration": 131}
+{"train_loss": 1.0990099906921387, "epoch": 6, "iteration": 141}
+{"train_loss": 1.1177818775177002, "epoch": 6, "iteration": 151}
+{"train_loss": 1.1002910137176514, "epoch": 6, "iteration": 161}
+{"train_loss": 1.0933324098587036, "epoch": 6, "iteration": 171}
+{"train_loss": 1.1639485359191895, "epoch": 6, "iteration": 181}
+{"train_loss": 1.106735348701477, "epoch": 6, "iteration": 191}
+{"train_loss": 1.1491037607192993, "epoch": 6, "iteration": 201}
+{"train_loss": 1.131819248199463, "epoch": 6, "iteration": 211}
+{"train_loss": 1.1042547225952148, "epoch": 6, "iteration": 221}
+{"train_loss": 1.1297637224197388, "epoch": 6, "iteration": 231}
+{"train_loss": 1.1435471773147583, "epoch": 6, "iteration": 241}
+{"train_loss": 1.1011545658111572, "epoch": 6, "iteration": 251}
+{"train_loss": 1.1223421096801758, "epoch": 6, "iteration": 261}
+{"train_loss": 1.090935230255127, "epoch": 6, "iteration": 271}
+{"train_loss": 1.1626086235046387, "epoch": 6, "iteration": 281}
+{"train_loss": 1.1000258922576904, "epoch": 6, "iteration": 291}
+{"train_loss": 1.13444983959198, "epoch": 6, "iteration": 301}
+{"train_loss": 1.1534160375595093, "epoch": 6, "iteration": 311}
+Epoch 6/50, Val Loss: 3.0266
+New best model saved at epoch 6 with loss 3.0266
+Epoch 7/50
+{"train_loss": 1.103929877281189, "epoch": 7, "iteration": 1}
+{"train_loss": 1.0965189933776855, "epoch": 7, "iteration": 11}
+{"train_loss": 1.1119434833526611, "epoch": 7, "iteration": 21}
+{"train_loss": 1.1258714199066162, "epoch": 7, "iteration": 31}
+{"train_loss": 1.1478147506713867, "epoch": 7, "iteration": 41}
+{"train_loss": 1.1432795524597168, "epoch": 7, "iteration": 51}
+{"train_loss": 1.1452069282531738, "epoch": 7, "iteration": 61}
+{"train_loss": 1.1089015007019043, "epoch": 7, "iteration": 71}
+{"train_loss": 1.1092417240142822, "epoch": 7, "iteration": 81}
+{"train_loss": 1.1203372478485107, "epoch": 7, "iteration": 91}
+{"train_loss": 1.1025999784469604, "epoch": 7, "iteration": 101}
+{"train_loss": 1.1072239875793457, "epoch": 7, "iteration": 111}
+{"train_loss": 1.1521496772766113, "epoch": 7, "iteration": 121}
+{"train_loss": 1.1015832424163818, "epoch": 7, "iteration": 131}
+{"train_loss": 1.1036540269851685, "epoch": 7, "iteration": 141}
+{"train_loss": 1.1190155744552612, "epoch": 7, "iteration": 151}
+{"train_loss": 1.1123664379119873, "epoch": 7, "iteration": 161}
+{"train_loss": 1.1022268533706665, "epoch": 7, "iteration": 171}
+{"train_loss": 1.1580970287322998, "epoch": 7, "iteration": 181}
+{"train_loss": 1.1152713298797607, "epoch": 7, "iteration": 191}
+{"train_loss": 1.1540459394454956, "epoch": 7, "iteration": 201}
+{"train_loss": 1.1326954364776611, "epoch": 7, "iteration": 211}
+{"train_loss": 1.1122746467590332, "epoch": 7, "iteration": 221}
+{"train_loss": 1.1300193071365356, "epoch": 7, "iteration": 231}
+{"train_loss": 1.14451265335083, "epoch": 7, "iteration": 241}
+{"train_loss": 1.1121500730514526, "epoch": 7, "iteration": 251}
+{"train_loss": 1.1295204162597656, "epoch": 7, "iteration": 261}
+{"train_loss": 1.1100348234176636, "epoch": 7, "iteration": 271}
+{"train_loss": 1.1635674238204956, "epoch": 7, "iteration": 281}
+{"train_loss": 1.1101475954055786, "epoch": 7, "iteration": 291}
+{"train_loss": 1.135802984237671, "epoch": 7, "iteration": 301}
+{"train_loss": 1.1619943380355835, "epoch": 7, "iteration": 311}
+Epoch 7/50, Val Loss: 3.0292
+Epoch 8/50
+{"train_loss": 1.1232759952545166, "epoch": 8, "iteration": 1}
+{"train_loss": 1.1137104034423828, "epoch": 8, "iteration": 11}
+{"train_loss": 1.1169559955596924, "epoch": 8, "iteration": 21}
+{"train_loss": 1.134713053703308, "epoch": 8, "iteration": 31}
+{"train_loss": 1.1505600214004517, "epoch": 8, "iteration": 41}
+{"train_loss": 1.1482586860656738, "epoch": 8, "iteration": 51}
+{"train_loss": 1.1376698017120361, "epoch": 8, "iteration": 61}
+{"train_loss": 1.1274532079696655, "epoch": 8, "iteration": 71}
+{"train_loss": 1.1209417581558228, "epoch": 8, "iteration": 81}
+{"train_loss": 1.1311548948287964, "epoch": 8, "iteration": 91}
+{"train_loss": 1.1179234981536865, "epoch": 8, "iteration": 101}
+{"train_loss": 1.1177767515182495, "epoch": 8, "iteration": 111}
+{"train_loss": 1.1538087129592896, "epoch": 8, "iteration": 121}
+{"train_loss": 1.1098589897155762, "epoch": 8, "iteration": 131}
+{"train_loss": 1.1054165363311768, "epoch": 8, "iteration": 141}
+{"train_loss": 1.1216752529144287, "epoch": 8, "iteration": 151}
+{"train_loss": 1.1235462427139282, "epoch": 8, "iteration": 161}
+{"train_loss": 1.1053321361541748, "epoch": 8, "iteration": 171}
+{"train_loss": 1.1671243906021118, "epoch": 8, "iteration": 181}
+{"train_loss": 1.1163948774337769, "epoch": 8, "iteration": 191}
+{"train_loss": 1.1707072257995605, "epoch": 8, "iteration": 201}
+{"train_loss": 1.1361141204833984, "epoch": 8, "iteration": 211}
+{"train_loss": 1.1148043870925903, "epoch": 8, "iteration": 221}
+{"train_loss": 1.1457328796386719, "epoch": 8, "iteration": 231}
+{"train_loss": 1.1490613222122192, "epoch": 8, "iteration": 241}
+{"train_loss": 1.1120045185089111, "epoch": 8, "iteration": 251}
+{"train_loss": 1.1362134218215942, "epoch": 8, "iteration": 261}
+{"train_loss": 1.119551658630371, "epoch": 8, "iteration": 271}
+{"train_loss": 1.1721692085266113, "epoch": 8, "iteration": 281}
+{"train_loss": 1.113011121749878, "epoch": 8, "iteration": 291}
+{"train_loss": 1.1299480199813843, "epoch": 8, "iteration": 301}
+{"train_loss": 1.168817162513733, "epoch": 8, "iteration": 311}
+Epoch 8/50, Val Loss: 3.0299
+Epoch 9/50
+{"train_loss": 1.1212518215179443, "epoch": 9, "iteration": 1}
+{"train_loss": 1.117111325263977, "epoch": 9, "iteration": 11}
+{"train_loss": 1.11953604221344, "epoch": 9, "iteration": 21}
+{"train_loss": 1.1419661045074463, "epoch": 9, "iteration": 31}
+{"train_loss": 1.1554844379425049, "epoch": 9, "iteration": 41}
+{"train_loss": 1.151845932006836, "epoch": 9, "iteration": 51}
+{"train_loss": 1.1447501182556152, "epoch": 9, "iteration": 61}
+{"train_loss": 1.13094162940979, "epoch": 9, "iteration": 71}
+{"train_loss": 1.1277174949645996, "epoch": 9, "iteration": 81}
+{"train_loss": 1.1333919763565063, "epoch": 9, "iteration": 91}
+{"train_loss": 1.1166099309921265, "epoch": 9, "iteration": 101}
+{"train_loss": 1.127368450164795, "epoch": 9, "iteration": 111}
+{"train_loss": 1.1565093994140625, "epoch": 9, "iteration": 121}
+{"train_loss": 1.1171655654907227, "epoch": 9, "iteration": 131}
+{"train_loss": 1.1164562702178955, "epoch": 9, "iteration": 141}
+{"train_loss": 1.132515788078308, "epoch": 9, "iteration": 151}
+{"train_loss": 1.1223583221435547, "epoch": 9, "iteration": 161}
+{"train_loss": 1.1178275346755981, "epoch": 9, "iteration": 171}
+{"train_loss": 1.174626111984253, "epoch": 9, "iteration": 181}
+{"train_loss": 1.1207492351531982, "epoch": 9, "iteration": 191}
+{"train_loss": 1.1492881774902344, "epoch": 9, "iteration": 201}
+{"train_loss": 1.1407334804534912, "epoch": 9, "iteration": 211}
+{"train_loss": 1.1247599124908447, "epoch": 9, "iteration": 221}
+{"train_loss": 1.1470236778259277, "epoch": 9, "iteration": 231}
+{"train_loss": 1.1520318984985352, "epoch": 9, "iteration": 241}
+{"train_loss": 1.1299272775650024, "epoch": 9, "iteration": 251}
+{"train_loss": 1.1465189456939697, "epoch": 9, "iteration": 261}
+{"train_loss": 1.1186014413833618, "epoch": 9, "iteration": 271}
+{"train_loss": 1.180971622467041, "epoch": 9, "iteration": 281}
+{"train_loss": 1.1203049421310425, "epoch": 9, "iteration": 291}
+{"train_loss": 1.1483566761016846, "epoch": 9, "iteration": 301}
+{"train_loss": 1.1603736877441406, "epoch": 9, "iteration": 311}
+Epoch 9/50, Val Loss: 3.0295
+Epoch 10/50
+{"train_loss": 1.132356882095337, "epoch": 10, "iteration": 1}
+{"train_loss": 1.1324403285980225, "epoch": 10, "iteration": 11}
+{"train_loss": 1.1336497068405151, "epoch": 10, "iteration": 21}
+{"train_loss": 1.1353843212127686, "epoch": 10, "iteration": 31}
+{"train_loss": 1.1389014720916748, "epoch": 10, "iteration": 41}
+{"train_loss": 1.1566717624664307, "epoch": 10, "iteration": 51}
+{"train_loss": 1.1522859334945679, "epoch": 10, "iteration": 61}
+{"train_loss": 1.133534550666809, "epoch": 10, "iteration": 71}
+{"train_loss": 1.1282843351364136, "epoch": 10, "iteration": 81}
+{"train_loss": 1.1375452280044556, "epoch": 10, "iteration": 91}
+{"train_loss": 1.1285558938980103, "epoch": 10, "iteration": 101}
+{"train_loss": 1.1317098140716553, "epoch": 10, "iteration": 111}
+{"train_loss": 1.1697030067443848, "epoch": 10, "iteration": 121}
+{"train_loss": 1.124265432357788, "epoch": 10, "iteration": 131}
+{"train_loss": 1.114488124847412, "epoch": 10, "iteration": 141}
+{"train_loss": 1.1257290840148926, "epoch": 10, "iteration": 151}
+{"train_loss": 1.121400237083435, "epoch": 10, "iteration": 161}
+{"train_loss": 1.119206190109253, "epoch": 10, "iteration": 171}
+{"train_loss": 1.1600894927978516, "epoch": 10, "iteration": 181}
+{"train_loss": 1.1103624105453491, "epoch": 10, "iteration": 191}
+{"train_loss": 1.1639479398727417, "epoch": 10, "iteration": 201}
+{"train_loss": 1.1337738037109375, "epoch": 10, "iteration": 211}
+{"train_loss": 1.1176791191101074, "epoch": 10, "iteration": 221}
+{"train_loss": 1.1318260431289673, "epoch": 10, "iteration": 231}
+{"train_loss": 1.1402466297149658, "epoch": 10, "iteration": 241}
+{"train_loss": 1.1279923915863037, "epoch": 10, "iteration": 251}
+{"train_loss": 1.1350510120391846, "epoch": 10, "iteration": 261}
+{"train_loss": 1.1224544048309326, "epoch": 10, "iteration": 271}
+{"train_loss": 1.1744214296340942, "epoch": 10, "iteration": 281}
+{"train_loss": 1.1251956224441528, "epoch": 10, "iteration": 291}
+{"train_loss": 1.143107295036316, "epoch": 10, "iteration": 301}
+{"train_loss": 1.150804042816162, "epoch": 10, "iteration": 311}
+Epoch 10/50, Val Loss: 3.0268
+Epoch 11/50
+{"train_loss": 1.1303434371948242, "epoch": 11, "iteration": 1}
+{"train_loss": 1.1233457326889038, "epoch": 11, "iteration": 11}
+{"train_loss": 1.139700174331665, "epoch": 11, "iteration": 21}
+{"train_loss": 1.1441415548324585, "epoch": 11, "iteration": 31}
+{"train_loss": 1.1438062191009521, "epoch": 11, "iteration": 41}
+{"train_loss": 1.1582300662994385, "epoch": 11, "iteration": 51}
+{"train_loss": 1.1668816804885864, "epoch": 11, "iteration": 61}
+{"train_loss": 1.1469084024429321, "epoch": 11, "iteration": 71}
+{"train_loss": 1.1371229887008667, "epoch": 11, "iteration": 81}
+{"train_loss": 1.1553606986999512, "epoch": 11, "iteration": 91}
+{"train_loss": 1.130570411682129, "epoch": 11, "iteration": 101}
+{"train_loss": 1.1336723566055298, "epoch": 11, "iteration": 111}
+{"train_loss": 1.1623133420944214, "epoch": 11, "iteration": 121}
+{"train_loss": 1.1222831010818481, "epoch": 11, "iteration": 131}
+{"train_loss": 1.1343427896499634, "epoch": 11, "iteration": 141}
+{"train_loss": 1.1403961181640625, "epoch": 11, "iteration": 151}
+{"train_loss": 1.139878511428833, "epoch": 11, "iteration": 161}
+{"train_loss": 1.1330947875976562, "epoch": 11, "iteration": 171}
+{"train_loss": 1.167142391204834, "epoch": 11, "iteration": 181}
+{"train_loss": 1.143068552017212, "epoch": 11, "iteration": 191}
+{"train_loss": 1.1655009984970093, "epoch": 11, "iteration": 201}
+{"train_loss": 1.1644171476364136, "epoch": 11, "iteration": 211}
+{"train_loss": 1.1428050994873047, "epoch": 11, "iteration": 221}
+{"train_loss": 1.151570439338684, "epoch": 11, "iteration": 231}
+{"train_loss": 1.1621137857437134, "epoch": 11, "iteration": 241}
+{"train_loss": 1.14528489112854, "epoch": 11, "iteration": 251}
+{"train_loss": 1.1483076810836792, "epoch": 11, "iteration": 261}
+{"train_loss": 1.1420183181762695, "epoch": 11, "iteration": 271}
+{"train_loss": 1.1697944402694702, "epoch": 11, "iteration": 281}
+{"train_loss": 1.1342072486877441, "epoch": 11, "iteration": 291}
+{"train_loss": 1.1500366926193237, "epoch": 11, "iteration": 301}
+{"train_loss": 1.1694707870483398, "epoch": 11, "iteration": 311}
+Epoch 11/50, Val Loss: 3.0270
+Epoch 12/50
+{"train_loss": 1.1386988162994385, "epoch": 12, "iteration": 1}
+{"train_loss": 1.1327835321426392, "epoch": 12, "iteration": 11}
+{"train_loss": 1.1530673503875732, "epoch": 12, "iteration": 21}
+{"train_loss": 1.1529967784881592, "epoch": 12, "iteration": 31}
+{"train_loss": 1.144408106803894, "epoch": 12, "iteration": 41}
+{"train_loss": 1.1527657508850098, "epoch": 12, "iteration": 51}
+{"train_loss": 1.1484668254852295, "epoch": 12, "iteration": 61}
+{"train_loss": 1.1532026529312134, "epoch": 12, "iteration": 71}
+{"train_loss": 1.1379257440567017, "epoch": 12, "iteration": 81}
+{"train_loss": 1.1409889459609985, "epoch": 12, "iteration": 91}
+{"train_loss": 1.1446350812911987, "epoch": 12, "iteration": 101}
+{"train_loss": 1.1432077884674072, "epoch": 12, "iteration": 111}
+{"train_loss": 1.1671152114868164, "epoch": 12, "iteration": 121}
+{"train_loss": 1.1360995769500732, "epoch": 12, "iteration": 131}
+{"train_loss": 1.1374062299728394, "epoch": 12, "iteration": 141}
+{"train_loss": 1.1542813777923584, "epoch": 12, "iteration": 151}
+{"train_loss": 1.1520084142684937, "epoch": 12, "iteration": 161}
+{"train_loss": 1.1427738666534424, "epoch": 12, "iteration": 171}
+{"train_loss": 1.1693768501281738, "epoch": 12, "iteration": 181}
+{"train_loss": 1.1352417469024658, "epoch": 12, "iteration": 191}
+{"train_loss": 1.1691285371780396, "epoch": 12, "iteration": 201}
+{"train_loss": 1.1541924476623535, "epoch": 12, "iteration": 211}
+{"train_loss": 1.1384766101837158, "epoch": 12, "iteration": 221}
+{"train_loss": 1.15835702419281, "epoch": 12, "iteration": 231}
+{"train_loss": 1.150444746017456, "epoch": 12, "iteration": 241}
+{"train_loss": 1.1470301151275635, "epoch": 12, "iteration": 251}
+{"train_loss": 1.164904236793518, "epoch": 12, "iteration": 261}
+{"train_loss": 1.1324987411499023, "epoch": 12, "iteration": 271}
+{"train_loss": 1.1613961458206177, "epoch": 12, "iteration": 281}
+{"train_loss": 1.144011378288269, "epoch": 12, "iteration": 291}
+{"train_loss": 1.162883996963501, "epoch": 12, "iteration": 301}
+{"train_loss": 1.1734204292297363, "epoch": 12, "iteration": 311}
+Epoch 12/50, Val Loss: 3.0267
+Epoch 13/50
+{"train_loss": 1.1527280807495117, "epoch": 13, "iteration": 1}
+{"train_loss": 1.1446443796157837, "epoch": 13, "iteration": 11}
+{"train_loss": 1.14299476146698, "epoch": 13, "iteration": 21}
+{"train_loss": 1.1575895547866821, "epoch": 13, "iteration": 31}
+{"train_loss": 1.1657713651657104, "epoch": 13, "iteration": 41}
+{"train_loss": 1.1559531688690186, "epoch": 13, "iteration": 51}
+{"train_loss": 1.1584770679473877, "epoch": 13, "iteration": 61}
+{"train_loss": 1.1490488052368164, "epoch": 13, "iteration": 71}
+{"train_loss": 1.1420053243637085, "epoch": 13, "iteration": 81}
+{"train_loss": 1.1441683769226074, "epoch": 13, "iteration": 91}
+{"train_loss": 1.132023811340332, "epoch": 13, "iteration": 101}
+{"train_loss": 1.1387017965316772, "epoch": 13, "iteration": 111}
+{"train_loss": 1.169378638267517, "epoch": 13, "iteration": 121}
+{"train_loss": 1.133382797241211, "epoch": 13, "iteration": 131}
+{"train_loss": 1.1372157335281372, "epoch": 13, "iteration": 141}
+{"train_loss": 1.1427347660064697, "epoch": 13, "iteration": 151}
+{"train_loss": 1.1484626531600952, "epoch": 13, "iteration": 161}
+{"train_loss": 1.1422053575515747, "epoch": 13, "iteration": 171}
+{"train_loss": 1.175215244293213, "epoch": 13, "iteration": 181}
+{"train_loss": 1.1396498680114746, "epoch": 13, "iteration": 191}
+{"train_loss": 1.1741044521331787, "epoch": 13, "iteration": 201}
+{"train_loss": 1.1418869495391846, "epoch": 13, "iteration": 211}
+{"train_loss": 1.1471213102340698, "epoch": 13, "iteration": 221}
+{"train_loss": 1.139614462852478, "epoch": 13, "iteration": 231}
+{"train_loss": 1.1524598598480225, "epoch": 13, "iteration": 241}
+{"train_loss": 1.1537142992019653, "epoch": 13, "iteration": 251}
+{"train_loss": 1.1511600017547607, "epoch": 13, "iteration": 261}
+{"train_loss": 1.1350361108779907, "epoch": 13, "iteration": 271}
+{"train_loss": 1.1868231296539307, "epoch": 13, "iteration": 281}
+{"train_loss": 1.1355009078979492, "epoch": 13, "iteration": 291}
+{"train_loss": 1.1528594493865967, "epoch": 13, "iteration": 301}
+{"train_loss": 1.152360439300537, "epoch": 13, "iteration": 311}
+Epoch 13/50, Val Loss: 3.0284
+Epoch 14/50
+{"train_loss": 1.1506437063217163, "epoch": 14, "iteration": 1}
+{"train_loss": 1.136860728263855, "epoch": 14, "iteration": 11}
+{"train_loss": 1.1425837278366089, "epoch": 14, "iteration": 21}
+{"train_loss": 1.1663435697555542, "epoch": 14, "iteration": 31}
+{"train_loss": 1.152101993560791, "epoch": 14, "iteration": 41}
+{"train_loss": 1.1686627864837646, "epoch": 14, "iteration": 51}
+{"train_loss": 1.1660395860671997, "epoch": 14, "iteration": 61}
+{"train_loss": 1.1470619440078735, "epoch": 14, "iteration": 71}
+{"train_loss": 1.137952446937561, "epoch": 14, "iteration": 81}
+{"train_loss": 1.1445268392562866, "epoch": 14, "iteration": 91}
+{"train_loss": 1.1404156684875488, "epoch": 14, "iteration": 101}
+{"train_loss": 1.1485050916671753, "epoch": 14, "iteration": 111}
+{"train_loss": 1.1709421873092651, "epoch": 14, "iteration": 121}
+{"train_loss": 1.1521663665771484, "epoch": 14, "iteration": 131}
+{"train_loss": 1.146625280380249, "epoch": 14, "iteration": 141}
+{"train_loss": 1.1393777132034302, "epoch": 14, "iteration": 151}
+{"train_loss": 1.1482884883880615, "epoch": 14, "iteration": 161}
+{"train_loss": 1.135985016822815, "epoch": 14, "iteration": 171}
+{"train_loss": 1.1640818119049072, "epoch": 14, "iteration": 181}
+{"train_loss": 1.1495640277862549, "epoch": 14, "iteration": 191}
+{"train_loss": 1.1728883981704712, "epoch": 14, "iteration": 201}
+{"train_loss": 1.1621313095092773, "epoch": 14, "iteration": 211}
+{"train_loss": 1.1471285820007324, "epoch": 14, "iteration": 221}
+{"train_loss": 1.1531811952590942, "epoch": 14, "iteration": 231}
+{"train_loss": 1.1559804677963257, "epoch": 14, "iteration": 241}
+{"train_loss": 1.1637353897094727, "epoch": 14, "iteration": 251}
+{"train_loss": 1.1608103513717651, "epoch": 14, "iteration": 261}
+{"train_loss": 1.1430937051773071, "epoch": 14, "iteration": 271}
+{"train_loss": 1.1922144889831543, "epoch": 14, "iteration": 281}
+{"train_loss": 1.1420317888259888, "epoch": 14, "iteration": 291}
+{"train_loss": 1.1524235010147095, "epoch": 14, "iteration": 301}
+{"train_loss": 1.1696094274520874, "epoch": 14, "iteration": 311}
+Epoch 14/50, Val Loss: 3.0292
+Epoch 15/50
+{"train_loss": 1.1522550582885742, "epoch": 15, "iteration": 1}
+{"train_loss": 1.1538766622543335, "epoch": 15, "iteration": 11}
+{"train_loss": 1.162598967552185, "epoch": 15, "iteration": 21}
+{"train_loss": 1.189721941947937, "epoch": 15, "iteration": 31}
+{"train_loss": 1.1636914014816284, "epoch": 15, "iteration": 41}
+{"train_loss": 1.1642438173294067, "epoch": 15, "iteration": 51}
+{"train_loss": 1.1612212657928467, "epoch": 15, "iteration": 61}
+{"train_loss": 1.1557691097259521, "epoch": 15, "iteration": 71}
+{"train_loss": 1.156044840812683, "epoch": 15, "iteration": 81}
+{"train_loss": 1.1550261974334717, "epoch": 15, "iteration": 91}
+{"train_loss": 1.1524351835250854, "epoch": 15, "iteration": 101}
+{"train_loss": 1.1509445905685425, "epoch": 15, "iteration": 111}
+{"train_loss": 1.1977157592773438, "epoch": 15, "iteration": 121}
+{"train_loss": 1.1550641059875488, "epoch": 15, "iteration": 131}
+{"train_loss": 1.1475605964660645, "epoch": 15, "iteration": 141}
+{"train_loss": 1.1479378938674927, "epoch": 15, "iteration": 151}
+{"train_loss": 1.1713507175445557, "epoch": 15, "iteration": 161}
+{"train_loss": 1.1600558757781982, "epoch": 15, "iteration": 171}
+{"train_loss": 1.1778380870819092, "epoch": 15, "iteration": 181}
+{"train_loss": 1.1636794805526733, "epoch": 15, "iteration": 191}
+{"train_loss": 1.183356761932373, "epoch": 15, "iteration": 201}
+{"train_loss": 1.1528706550598145, "epoch": 15, "iteration": 211}
+{"train_loss": 1.1512579917907715, "epoch": 15, "iteration": 221}
+{"train_loss": 1.1611864566802979, "epoch": 15, "iteration": 231}
+{"train_loss": 1.1460832357406616, "epoch": 15, "iteration": 241}
+{"train_loss": 1.1587417125701904, "epoch": 15, "iteration": 251}
+{"train_loss": 1.156013011932373, "epoch": 15, "iteration": 261}
+{"train_loss": 1.1532740592956543, "epoch": 15, "iteration": 271}
+{"train_loss": 1.1851003170013428, "epoch": 15, "iteration": 281}
+{"train_loss": 1.1547386646270752, "epoch": 15, "iteration": 291}
+{"train_loss": 1.1667463779449463, "epoch": 15, "iteration": 301}
+{"train_loss": 1.1680630445480347, "epoch": 15, "iteration": 311}
+Epoch 15/50, Val Loss: 3.0402
+Epoch 16/50
+{"train_loss": 1.166463851928711, "epoch": 16, "iteration": 1}
+{"train_loss": 1.158085584640503, "epoch": 16, "iteration": 11}
+{"train_loss": 1.1769033670425415, "epoch": 16, "iteration": 21}
+{"train_loss": 1.210626482963562, "epoch": 16, "iteration": 31}
+{"train_loss": 1.1669015884399414, "epoch": 16, "iteration": 41}
+{"train_loss": 1.1758408546447754, "epoch": 16, "iteration": 51}
+{"train_loss": 1.194252610206604, "epoch": 16, "iteration": 61}
+{"train_loss": 1.1735914945602417, "epoch": 16, "iteration": 71}
+{"train_loss": 1.1773589849472046, "epoch": 16, "iteration": 81}
+{"train_loss": 1.1928942203521729, "epoch": 16, "iteration": 91}
+{"train_loss": 1.1804933547973633, "epoch": 16, "iteration": 101}
+{"train_loss": 1.1762386560440063, "epoch": 16, "iteration": 111}
+{"train_loss": 1.2135682106018066, "epoch": 16, "iteration": 121}
+{"train_loss": 1.1620761156082153, "epoch": 16, "iteration": 131}
+{"train_loss": 1.1810758113861084, "epoch": 16, "iteration": 141}
+{"train_loss": 1.1689763069152832, "epoch": 16, "iteration": 151}
+{"train_loss": 1.161275863647461, "epoch": 16, "iteration": 161}
+{"train_loss": 1.1631693840026855, "epoch": 16, "iteration": 171}
+{"train_loss": 1.2208936214447021, "epoch": 16, "iteration": 181}
+{"train_loss": 1.1764036417007446, "epoch": 16, "iteration": 191}
+{"train_loss": 1.2153959274291992, "epoch": 16, "iteration": 201}
+{"train_loss": 1.1922023296356201, "epoch": 16, "iteration": 211}
+{"train_loss": 1.1772799491882324, "epoch": 16, "iteration": 221}
+{"train_loss": 1.1864722967147827, "epoch": 16, "iteration": 231}
+{"train_loss": 1.221475601196289, "epoch": 16, "iteration": 241}
+{"train_loss": 1.250878930091858, "epoch": 16, "iteration": 251}
+{"train_loss": 1.3246387243270874, "epoch": 16, "iteration": 261}
+{"train_loss": 1.2947540283203125, "epoch": 16, "iteration": 271}
+{"train_loss": 1.2970829010009766, "epoch": 16, "iteration": 281}
+{"train_loss": 1.2492954730987549, "epoch": 16, "iteration": 291}
+{"train_loss": 1.2346982955932617, "epoch": 16, "iteration": 301}
+{"train_loss": 1.264108657836914, "epoch": 16, "iteration": 311}
+Epoch 16/50, Val Loss: 3.0911
+Epoch 17/50
+{"train_loss": 1.2496442794799805, "epoch": 17, "iteration": 1}
+{"train_loss": 1.2260475158691406, "epoch": 17, "iteration": 11}
+{"train_loss": 1.2425384521484375, "epoch": 17, "iteration": 21}
+{"train_loss": 1.2256040573120117, "epoch": 17, "iteration": 31}
+{"train_loss": 1.2033426761627197, "epoch": 17, "iteration": 41}
+{"train_loss": 1.2037577629089355, "epoch": 17, "iteration": 51}
+{"train_loss": 1.198436975479126, "epoch": 17, "iteration": 61}
+{"train_loss": 1.1884150505065918, "epoch": 17, "iteration": 71}
+{"train_loss": 1.1733496189117432, "epoch": 17, "iteration": 81}
+{"train_loss": 1.173414707183838, "epoch": 17, "iteration": 91}
+{"train_loss": 1.184587001800537, "epoch": 17, "iteration": 101}
+{"train_loss": 1.1854814291000366, "epoch": 17, "iteration": 111}
+{"train_loss": 1.2148545980453491, "epoch": 17, "iteration": 121}
+{"train_loss": 1.1803621053695679, "epoch": 17, "iteration": 131}
+{"train_loss": 1.173719048500061, "epoch": 17, "iteration": 141}
+{"train_loss": 1.173730492591858, "epoch": 17, "iteration": 151}
+{"train_loss": 1.1871740818023682, "epoch": 17, "iteration": 161}
+{"train_loss": 1.1747699975967407, "epoch": 17, "iteration": 171}
+{"train_loss": 1.228513240814209, "epoch": 17, "iteration": 181}
+{"train_loss": 1.2107212543487549, "epoch": 17, "iteration": 191}
+{"train_loss": 1.2712163925170898, "epoch": 17, "iteration": 201}
+{"train_loss": 1.1576558351516724, "epoch": 17, "iteration": 211}
+{"train_loss": 1.1597175598144531, "epoch": 17, "iteration": 221}
+{"train_loss": 1.175142765045166, "epoch": 17, "iteration": 231}
+{"train_loss": 1.1694737672805786, "epoch": 17, "iteration": 241}
+{"train_loss": 1.1651231050491333, "epoch": 17, "iteration": 251}
+{"train_loss": 1.1624125242233276, "epoch": 17, "iteration": 261}
+{"train_loss": 1.1422173976898193, "epoch": 17, "iteration": 271}
+{"train_loss": 1.2589589357376099, "epoch": 17, "iteration": 281}
+{"train_loss": 1.1795029640197754, "epoch": 17, "iteration": 291}
+{"train_loss": 1.1366029977798462, "epoch": 17, "iteration": 301}
+{"train_loss": 1.2081913948059082, "epoch": 17, "iteration": 311}
+Epoch 17/50, Val Loss: 3.0501
+Epoch 18/50
+{"train_loss": 1.1669467687606812, "epoch": 18, "iteration": 1}
+{"train_loss": 1.1406426429748535, "epoch": 18, "iteration": 11}
+{"train_loss": 1.14687979221344, "epoch": 18, "iteration": 21}
+{"train_loss": 1.1912345886230469, "epoch": 18, "iteration": 31}
+{"train_loss": 1.150542140007019, "epoch": 18, "iteration": 41}
+{"train_loss": 1.1842610836029053, "epoch": 18, "iteration": 51}
+{"train_loss": 1.2248390913009644, "epoch": 18, "iteration": 61}
+{"train_loss": 1.1892504692077637, "epoch": 18, "iteration": 71}
+{"train_loss": 1.177977442741394, "epoch": 18, "iteration": 81}
+{"train_loss": 1.1981014013290405, "epoch": 18, "iteration": 91}
+{"train_loss": 1.1767370700836182, "epoch": 18, "iteration": 101}
+{"train_loss": 1.1819727420806885, "epoch": 18, "iteration": 111}
+{"train_loss": 1.2446609735488892, "epoch": 18, "iteration": 121}
+{"train_loss": 1.1877985000610352, "epoch": 18, "iteration": 131}
+{"train_loss": 1.1750757694244385, "epoch": 18, "iteration": 141}
+{"train_loss": 1.1740517616271973, "epoch": 18, "iteration": 151}
+{"train_loss": 1.2053532600402832, "epoch": 18, "iteration": 161}
+{"train_loss": 1.168493390083313, "epoch": 18, "iteration": 171}
+{"train_loss": 1.2210052013397217, "epoch": 18, "iteration": 181}
+{"train_loss": 1.1942744255065918, "epoch": 18, "iteration": 191}
+{"train_loss": 1.2823299169540405, "epoch": 18, "iteration": 201}
+{"train_loss": 1.1768510341644287, "epoch": 18, "iteration": 211}
+{"train_loss": 1.1814295053482056, "epoch": 18, "iteration": 221}
+{"train_loss": 1.175815224647522, "epoch": 18, "iteration": 231}
+{"train_loss": 1.1623756885528564, "epoch": 18, "iteration": 241}
+{"train_loss": 1.161436915397644, "epoch": 18, "iteration": 251}
+{"train_loss": 1.168868064880371, "epoch": 18, "iteration": 261}
+{"train_loss": 1.1442196369171143, "epoch": 18, "iteration": 271}
+{"train_loss": 1.2984341382980347, "epoch": 18, "iteration": 281}
+{"train_loss": 1.1980876922607422, "epoch": 18, "iteration": 291}
+{"train_loss": 1.168570637702942, "epoch": 18, "iteration": 301}
+{"train_loss": 1.2095571756362915, "epoch": 18, "iteration": 311}
+Epoch 18/50, Val Loss: 3.0750
+Epoch 19/50
+{"train_loss": 1.2137081623077393, "epoch": 19, "iteration": 1}
+{"train_loss": 1.1614021062850952, "epoch": 19, "iteration": 11}
+{"train_loss": 1.1742178201675415, "epoch": 19, "iteration": 21}
+{"train_loss": 1.2107887268066406, "epoch": 19, "iteration": 31}
+{"train_loss": 1.1830284595489502, "epoch": 19, "iteration": 41}
+{"train_loss": 1.1727752685546875, "epoch": 19, "iteration": 51}
+{"train_loss": 1.1731112003326416, "epoch": 19, "iteration": 61}
+{"train_loss": 1.1817342042922974, "epoch": 19, "iteration": 71}
+{"train_loss": 1.1877474784851074, "epoch": 19, "iteration": 81}
+{"train_loss": 1.1839008331298828, "epoch": 19, "iteration": 91}
+{"train_loss": 1.165685772895813, "epoch": 19, "iteration": 101}
+{"train_loss": 1.1649017333984375, "epoch": 19, "iteration": 111}
+{"train_loss": 1.219212293624878, "epoch": 19, "iteration": 121}
+{"train_loss": 1.1596485376358032, "epoch": 19, "iteration": 131}
+{"train_loss": 1.197062611579895, "epoch": 19, "iteration": 141}
+{"train_loss": 1.1644026041030884, "epoch": 19, "iteration": 151}
+{"train_loss": 1.1837290525436401, "epoch": 19, "iteration": 161}
+{"train_loss": 1.165077805519104, "epoch": 19, "iteration": 171}
+{"train_loss": 1.2130863666534424, "epoch": 19, "iteration": 181}
+{"train_loss": 1.1775825023651123, "epoch": 19, "iteration": 191}
+{"train_loss": 1.2355197668075562, "epoch": 19, "iteration": 201}
+{"train_loss": 1.1499853134155273, "epoch": 19, "iteration": 211}
+{"train_loss": 1.1489524841308594, "epoch": 19, "iteration": 221}
+{"train_loss": 1.1576634645462036, "epoch": 19, "iteration": 231}
+{"train_loss": 1.139564871788025, "epoch": 19, "iteration": 241}
+{"train_loss": 1.1530886888504028, "epoch": 19, "iteration": 251}
+{"train_loss": 1.148654580116272, "epoch": 19, "iteration": 261}
+{"train_loss": 1.1438840627670288, "epoch": 19, "iteration": 271}
+{"train_loss": 1.2291202545166016, "epoch": 19, "iteration": 281}
+{"train_loss": 1.1723111867904663, "epoch": 19, "iteration": 291}
+{"train_loss": 1.145406723022461, "epoch": 19, "iteration": 301}
+{"train_loss": 1.1818952560424805, "epoch": 19, "iteration": 311}
+Epoch 19/50, Val Loss: 3.0503
+Epoch 20/50
+{"train_loss": 1.1861056089401245, "epoch": 20, "iteration": 1}
+{"train_loss": 1.1440658569335938, "epoch": 20, "iteration": 11}
+{"train_loss": 1.1548203229904175, "epoch": 20, "iteration": 21}
+{"train_loss": 1.2009183168411255, "epoch": 20, "iteration": 31}
+{"train_loss": 1.1400049924850464, "epoch": 20, "iteration": 41}
+{"train_loss": 1.156335473060608, "epoch": 20, "iteration": 51}
+{"train_loss": 1.1594805717468262, "epoch": 20, "iteration": 61}
+{"train_loss": 1.1389449834823608, "epoch": 20, "iteration": 71}
+{"train_loss": 1.1356878280639648, "epoch": 20, "iteration": 81}
+{"train_loss": 1.1442549228668213, "epoch": 20, "iteration": 91}
+{"train_loss": 1.1384977102279663, "epoch": 20, "iteration": 101}
+{"train_loss": 1.1555064916610718, "epoch": 20, "iteration": 111}
+{"train_loss": 1.2032285928726196, "epoch": 20, "iteration": 121}
+{"train_loss": 1.151098370552063, "epoch": 20, "iteration": 131}
+{"train_loss": 1.1399883031845093, "epoch": 20, "iteration": 141}
+{"train_loss": 1.1402252912521362, "epoch": 20, "iteration": 151}
+{"train_loss": 1.1970570087432861, "epoch": 20, "iteration": 161}
+{"train_loss": 1.1610844135284424, "epoch": 20, "iteration": 171}
+{"train_loss": 1.2162399291992188, "epoch": 20, "iteration": 181}
+{"train_loss": 1.162043571472168, "epoch": 20, "iteration": 191}
+{"train_loss": 1.2219865322113037, "epoch": 20, "iteration": 201}
+{"train_loss": 1.1642423868179321, "epoch": 20, "iteration": 211}
+{"train_loss": 1.162496566772461, "epoch": 20, "iteration": 221}
+{"train_loss": 1.162422776222229, "epoch": 20, "iteration": 231}
+{"train_loss": 1.1510378122329712, "epoch": 20, "iteration": 241}
+{"train_loss": 1.1724152565002441, "epoch": 20, "iteration": 251}
+{"train_loss": 1.1621390581130981, "epoch": 20, "iteration": 261}
+{"train_loss": 1.1555243730545044, "epoch": 20, "iteration": 271}
+{"train_loss": 1.245700478553772, "epoch": 20, "iteration": 281}
+{"train_loss": 1.1842374801635742, "epoch": 20, "iteration": 291}
+{"train_loss": 1.159291386604309, "epoch": 20, "iteration": 301}
+{"train_loss": 1.2030154466629028, "epoch": 20, "iteration": 311}
+Epoch 20/50, Val Loss: 3.0736
+Epoch 21/50
+{"train_loss": 1.1872591972351074, "epoch": 21, "iteration": 1}
+{"train_loss": 1.1691354513168335, "epoch": 21, "iteration": 11}
+{"train_loss": 1.2251888513565063, "epoch": 21, "iteration": 21}
+{"train_loss": 1.2371119260787964, "epoch": 21, "iteration": 31}
+{"train_loss": 1.1866791248321533, "epoch": 21, "iteration": 41}
+{"train_loss": 1.2159055471420288, "epoch": 21, "iteration": 51}
+{"train_loss": 1.231838345527649, "epoch": 21, "iteration": 61}
+{"train_loss": 1.2117390632629395, "epoch": 21, "iteration": 71}
+{"train_loss": 1.206294059753418, "epoch": 21, "iteration": 81}
+{"train_loss": 1.2400788068771362, "epoch": 21, "iteration": 91}
+{"train_loss": 1.224666714668274, "epoch": 21, "iteration": 101}
+{"train_loss": 1.2317702770233154, "epoch": 21, "iteration": 111}
+{"train_loss": 1.2639708518981934, "epoch": 21, "iteration": 121}
+{"train_loss": 1.2305265665054321, "epoch": 21, "iteration": 131}
+{"train_loss": 1.2134349346160889, "epoch": 21, "iteration": 141}
+{"train_loss": 1.2078396081924438, "epoch": 21, "iteration": 151}
+{"train_loss": 1.2258700132369995, "epoch": 21, "iteration": 161}
+{"train_loss": 1.207233190536499, "epoch": 21, "iteration": 171}
+{"train_loss": 1.2347698211669922, "epoch": 21, "iteration": 181}
+{"train_loss": 1.2112210988998413, "epoch": 21, "iteration": 191}
+{"train_loss": 1.3054667711257935, "epoch": 21, "iteration": 201}
+{"train_loss": 1.2218708992004395, "epoch": 21, "iteration": 211}
+{"train_loss": 1.2076784372329712, "epoch": 21, "iteration": 221}
+{"train_loss": 1.2102282047271729, "epoch": 21, "iteration": 231}
+{"train_loss": 1.202869176864624, "epoch": 21, "iteration": 241}
+{"train_loss": 1.193062424659729, "epoch": 21, "iteration": 251}
+{"train_loss": 1.1772701740264893, "epoch": 21, "iteration": 261}
+{"train_loss": 1.1659377813339233, "epoch": 21, "iteration": 271}
+{"train_loss": 1.2430551052093506, "epoch": 21, "iteration": 281}
+{"train_loss": 1.1975953578948975, "epoch": 21, "iteration": 291}
+{"train_loss": 1.1836353540420532, "epoch": 21, "iteration": 301}
+{"train_loss": 1.225257158279419, "epoch": 21, "iteration": 311}
+Epoch 21/50, Val Loss: 3.0639
+Epoch 22/50
+{"train_loss": 1.19492506980896, "epoch": 22, "iteration": 1}
+{"train_loss": 1.1860648393630981, "epoch": 22, "iteration": 11}
+{"train_loss": 1.1930285692214966, "epoch": 22, "iteration": 21}
+{"train_loss": 1.196861743927002, "epoch": 22, "iteration": 31}
+{"train_loss": 1.1846481561660767, "epoch": 22, "iteration": 41}
+{"train_loss": 1.1838475465774536, "epoch": 22, "iteration": 51}
+{"train_loss": 1.203303575515747, "epoch": 22, "iteration": 61}
+{"train_loss": 1.1852279901504517, "epoch": 22, "iteration": 71}
+{"train_loss": 1.1734110116958618, "epoch": 22, "iteration": 81}
+{"train_loss": 1.1655371189117432, "epoch": 22, "iteration": 91}
+{"train_loss": 1.1655592918395996, "epoch": 22, "iteration": 101}
+{"train_loss": 1.1780645847320557, "epoch": 22, "iteration": 111}
+{"train_loss": 1.2431498765945435, "epoch": 22, "iteration": 121}
+{"train_loss": 1.168486475944519, "epoch": 22, "iteration": 131}
+{"train_loss": 1.1722511053085327, "epoch": 22, "iteration": 141}
+{"train_loss": 1.174027681350708, "epoch": 22, "iteration": 151}
+{"train_loss": 1.2010180950164795, "epoch": 22, "iteration": 161}
+NaN or Inf found in 'loss' at iteration 166
+making imagenet data transforms
+Loaded 100000 .npy files from the first 100000 folders in /raid/biplab/datasets/BENv1/BENMMfinal/
+Loaded 100000 .npy files from the first 100000 folders in /raid/biplab/datasets/BENv1/BENMMfinal/
+Npy dataset created
+Dataset split: 80000 training samples, 20000 test samples
+Train and test dataloaders created
+Epoch 1/50
+{"train_loss": 4.588644027709961, "epoch": 1, "iteration": 1}
+{"train_loss": 2.521345615386963, "epoch": 1, "iteration": 11}
+{"train_loss": 2.1748900413513184, "epoch": 1, "iteration": 21}
+{"train_loss": 1.9593183994293213, "epoch": 1, "iteration": 31}
+{"train_loss": 1.922736406326294, "epoch": 1, "iteration": 41}
+{"train_loss": 1.7250314950942993, "epoch": 1, "iteration": 51}
+{"train_loss": 1.598616600036621, "epoch": 1, "iteration": 61}
+{"train_loss": 1.8184095621109009, "epoch": 1, "iteration": 71}
+{"train_loss": 1.7175178527832031, "epoch": 1, "iteration": 81}
+{"train_loss": 2.0438785552978516, "epoch": 1, "iteration": 91}
+{"train_loss": 1.3694021701812744, "epoch": 1, "iteration": 101}
+{"train_loss": 1.3651431798934937, "epoch": 1, "iteration": 111}
+{"train_loss": 1.525542140007019, "epoch": 1, "iteration": 121}
+{"train_loss": 1.3578699827194214, "epoch": 1, "iteration": 131}
+{"train_loss": 1.3732086420059204, "epoch": 1, "iteration": 141}
+{"train_loss": 1.9129807949066162, "epoch": 1, "iteration": 151}
+{"train_loss": 1.3487472534179688, "epoch": 1, "iteration": 161}
+{"train_loss": 1.2757434844970703, "epoch": 1, "iteration": 171}
+{"train_loss": 1.3182942867279053, "epoch": 1, "iteration": 181}
+{"train_loss": 1.2114486694335938, "epoch": 1, "iteration": 191}
+{"train_loss": 1.2487399578094482, "epoch": 1, "iteration": 201}
+{"train_loss": 1.3851234912872314, "epoch": 1, "iteration": 211}
+{"train_loss": 1.2555619478225708, "epoch": 1, "iteration": 221}
+{"train_loss": 1.3103939294815063, "epoch": 1, "iteration": 231}
+{"train_loss": 1.232312798500061, "epoch": 1, "iteration": 241}
+{"train_loss": 1.267506718635559, "epoch": 1, "iteration": 251}
+{"train_loss": 1.2181596755981445, "epoch": 1, "iteration": 261}
+{"train_loss": 1.244112253189087, "epoch": 1, "iteration": 271}
+{"train_loss": 1.2631232738494873, "epoch": 1, "iteration": 281}
+{"train_loss": 1.1854374408721924, "epoch": 1, "iteration": 291}
+{"train_loss": 1.3918261528015137, "epoch": 1, "iteration": 301}
+{"train_loss": 1.5544164180755615, "epoch": 1, "iteration": 311}
+Epoch 1/50, Val Loss: 3.1254
+New best model saved at epoch 1 with loss 3.1254
+Epoch 2/50
+{"train_loss": 1.1862640380859375, "epoch": 2, "iteration": 1}
+{"train_loss": 1.159192681312561, "epoch": 2, "iteration": 11}
+{"train_loss": 1.195663571357727, "epoch": 2, "iteration": 21}
+{"train_loss": 1.1641463041305542, "epoch": 2, "iteration": 31}
+{"train_loss": 1.2191330194473267, "epoch": 2, "iteration": 41}
+{"train_loss": 1.1687378883361816, "epoch": 2, "iteration": 51}
+{"train_loss": 1.1554152965545654, "epoch": 2, "iteration": 61}
+{"train_loss": 1.2629704475402832, "epoch": 2, "iteration": 71}
+{"train_loss": 1.2347102165222168, "epoch": 2, "iteration": 81}
+{"train_loss": 1.3445864915847778, "epoch": 2, "iteration": 91}
+{"train_loss": 1.1240988969802856, "epoch": 2, "iteration": 101}
+{"train_loss": 1.1360872983932495, "epoch": 2, "iteration": 111}
+{"train_loss": 1.1877636909484863, "epoch": 2, "iteration": 121}
+{"train_loss": 1.1504579782485962, "epoch": 2, "iteration": 131}
+{"train_loss": 1.153475046157837, "epoch": 2, "iteration": 141}
+{"train_loss": 1.2633330821990967, "epoch": 2, "iteration": 151}
+{"train_loss": 1.1446501016616821, "epoch": 2, "iteration": 161}
+{"train_loss": 1.107650637626648, "epoch": 2, "iteration": 171}
+{"train_loss": 1.1267653703689575, "epoch": 2, "iteration": 181}
+{"train_loss": 1.0945810079574585, "epoch": 2, "iteration": 191}
+{"train_loss": 1.1099352836608887, "epoch": 2, "iteration": 201}
+{"train_loss": 1.1564911603927612, "epoch": 2, "iteration": 211}
+{"train_loss": 1.11106276512146, "epoch": 2, "iteration": 221}
+{"train_loss": 1.1209306716918945, "epoch": 2, "iteration": 231}
+{"train_loss": 1.100716471672058, "epoch": 2, "iteration": 241}
+{"train_loss": 1.1118091344833374, "epoch": 2, "iteration": 251}
+{"train_loss": 1.103646159172058, "epoch": 2, "iteration": 261}
+{"train_loss": 1.0956803560256958, "epoch": 2, "iteration": 271}
+{"train_loss": 1.1063148975372314, "epoch": 2, "iteration": 281}
+{"train_loss": 1.0778745412826538, "epoch": 2, "iteration": 291}
+{"train_loss": 1.1443878412246704, "epoch": 2, "iteration": 301}
+{"train_loss": 1.1544830799102783, "epoch": 2, "iteration": 311}
+Epoch 2/50, Val Loss: 3.0661
+New best model saved at epoch 2 with loss 3.0661
+Epoch 3/50
+{"train_loss": 1.0776088237762451, "epoch": 3, "iteration": 1}
+{"train_loss": 1.0759323835372925, "epoch": 3, "iteration": 11}
+{"train_loss": 1.0756841897964478, "epoch": 3, "iteration": 21}
+{"train_loss": 1.070156455039978, "epoch": 3, "iteration": 31}
+{"train_loss": 1.0866923332214355, "epoch": 3, "iteration": 41}
+{"train_loss": 1.0734373331069946, "epoch": 3, "iteration": 51}
+{"train_loss": 1.0776578187942505, "epoch": 3, "iteration": 61}
+{"train_loss": 1.0944247245788574, "epoch": 3, "iteration": 71}
+{"train_loss": 1.0865051746368408, "epoch": 3, "iteration": 81}
+{"train_loss": 1.1141443252563477, "epoch": 3, "iteration": 91}
+{"train_loss": 1.0602561235427856, "epoch": 3, "iteration": 101}
+{"train_loss": 1.0584832429885864, "epoch": 3, "iteration": 111}
+{"train_loss": 1.0786911249160767, "epoch": 3, "iteration": 121}
+{"train_loss": 1.0632396936416626, "epoch": 3, "iteration": 131}
+{"train_loss": 1.066532850265503, "epoch": 3, "iteration": 141}
+{"train_loss": 1.1034111976623535, "epoch": 3, "iteration": 151}
+{"train_loss": 1.0655901432037354, "epoch": 3, "iteration": 161}
+{"train_loss": 1.0551984310150146, "epoch": 3, "iteration": 171}
+{"train_loss": 1.0657627582550049, "epoch": 3, "iteration": 181}
+{"train_loss": 1.050439476966858, "epoch": 3, "iteration": 191}
+{"train_loss": 1.0572354793548584, "epoch": 3, "iteration": 201}
+{"train_loss": 1.0713582038879395, "epoch": 3, "iteration": 211}
+{"train_loss": 1.0553414821624756, "epoch": 3, "iteration": 221}
+{"train_loss": 1.0602902173995972, "epoch": 3, "iteration": 231}
+{"train_loss": 1.0554136037826538, "epoch": 3, "iteration": 241}
+{"train_loss": 1.0626717805862427, "epoch": 3, "iteration": 251}
+{"train_loss": 1.0541634559631348, "epoch": 3, "iteration": 261}
+{"train_loss": 1.0583635568618774, "epoch": 3, "iteration": 271}
+{"train_loss": 1.0760365724563599, "epoch": 3, "iteration": 281}
+{"train_loss": 1.0518434047698975, "epoch": 3, "iteration": 291}
+{"train_loss": 1.0977532863616943, "epoch": 3, "iteration": 301}
+{"train_loss": 1.0963683128356934, "epoch": 3, "iteration": 311}
+Epoch 3/50, Val Loss: 3.0380
+New best model saved at epoch 3 with loss 3.0380
+Epoch 4/50
+{"train_loss": 1.0530366897583008, "epoch": 4, "iteration": 1}
+{"train_loss": 1.053068995475769, "epoch": 4, "iteration": 11}
+{"train_loss": 1.0535995960235596, "epoch": 4, "iteration": 21}
+{"train_loss": 1.059495210647583, "epoch": 4, "iteration": 31}
+{"train_loss": 1.065754771232605, "epoch": 4, "iteration": 41}
+{"train_loss": 1.066196322441101, "epoch": 4, "iteration": 51}
+{"train_loss": 1.069394826889038, "epoch": 4, "iteration": 61}
+{"train_loss": 1.0712038278579712, "epoch": 4, "iteration": 71}
+{"train_loss": 1.0705182552337646, "epoch": 4, "iteration": 81}
+{"train_loss": 1.0943421125411987, "epoch": 4, "iteration": 91}
+{"train_loss": 1.0527971982955933, "epoch": 4, "iteration": 101}
+{"train_loss": 1.057763934135437, "epoch": 4, "iteration": 111}
+{"train_loss": 1.086125135421753, "epoch": 4, "iteration": 121}
+{"train_loss": 1.062002420425415, "epoch": 4, "iteration": 131}
+{"train_loss": 1.0656570196151733, "epoch": 4, "iteration": 141}
+{"train_loss": 1.0961812734603882, "epoch": 4, "iteration": 151}
+{"train_loss": 1.0695438385009766, "epoch": 4, "iteration": 161}
+{"train_loss": 1.06264066696167, "epoch": 4, "iteration": 171}
+{"train_loss": 1.1038827896118164, "epoch": 4, "iteration": 181}
+{"train_loss": 1.0611867904663086, "epoch": 4, "iteration": 191}
+{"train_loss": 1.0966049432754517, "epoch": 4, "iteration": 201}
+{"train_loss": 1.091978669166565, "epoch": 4, "iteration": 211}
+{"train_loss": 1.0698907375335693, "epoch": 4, "iteration": 221}
+{"train_loss": 1.0833412408828735, "epoch": 4, "iteration": 231}
+{"train_loss": 1.090932846069336, "epoch": 4, "iteration": 241}
+{"train_loss": 1.0781034231185913, "epoch": 4, "iteration": 251}
+{"train_loss": 1.0856525897979736, "epoch": 4, "iteration": 261}
+{"train_loss": 1.0713196992874146, "epoch": 4, "iteration": 271}
+{"train_loss": 1.129143238067627, "epoch": 4, "iteration": 281}
+{"train_loss": 1.0749739408493042, "epoch": 4, "iteration": 291}
+{"train_loss": 1.1178051233291626, "epoch": 4, "iteration": 301}
+{"train_loss": 1.1213500499725342, "epoch": 4, "iteration": 311}
+Epoch 4/50, Val Loss: 3.0317
+New best model saved at epoch 4 with loss 3.0317
+Epoch 5/50
+{"train_loss": 1.0789352655410767, "epoch": 5, "iteration": 1}
+{"train_loss": 1.075705885887146, "epoch": 5, "iteration": 11}
+{"train_loss": 1.0803616046905518, "epoch": 5, "iteration": 21}
+{"train_loss": 1.0952363014221191, "epoch": 5, "iteration": 31}
+{"train_loss": 1.110429286956787, "epoch": 5, "iteration": 41}
+{"train_loss": 1.1083638668060303, "epoch": 5, "iteration": 51}
+{"train_loss": 1.1115061044692993, "epoch": 5, "iteration": 61}
+{"train_loss": 1.0940455198287964, "epoch": 5, "iteration": 71}
+{"train_loss": 1.0962378978729248, "epoch": 5, "iteration": 81}
+{"train_loss": 1.1196006536483765, "epoch": 5, "iteration": 91}
+{"train_loss": 1.0858112573623657, "epoch": 5, "iteration": 101}
+{"train_loss": 1.0881540775299072, "epoch": 5, "iteration": 111}
+{"train_loss": 1.1238020658493042, "epoch": 5, "iteration": 121}
+{"train_loss": 1.0879207849502563, "epoch": 5, "iteration": 131}
+{"train_loss": 1.0853073596954346, "epoch": 5, "iteration": 141}
+{"train_loss": 1.1125061511993408, "epoch": 5, "iteration": 151}
+{"train_loss": 1.0888855457305908, "epoch": 5, "iteration": 161}
+{"train_loss": 1.0854343175888062, "epoch": 5, "iteration": 171}
+{"train_loss": 1.153485894203186, "epoch": 5, "iteration": 181}
+{"train_loss": 1.0916707515716553, "epoch": 5, "iteration": 191}
+{"train_loss": 1.1306986808776855, "epoch": 5, "iteration": 201}
+{"train_loss": 1.1163159608840942, "epoch": 5, "iteration": 211}
+{"train_loss": 1.092432975769043, "epoch": 5, "iteration": 221}
+{"train_loss": 1.1151319742202759, "epoch": 5, "iteration": 231}
+{"train_loss": 1.1268314123153687, "epoch": 5, "iteration": 241}
+{"train_loss": 1.0943677425384521, "epoch": 5, "iteration": 251}
+{"train_loss": 1.111547589302063, "epoch": 5, "iteration": 261}
+{"train_loss": 1.0903204679489136, "epoch": 5, "iteration": 271}
+{"train_loss": 1.165122389793396, "epoch": 5, "iteration": 281}
+{"train_loss": 1.0916316509246826, "epoch": 5, "iteration": 291}
+{"train_loss": 1.1290172338485718, "epoch": 5, "iteration": 301}
+{"train_loss": 1.14265775680542, "epoch": 5, "iteration": 311}
+Epoch 5/50, Val Loss: 3.0295
+New best model saved at epoch 5 with loss 3.0295
+Epoch 6/50
+{"train_loss": 1.0965313911437988, "epoch": 6, "iteration": 1}
+{"train_loss": 1.0874607563018799, "epoch": 6, "iteration": 11}
+{"train_loss": 1.0929248332977295, "epoch": 6, "iteration": 21}
+{"train_loss": 1.116064190864563, "epoch": 6, "iteration": 31}
+{"train_loss": 1.1337003707885742, "epoch": 6, "iteration": 41}
+{"train_loss": 1.1381276845932007, "epoch": 6, "iteration": 51}
+{"train_loss": 1.1417007446289062, "epoch": 6, "iteration": 61}
+{"train_loss": 1.1140787601470947, "epoch": 6, "iteration": 71}
+{"train_loss": 1.103901982307434, "epoch": 6, "iteration": 81}
+{"train_loss": 1.122860312461853, "epoch": 6, "iteration": 91}
+{"train_loss": 1.097785234451294, "epoch": 6, "iteration": 101}
+{"train_loss": 1.09299635887146, "epoch": 6, "iteration": 111}
+{"train_loss": 1.154687523841858, "epoch": 6, "iteration": 121}
+{"train_loss": 1.0965619087219238, "epoch": 6, "iteration": 131}
+{"train_loss": 1.0990099906921387, "epoch": 6, "iteration": 141}
+{"train_loss": 1.1177818775177002, "epoch": 6, "iteration": 151}
+{"train_loss": 1.1002910137176514, "epoch": 6, "iteration": 161}
+{"train_loss": 1.0933324098587036, "epoch": 6, "iteration": 171}
+{"train_loss": 1.1639485359191895, "epoch": 6, "iteration": 181}
+{"train_loss": 1.106735348701477, "epoch": 6, "iteration": 191}
+{"train_loss": 1.1491037607192993, "epoch": 6, "iteration": 201}
+{"train_loss": 1.131819248199463, "epoch": 6, "iteration": 211}
+{"train_loss": 1.1042547225952148, "epoch": 6, "iteration": 221}
+{"train_loss": 1.1297637224197388, "epoch": 6, "iteration": 231}
+{"train_loss": 1.1435471773147583, "epoch": 6, "iteration": 241}
+{"train_loss": 1.1011545658111572, "epoch": 6, "iteration": 251}
+{"train_loss": 1.1223421096801758, "epoch": 6, "iteration": 261}
+{"train_loss": 1.090935230255127, "epoch": 6, "iteration": 271}
+{"train_loss": 1.1626086235046387, "epoch": 6, "iteration": 281}
+{"train_loss": 1.1000258922576904, "epoch": 6, "iteration": 291}
+{"train_loss": 1.13444983959198, "epoch": 6, "iteration": 301}
+{"train_loss": 1.1534160375595093, "epoch": 6, "iteration": 311}
+Epoch 6/50, Val Loss: 3.0266
+New best model saved at epoch 6 with loss 3.0266
+Epoch 7/50
+{"train_loss": 1.103929877281189, "epoch": 7, "iteration": 1}
+{"train_loss": 1.0965189933776855, "epoch": 7, "iteration": 11}
+{"train_loss": 1.1119434833526611, "epoch": 7, "iteration": 21}
+{"train_loss": 1.1258714199066162, "epoch": 7, "iteration": 31}
+{"train_loss": 1.1478147506713867, "epoch": 7, "iteration": 41}
+{"train_loss": 1.1432795524597168, "epoch": 7, "iteration": 51}
+{"train_loss": 1.1452069282531738, "epoch": 7, "iteration": 61}
+{"train_loss": 1.1089015007019043, "epoch": 7, "iteration": 71}
+{"train_loss": 1.1092417240142822, "epoch": 7, "iteration": 81}
+{"train_loss": 1.1203372478485107, "epoch": 7, "iteration": 91}
+{"train_loss": 1.1025999784469604, "epoch": 7, "iteration": 101}
+{"train_loss": 1.1072239875793457, "epoch": 7, "iteration": 111}
+{"train_loss": 1.1521496772766113, "epoch": 7, "iteration": 121}
+{"train_loss": 1.1015832424163818, "epoch": 7, "iteration": 131}
+{"train_loss": 1.1036540269851685, "epoch": 7, "iteration": 141}
+{"train_loss": 1.1190155744552612, "epoch": 7, "iteration": 151}
+{"train_loss": 1.1123664379119873, "epoch": 7, "iteration": 161}
+{"train_loss": 1.1022268533706665, "epoch": 7, "iteration": 171}
+{"train_loss": 1.1580970287322998, "epoch": 7, "iteration": 181}
+{"train_loss": 1.1152713298797607, "epoch": 7, "iteration": 191}
+{"train_loss": 1.1540459394454956, "epoch": 7, "iteration": 201}
+{"train_loss": 1.1326954364776611, "epoch": 7, "iteration": 211}
+{"train_loss": 1.1122746467590332, "epoch": 7, "iteration": 221}
+{"train_loss": 1.1300193071365356, "epoch": 7, "iteration": 231}
+{"train_loss": 1.14451265335083, "epoch": 7, "iteration": 241}
+{"train_loss": 1.1121500730514526, "epoch": 7, "iteration": 251}
+{"train_loss": 1.1295204162597656, "epoch": 7, "iteration": 261}
+{"train_loss": 1.1100348234176636, "epoch": 7, "iteration": 271}
+{"train_loss": 1.1635674238204956, "epoch": 7, "iteration": 281}
+{"train_loss": 1.1101475954055786, "epoch": 7, "iteration": 291}
+{"train_loss": 1.135802984237671, "epoch": 7, "iteration": 301}
+{"train_loss": 1.1619943380355835, "epoch": 7, "iteration": 311}
+Epoch 7/50, Val Loss: 3.0292
+Epoch 8/50
+{"train_loss": 1.1232759952545166, "epoch": 8, "iteration": 1}
+{"train_loss": 1.1137104034423828, "epoch": 8, "iteration": 11}
+{"train_loss": 1.1169559955596924, "epoch": 8, "iteration": 21}
+{"train_loss": 1.134713053703308, "epoch": 8, "iteration": 31}
+{"train_loss": 1.1505600214004517, "epoch": 8, "iteration": 41}
+{"train_loss": 1.1482586860656738, "epoch": 8, "iteration": 51}
+{"train_loss": 1.1376698017120361, "epoch": 8, "iteration": 61}
+{"train_loss": 1.1274532079696655, "epoch": 8, "iteration": 71}
+{"train_loss": 1.1209417581558228, "epoch": 8, "iteration": 81}
+{"train_loss": 1.1311548948287964, "epoch": 8, "iteration": 91}
+{"train_loss": 1.1179234981536865, "epoch": 8, "iteration": 101}
+{"train_loss": 1.1177767515182495, "epoch": 8, "iteration": 111}
+{"train_loss": 1.1538087129592896, "epoch": 8, "iteration": 121}
+{"train_loss": 1.1098589897155762, "epoch": 8, "iteration": 131}
+{"train_loss": 1.1054165363311768, "epoch": 8, "iteration": 141}
+{"train_loss": 1.1216752529144287, "epoch": 8, "iteration": 151}
+{"train_loss": 1.1235462427139282, "epoch": 8, "iteration": 161}
+{"train_loss": 1.1053321361541748, "epoch": 8, "iteration": 171}
+{"train_loss": 1.1671243906021118, "epoch": 8, "iteration": 181}
+{"train_loss": 1.1163948774337769, "epoch": 8, "iteration": 191}
+{"train_loss": 1.1707072257995605, "epoch": 8, "iteration": 201}
+{"train_loss": 1.1361141204833984, "epoch": 8, "iteration": 211}
+{"train_loss": 1.1148043870925903, "epoch": 8, "iteration": 221}
+{"train_loss": 1.1457328796386719, "epoch": 8, "iteration": 231}
+{"train_loss": 1.1490613222122192, "epoch": 8, "iteration": 241}
+{"train_loss": 1.1120045185089111, "epoch": 8, "iteration": 251}
+{"train_loss": 1.1362134218215942, "epoch": 8, "iteration": 261}
+{"train_loss": 1.119551658630371, "epoch": 8, "iteration": 271}
+{"train_loss": 1.1721692085266113, "epoch": 8, "iteration": 281}
+{"train_loss": 1.113011121749878, "epoch": 8, "iteration": 291}
+{"train_loss": 1.1299480199813843, "epoch": 8, "iteration": 301}
+{"train_loss": 1.168817162513733, "epoch": 8, "iteration": 311}
+Epoch 8/50, Val Loss: 3.0299
+Epoch 9/50
+{"train_loss": 1.1212518215179443, "epoch": 9, "iteration": 1}
+{"train_loss": 1.117111325263977, "epoch": 9, "iteration": 11}
+{"train_loss": 1.11953604221344, "epoch": 9, "iteration": 21}
+{"train_loss": 1.1419661045074463, "epoch": 9, "iteration": 31}
+{"train_loss": 1.1554844379425049, "epoch": 9, "iteration": 41}
+{"train_loss": 1.151845932006836, "epoch": 9, "iteration": 51}
+{"train_loss": 1.1447501182556152, "epoch": 9, "iteration": 61}
+{"train_loss": 1.13094162940979, "epoch": 9, "iteration": 71}
+{"train_loss": 1.1277174949645996, "epoch": 9, "iteration": 81}
+{"train_loss": 1.1333919763565063, "epoch": 9, "iteration": 91}
+{"train_loss": 1.1166099309921265, "epoch": 9, "iteration": 101}
+{"train_loss": 1.127368450164795, "epoch": 9, "iteration": 111}
+{"train_loss": 1.1565093994140625, "epoch": 9, "iteration": 121}
+{"train_loss": 1.1171655654907227, "epoch": 9, "iteration": 131}
+{"train_loss": 1.1164562702178955, "epoch": 9, "iteration": 141}
+{"train_loss": 1.132515788078308, "epoch": 9, "iteration": 151}
+{"train_loss": 1.1223583221435547, "epoch": 9, "iteration": 161}
+{"train_loss": 1.1178275346755981, "epoch": 9, "iteration": 171}
+{"train_loss": 1.174626111984253, "epoch": 9, "iteration": 181}
+{"train_loss": 1.1207492351531982, "epoch": 9, "iteration": 191}
+{"train_loss": 1.1492881774902344, "epoch": 9, "iteration": 201}
+{"train_loss": 1.1407334804534912, "epoch": 9, "iteration": 211}
+{"train_loss": 1.1247599124908447, "epoch": 9, "iteration": 221}
+{"train_loss": 1.1470236778259277, "epoch": 9, "iteration": 231}
+{"train_loss": 1.1520318984985352, "epoch": 9, "iteration": 241}
+{"train_loss": 1.1299272775650024, "epoch": 9, "iteration": 251}
+{"train_loss": 1.1465189456939697, "epoch": 9, "iteration": 261}
+{"train_loss": 1.1186014413833618, "epoch": 9, "iteration": 271}
+{"train_loss": 1.180971622467041, "epoch": 9, "iteration": 281}
+{"train_loss": 1.1203049421310425, "epoch": 9, "iteration": 291}
+{"train_loss": 1.1483566761016846, "epoch": 9, "iteration": 301}
+{"train_loss": 1.1603736877441406, "epoch": 9, "iteration": 311}
+Epoch 9/50, Val Loss: 3.0295
+Epoch 10/50
+{"train_loss": 1.132356882095337, "epoch": 10, "iteration": 1}
+{"train_loss": 1.1324403285980225, "epoch": 10, "iteration": 11}
+{"train_loss": 1.1336497068405151, "epoch": 10, "iteration": 21}
+{"train_loss": 1.1353843212127686, "epoch": 10, "iteration": 31}
+{"train_loss": 1.1389014720916748, "epoch": 10, "iteration": 41}
+{"train_loss": 1.1566717624664307, "epoch": 10, "iteration": 51}
+{"train_loss": 1.1522859334945679, "epoch": 10, "iteration": 61}
+{"train_loss": 1.133534550666809, "epoch": 10, "iteration": 71}
+{"train_loss": 1.1282843351364136, "epoch": 10, "iteration": 81}
+{"train_loss": 1.1375452280044556, "epoch": 10, "iteration": 91}
+{"train_loss": 1.1285558938980103, "epoch": 10, "iteration": 101}
+{"train_loss": 1.1317098140716553, "epoch": 10, "iteration": 111}
+{"train_loss": 1.1697030067443848, "epoch": 10, "iteration": 121}
+{"train_loss": 1.124265432357788, "epoch": 10, "iteration": 131}
+{"train_loss": 1.114488124847412, "epoch": 10, "iteration": 141}
+{"train_loss": 1.1257290840148926, "epoch": 10, "iteration": 151}
+{"train_loss": 1.121400237083435, "epoch": 10, "iteration": 161}
+{"train_loss": 1.119206190109253, "epoch": 10, "iteration": 171}
+{"train_loss": 1.1600894927978516, "epoch": 10, "iteration": 181}
+{"train_loss": 1.1103624105453491, "epoch": 10, "iteration": 191}
+{"train_loss": 1.1639479398727417, "epoch": 10, "iteration": 201}
+{"train_loss": 1.1337738037109375, "epoch": 10, "iteration": 211}
+{"train_loss": 1.1176791191101074, "epoch": 10, "iteration": 221}
+{"train_loss": 1.1318260431289673, "epoch": 10, "iteration": 231}
+{"train_loss": 1.1402466297149658, "epoch": 10, "iteration": 241}
+{"train_loss": 1.1279923915863037, "epoch": 10, "iteration": 251}
+{"train_loss": 1.1350510120391846, "epoch": 10, "iteration": 261}
+{"train_loss": 1.1224544048309326, "epoch": 10, "iteration": 271}
+{"train_loss": 1.1744214296340942, "epoch": 10, "iteration": 281}
+{"train_loss": 1.1251956224441528, "epoch": 10, "iteration": 291}
+{"train_loss": 1.143107295036316, "epoch": 10, "iteration": 301}
+{"train_loss": 1.150804042816162, "epoch": 10, "iteration": 311}
+Epoch 10/50, Val Loss: 3.0268
+Epoch 11/50
+{"train_loss": 1.1303434371948242, "epoch": 11, "iteration": 1}
+{"train_loss": 1.1233457326889038, "epoch": 11, "iteration": 11}
+{"train_loss": 1.139700174331665, "epoch": 11, "iteration": 21}
+{"train_loss": 1.1441415548324585, "epoch": 11, "iteration": 31}
+{"train_loss": 1.1438062191009521, "epoch": 11, "iteration": 41}
+{"train_loss": 1.1582300662994385, "epoch": 11, "iteration": 51}
+{"train_loss": 1.1668816804885864, "epoch": 11, "iteration": 61}
+{"train_loss": 1.1469084024429321, "epoch": 11, "iteration": 71}
+{"train_loss": 1.1371229887008667, "epoch": 11, "iteration": 81}
+{"train_loss": 1.1553606986999512, "epoch": 11, "iteration": 91}
+{"train_loss": 1.130570411682129, "epoch": 11, "iteration": 101}
+{"train_loss": 1.1336723566055298, "epoch": 11, "iteration": 111}
+{"train_loss": 1.1623133420944214, "epoch": 11, "iteration": 121}
+{"train_loss": 1.1222831010818481, "epoch": 11, "iteration": 131}
+{"train_loss": 1.1343427896499634, "epoch": 11, "iteration": 141}
+{"train_loss": 1.1403961181640625, "epoch": 11, "iteration": 151}
+{"train_loss": 1.139878511428833, "epoch": 11, "iteration": 161}
+{"train_loss": 1.1330947875976562, "epoch": 11, "iteration": 171}
+{"train_loss": 1.167142391204834, "epoch": 11, "iteration": 181}
+{"train_loss": 1.143068552017212, "epoch": 11, "iteration": 191}
+{"train_loss": 1.1655009984970093, "epoch": 11, "iteration": 201}
+{"train_loss": 1.1644171476364136, "epoch": 11, "iteration": 211}
+{"train_loss": 1.1428050994873047, "epoch": 11, "iteration": 221}
+{"train_loss": 1.151570439338684, "epoch": 11, "iteration": 231}
+{"train_loss": 1.1621137857437134, "epoch": 11, "iteration": 241}
+{"train_loss": 1.14528489112854, "epoch": 11, "iteration": 251}
+{"train_loss": 1.1483076810836792, "epoch": 11, "iteration": 261}
+{"train_loss": 1.1420183181762695, "epoch": 11, "iteration": 271}
+{"train_loss": 1.1697944402694702, "epoch": 11, "iteration": 281}
+{"train_loss": 1.1342072486877441, "epoch": 11, "iteration": 291}
+{"train_loss": 1.1500366926193237, "epoch": 11, "iteration": 301}
+{"train_loss": 1.1694707870483398, "epoch": 11, "iteration": 311}
