@@ -1,0 +1,216 @@
+checkpoints/random
+Starting process
+['checkpoints/random/best_model_epoch_1_ 3.1222.pth', 'checkpoints/random/best_model_epoch_2_ 3.0656.pth', 'checkpoints/random/best_model_epoch_3_ 3.0379.pth', 'checkpoints/random/best_model_epoch_4_ 3.0275.pth', 'checkpoints/random/best_model_epoch_5_ 3.0237.pth', 'checkpoints/random/best_model_epoch_6_ 3.0232.pth', 'checkpoints/random/best_model_epoch_7_ 3.0206.pth']
+cuda:7
+Testing model: checkpoints/random/best_model_epoch_1_ 3.1222.pth
+Extracting embeddings for training and testing sets...
+Original embedding shape: torch.Size([256, 196, 768])
+After pooling shape: torch.Size([256, 768])
+Original embedding shape: torch.Size([256, 196, 768])
+After pooling shape: torch.Size([256, 768])
+Original embedding shape: torch.Size([256, 196, 768])
+After pooling shape: torch.Size([256, 768])
+Original embedding shape: torch.Size([256, 196, 768])
+After pooling shape: torch.Size([256, 768])
+Computing retrieval results for s1->s2
+Query labels shape: (20000, 43)
+Archive labels shape: (80000, 43)
+Indices shape: (20000, 5)
+s1->s2 Mean F1 Score: 0.5998
+Computing retrieval results for s2->s1
+Query labels shape: (20000, 43)
+Archive labels shape: (80000, 43)
+Indices shape: (20000, 5)
+s2->s1 Mean F1 Score: 0.5350
+Computing retrieval results for s1->s1
+Query labels shape: (20000, 43)
+Archive labels shape: (80000, 43)
+Indices shape: (20000, 5)
+s1->s1 Mean F1 Score: 0.6669
+Computing retrieval results for s2->s2
+Query labels shape: (20000, 43)
+Archive labels shape: (80000, 43)
+Indices shape: (20000, 5)
+s2->s2 Mean F1 Score: 0.7443
+Testing model: checkpoints/random/best_model_epoch_2_ 3.0656.pth
+Extracting embeddings for training and testing sets...
+Original embedding shape: torch.Size([256, 196, 768])
+After pooling shape: torch.Size([256, 768])
+Original embedding shape: torch.Size([256, 196, 768])
+After pooling shape: torch.Size([256, 768])
+Original embedding shape: torch.Size([256, 196, 768])
+After pooling shape: torch.Size([256, 768])
+Original embedding shape: torch.Size([256, 196, 768])
+After pooling shape: torch.Size([256, 768])
+Computing retrieval results for s1->s2
+Query labels shape: (20000, 43)
+Archive labels shape: (80000, 43)
+Indices shape: (20000, 5)
+s1->s2 Mean F1 Score: 0.5969
+Computing retrieval results for s2->s1
+Query labels shape: (20000, 43)
+Archive labels shape: (80000, 43)
+Indices shape: (20000, 5)
+s2->s1 Mean F1 Score: 0.5669
+Computing retrieval results for s1->s1
+Query labels shape: (20000, 43)
+Archive labels shape: (80000, 43)
+Indices shape: (20000, 5)
+s1->s1 Mean F1 Score: 0.6646
+Computing retrieval results for s2->s2
+Query labels shape: (20000, 43)
+Archive labels shape: (80000, 43)
+Indices shape: (20000, 5)
+s2->s2 Mean F1 Score: 0.7442
+Testing model: checkpoints/random/best_model_epoch_3_ 3.0379.pth
+Extracting embeddings for training and testing sets...
+Original embedding shape: torch.Size([256, 196, 768])
+After pooling shape: torch.Size([256, 768])
+Original embedding shape: torch.Size([256, 196, 768])
+After pooling shape: torch.Size([256, 768])
+Original embedding shape: torch.Size([256, 196, 768])
+After pooling shape: torch.Size([256, 768])
+Original embedding shape: torch.Size([256, 196, 768])
+After pooling shape: torch.Size([256, 768])
+Computing retrieval results for s1->s2
+Query labels shape: (20000, 43)
+Archive labels shape: (80000, 43)
+Indices shape: (20000, 5)
+s1->s2 Mean F1 Score: 0.5982
+Computing retrieval results for s2->s1
+Query labels shape: (20000, 43)
+Archive labels shape: (80000, 43)
+Indices shape: (20000, 5)
+s2->s1 Mean F1 Score: 0.5973
+Computing retrieval results for s1->s1
+Query labels shape: (20000, 43)
+Archive labels shape: (80000, 43)
+Indices shape: (20000, 5)
+s1->s1 Mean F1 Score: 0.6607
+Computing retrieval results for s2->s2
+Query labels shape: (20000, 43)
+Archive labels shape: (80000, 43)
+Indices shape: (20000, 5)
+s2->s2 Mean F1 Score: 0.7440
+Testing model: checkpoints/random/best_model_epoch_4_ 3.0275.pth
+Extracting embeddings for training and testing sets...
+Original embedding shape: torch.Size([256, 196, 768])
+After pooling shape: torch.Size([256, 768])
+Original embedding shape: torch.Size([256, 196, 768])
+After pooling shape: torch.Size([256, 768])
+Original embedding shape: torch.Size([256, 196, 768])
+After pooling shape: torch.Size([256, 768])
+Original embedding shape: torch.Size([256, 196, 768])
+After pooling shape: torch.Size([256, 768])
+Computing retrieval results for s1->s2
+Query labels shape: (20000, 43)
+Archive labels shape: (80000, 43)
+Indices shape: (20000, 5)
+s1->s2 Mean F1 Score: 0.5771
+Computing retrieval results for s2->s1
+Query labels shape: (20000, 43)
+Archive labels shape: (80000, 43)
+Indices shape: (20000, 5)
+s2->s1 Mean F1 Score: 0.6020
+Computing retrieval results for s1->s1
+Query labels shape: (20000, 43)
+Archive labels shape: (80000, 43)
+Indices shape: (20000, 5)
+s1->s1 Mean F1 Score: 0.6611
+Computing retrieval results for s2->s2
+Query labels shape: (20000, 43)
+Archive labels shape: (80000, 43)
+Indices shape: (20000, 5)
+s2->s2 Mean F1 Score: 0.7442
+Testing model: checkpoints/random/best_model_epoch_5_ 3.0237.pth
+Extracting embeddings for training and testing sets...
+Original embedding shape: torch.Size([256, 196, 768])
+After pooling shape: torch.Size([256, 768])
+Original embedding shape: torch.Size([256, 196, 768])
+After pooling shape: torch.Size([256, 768])
+Original embedding shape: torch.Size([256, 196, 768])
+After pooling shape: torch.Size([256, 768])
+Original embedding shape: torch.Size([256, 196, 768])
+After pooling shape: torch.Size([256, 768])
+Computing retrieval results for s1->s2
+Query labels shape: (20000, 43)
+Archive labels shape: (80000, 43)
+Indices shape: (20000, 5)
+s1->s2 Mean F1 Score: 0.5865
+Computing retrieval results for s2->s1
+Query labels shape: (20000, 43)
+Archive labels shape: (80000, 43)
+Indices shape: (20000, 5)
+s2->s1 Mean F1 Score: 0.6204
+Computing retrieval results for s1->s1
+Query labels shape: (20000, 43)
+Archive labels shape: (80000, 43)
+Indices shape: (20000, 5)
+s1->s1 Mean F1 Score: 0.6615
+Computing retrieval results for s2->s2
+Query labels shape: (20000, 43)
+Archive labels shape: (80000, 43)
+Indices shape: (20000, 5)
+s2->s2 Mean F1 Score: 0.7444
+Testing model: checkpoints/random/best_model_epoch_6_ 3.0232.pth
+Extracting embeddings for training and testing sets...
+Original embedding shape: torch.Size([256, 196, 768])
+After pooling shape: torch.Size([256, 768])
+Original embedding shape: torch.Size([256, 196, 768])
+After pooling shape: torch.Size([256, 768])
+Original embedding shape: torch.Size([256, 196, 768])
+After pooling shape: torch.Size([256, 768])
+Original embedding shape: torch.Size([256, 196, 768])
+After pooling shape: torch.Size([256, 768])
+Computing retrieval results for s1->s2
+Query labels shape: (20000, 43)
+Archive labels shape: (80000, 43)
+Indices shape: (20000, 5)
+s1->s2 Mean F1 Score: 0.5659
+Computing retrieval results for s2->s1
+Query labels shape: (20000, 43)
+Archive labels shape: (80000, 43)
+Indices shape: (20000, 5)
+s2->s1 Mean F1 Score: 0.6128
+Computing retrieval results for s1->s1
+Query labels shape: (20000, 43)
+Archive labels shape: (80000, 43)
+Indices shape: (20000, 5)
+s1->s1 Mean F1 Score: 0.6610
+Computing retrieval results for s2->s2
+Query labels shape: (20000, 43)
+Archive labels shape: (80000, 43)
+Indices shape: (20000, 5)
+s2->s2 Mean F1 Score: 0.7448
+Testing model: checkpoints/random/best_model_epoch_7_ 3.0206.pth
+Extracting embeddings for training and testing sets...
+Original embedding shape: torch.Size([256, 196, 768])
+After pooling shape: torch.Size([256, 768])
+Original embedding shape: torch.Size([256, 196, 768])
+After pooling shape: torch.Size([256, 768])
+Original embedding shape: torch.Size([256, 196, 768])
+After pooling shape: torch.Size([256, 768])
+Original embedding shape: torch.Size([256, 196, 768])
+After pooling shape: torch.Size([256, 768])
+Computing retrieval results for s1->s2
+Query labels shape: (20000, 43)
+Archive labels shape: (80000, 43)
+Indices shape: (20000, 5)
+s1->s2 Mean F1 Score: 0.5671
+Computing retrieval results for s2->s1
+Query labels shape: (20000, 43)
+Archive labels shape: (80000, 43)
+Indices shape: (20000, 5)
+s2->s1 Mean F1 Score: 0.5928
+Computing retrieval results for s1->s1
+Query labels shape: (20000, 43)
+Archive labels shape: (80000, 43)
+Indices shape: (20000, 5)
+s1->s1 Mean F1 Score: 0.6621
+Computing retrieval results for s2->s2
+Query labels shape: (20000, 43)
+Archive labels shape: (80000, 43)
+Indices shape: (20000, 5)
+s2->s2 Mean F1 Score: 0.7451
+
+

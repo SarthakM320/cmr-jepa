@@ -6,9 +6,7 @@ from logging import getLogger
 import torch
 from torch.utils.data import Dataset, DataLoader, Subset, random_split
 import torchvision.transforms as T
-from config import get_arguments
 
-args = get_arguments()
 logger = getLogger()
 
 def dims_change(img):
@@ -78,8 +76,8 @@ def make_custom_dataloader(
     transform,
     batch_size,
     collator=None,
-    pin_mem=args.pin_mem,
-    num_workers=args.num_workers,
+    pin_mem=False,
+    num_workers=10,
     world_size=1,
     rank=0,
     root_path=None,

@@ -1,0 +1,580 @@
+checkpoints/multiblock
+Starting process
+['checkpoints/multiblock/best_model_epoch_1_ 3.2049.pth', 'checkpoints/multiblock/best_model_epoch_4_ 3.2021.pth', 'checkpoints/multiblock/best_model_epoch_5_ 3.1960.pth', 'checkpoints/multiblock/best_model_epoch_6_ 3.1901.pth', 'checkpoints/multiblock/best_model_epoch_7_ 3.1832.pth', 'checkpoints/multiblock/best_model_epoch_8_ 3.1731.pth', 'checkpoints/multiblock/best_model_epoch_9_ 3.1511.pth', 'checkpoints/multiblock/best_model_epoch_10_ 3.1340.pth', 'checkpoints/multiblock/best_model_epoch_11_ 3.1201.pth', 'checkpoints/multiblock/best_model_epoch_12_ 3.1073.pth', 'checkpoints/multiblock/best_model_epoch_13_ 3.0963.pth', 'checkpoints/multiblock/best_model_epoch_14_ 3.0823.pth', 'checkpoints/multiblock/best_model_epoch_15_ 3.0730.pth', 'checkpoints/multiblock/best_model_epoch_16_ 3.0665.pth', 'checkpoints/multiblock/best_model_epoch_17_ 3.0624.pth', 'checkpoints/multiblock/best_model_epoch_18_ 3.0569.pth', 'checkpoints/multiblock/best_model_epoch_19_ 3.0554.pth', 'checkpoints/multiblock/best_model_epoch_20_ 3.0530.pth', 'checkpoints/multiblock/best_model_epoch_21_ 3.0498.pth', 'checkpoints/multiblock/best_model_epoch_22_ 3.0491.pth', 'checkpoints/multiblock/best_model_epoch_24_ 3.0466.pth', 'checkpoints/multiblock/best_model_epoch_25_ 3.0450.pth', 'checkpoints/multiblock/best_model_epoch_26_ 3.0442.pth', 'checkpoints/multiblock/best_model_epoch_27_ 3.0409.pth', 'checkpoints/multiblock/best_model_epoch_28_ 3.0389.pth', 'checkpoints/multiblock/best_model_epoch_29_ 3.0371.pth', 'checkpoints/multiblock/best_model_epoch_30_ 3.0351.pth', 'checkpoints/multiblock/best_model_epoch_31_ 3.0319.pth', 'checkpoints/multiblock/best_model_epoch_32_ 3.0293.pth', 'checkpoints/multiblock/best_model_epoch_33_ 3.0272.pth', 'checkpoints/multiblock/best_model_epoch_34_ 3.0249.pth', 'checkpoints/multiblock/best_model_epoch_35_ 3.0233.pth', 'checkpoints/multiblock/best_model_epoch_36_ 3.0208.pth', 'checkpoints/multiblock/best_model_epoch_37_ 3.0206.pth']
+cuda:7
+Testing model: checkpoints/multiblock/best_model_epoch_1_ 3.2049.pth
+Extracting embeddings for training and testing sets...
+Original embedding shape: torch.Size([256, 196, 768])
+After pooling shape: torch.Size([256, 768])
+Original embedding shape: torch.Size([256, 196, 768])
+After pooling shape: torch.Size([256, 768])
+Original embedding shape: torch.Size([256, 196, 768])
+After pooling shape: torch.Size([256, 768])
+Original embedding shape: torch.Size([256, 196, 768])
+After pooling shape: torch.Size([256, 768])
+Computing retrieval results for s1->s2
+Query labels shape: (20000, 43)
+Archive labels shape: (80000, 43)
+Indices shape: (20000, 5)
+s1->s2 Mean F1 Score: 0.5595
+Computing retrieval results for s2->s1
+Query labels shape: (20000, 43)
+Archive labels shape: (80000, 43)
+Indices shape: (20000, 5)
+s2->s1 Mean F1 Score: 0.5398
+Computing retrieval results for s1->s1
+Query labels shape: (20000, 43)
+Archive labels shape: (80000, 43)
+Indices shape: (20000, 5)
+s1->s1 Mean F1 Score: 0.6504
+Computing retrieval results for s2->s2
+Query labels shape: (20000, 43)
+Archive labels shape: (80000, 43)
+Indices shape: (20000, 5)
+s2->s2 Mean F1 Score: 0.7454
+Testing model: checkpoints/multiblock/best_model_epoch_4_ 3.2021.pth
+Extracting embeddings for training and testing sets...
+Original embedding shape: torch.Size([256, 196, 768])
+After pooling shape: torch.Size([256, 768])
+Original embedding shape: torch.Size([256, 196, 768])
+After pooling shape: torch.Size([256, 768])
+Original embedding shape: torch.Size([256, 196, 768])
+After pooling shape: torch.Size([256, 768])
+Original embedding shape: torch.Size([256, 196, 768])
+After pooling shape: torch.Size([256, 768])
+Computing retrieval results for s1->s2
+Query labels shape: (20000, 43)
+Archive labels shape: (80000, 43)
+Indices shape: (20000, 5)
+s1->s2 Mean F1 Score: 0.5534
+Computing retrieval results for s2->s1
+Query labels shape: (20000, 43)
+Archive labels shape: (80000, 43)
+Indices shape: (20000, 5)
+s2->s1 Mean F1 Score: 0.5368
+Computing retrieval results for s1->s1
+Query labels shape: (20000, 43)
+Archive labels shape: (80000, 43)
+Indices shape: (20000, 5)
+s1->s1 Mean F1 Score: 0.6619
+Computing retrieval results for s2->s2
+Query labels shape: (20000, 43)
+Archive labels shape: (80000, 43)
+Indices shape: (20000, 5)
+s2->s2 Mean F1 Score: 0.7448
+Testing model: checkpoints/multiblock/best_model_epoch_5_ 3.1960.pth
+Extracting embeddings for training and testing sets...
+Original embedding shape: torch.Size([256, 196, 768])
+After pooling shape: torch.Size([256, 768])
+Original embedding shape: torch.Size([256, 196, 768])
+After pooling shape: torch.Size([256, 768])
+Original embedding shape: torch.Size([256, 196, 768])
+After pooling shape: torch.Size([256, 768])
+Original embedding shape: torch.Size([256, 196, 768])
+After pooling shape: torch.Size([256, 768])
+Computing retrieval results for s1->s2
+Query labels shape: (20000, 43)
+Archive labels shape: (80000, 43)
+Indices shape: (20000, 5)
+s1->s2 Mean F1 Score: 0.5744
+Computing retrieval results for s2->s1
+Query labels shape: (20000, 43)
+Archive labels shape: (80000, 43)
+Indices shape: (20000, 5)
+s2->s1 Mean F1 Score: 0.5394
+Computing retrieval results for s1->s1
+Query labels shape: (20000, 43)
+Archive labels shape: (80000, 43)
+Indices shape: (20000, 5)
+s1->s1 Mean F1 Score: 0.6601
+Computing retrieval results for s2->s2
+Query labels shape: (20000, 43)
+Archive labels shape: (80000, 43)
+Indices shape: (20000, 5)
+s2->s2 Mean F1 Score: 0.7449
+Testing model: checkpoints/multiblock/best_model_epoch_6_ 3.1901.pth
+Extracting embeddings for training and testing sets...
+Original embedding shape: torch.Size([256, 196, 768])
+After pooling shape: torch.Size([256, 768])
+Original embedding shape: torch.Size([256, 196, 768])
+After pooling shape: torch.Size([256, 768])
+Original embedding shape: torch.Size([256, 196, 768])
+After pooling shape: torch.Size([256, 768])
+Original embedding shape: torch.Size([256, 196, 768])
+After pooling shape: torch.Size([256, 768])
+Computing retrieval results for s1->s2
+Query labels shape: (20000, 43)
+Archive labels shape: (80000, 43)
+Indices shape: (20000, 5)
+s1->s2 Mean F1 Score: 0.5744
+Computing retrieval results for s2->s1
+Query labels shape: (20000, 43)
+Archive labels shape: (80000, 43)
+Indices shape: (20000, 5)
+s2->s1 Mean F1 Score: 0.5402
+Computing retrieval results for s1->s1
+Query labels shape: (20000, 43)
+Archive labels shape: (80000, 43)
+Indices shape: (20000, 5)
+s1->s1 Mean F1 Score: 0.6604
+Computing retrieval results for s2->s2
+Query labels shape: (20000, 43)
+Archive labels shape: (80000, 43)
+Indices shape: (20000, 5)
+s2->s2 Mean F1 Score: 0.7447
+Testing model: checkpoints/multiblock/best_model_epoch_7_ 3.1832.pth
+Extracting embeddings for training and testing sets...
+Original embedding shape: torch.Size([256, 196, 768])
+After pooling shape: torch.Size([256, 768])
+Original embedding shape: torch.Size([256, 196, 768])
+After pooling shape: torch.Size([256, 768])
+Original embedding shape: torch.Size([256, 196, 768])
+After pooling shape: torch.Size([256, 768])
+Original embedding shape: torch.Size([256, 196, 768])
+After pooling shape: torch.Size([256, 768])
+Computing retrieval results for s1->s2
+Query labels shape: (20000, 43)
+Archive labels shape: (80000, 43)
+Indices shape: (20000, 5)
+s1->s2 Mean F1 Score: 0.5744
+Computing retrieval results for s2->s1
+Query labels shape: (20000, 43)
+Archive labels shape: (80000, 43)
+Indices shape: (20000, 5)
+s2->s1 Mean F1 Score: 0.5308
+Computing retrieval results for s1->s1
+Query labels shape: (20000, 43)
+Archive labels shape: (80000, 43)
+Indices shape: (20000, 5)
+s1->s1 Mean F1 Score: 0.6612
+Computing retrieval results for s2->s2
+Query labels shape: (20000, 43)
+Archive labels shape: (80000, 43)
+Indices shape: (20000, 5)
+s2->s2 Mean F1 Score: 0.7450
+Testing model: checkpoints/multiblock/best_model_epoch_8_ 3.1731.pth
+Extracting embeddings for training and testing sets...
+Original embedding shape: torch.Size([256, 196, 768])
+After pooling shape: torch.Size([256, 768])
+Original embedding shape: torch.Size([256, 196, 768])
+After pooling shape: torch.Size([256, 768])
+Original embedding shape: torch.Size([256, 196, 768])
+After pooling shape: torch.Size([256, 768])
+Original embedding shape: torch.Size([256, 196, 768])
+After pooling shape: torch.Size([256, 768])
+Computing retrieval results for s1->s2
+Query labels shape: (20000, 43)
+Archive labels shape: (80000, 43)
+Indices shape: (20000, 5)
+s1->s2 Mean F1 Score: 0.5558
+Computing retrieval results for s2->s1
+Query labels shape: (20000, 43)
+Archive labels shape: (80000, 43)
+Indices shape: (20000, 5)
+s2->s1 Mean F1 Score: 0.5384
+Computing retrieval results for s1->s1
+Query labels shape: (20000, 43)
+Archive labels shape: (80000, 43)
+Indices shape: (20000, 5)
+s1->s1 Mean F1 Score: 0.6611
+Computing retrieval results for s2->s2
+Query labels shape: (20000, 43)
+Archive labels shape: (80000, 43)
+Indices shape: (20000, 5)
+s2->s2 Mean F1 Score: 0.7450
+Testing model: checkpoints/multiblock/best_model_epoch_9_ 3.1511.pth
+Extracting embeddings for training and testing sets...
+Original embedding shape: torch.Size([256, 196, 768])
+After pooling shape: torch.Size([256, 768])
+Original embedding shape: torch.Size([256, 196, 768])
+After pooling shape: torch.Size([256, 768])
+Original embedding shape: torch.Size([256, 196, 768])
+After pooling shape: torch.Size([256, 768])
+Original embedding shape: torch.Size([256, 196, 768])
+After pooling shape: torch.Size([256, 768])
+Computing retrieval results for s1->s2
+Query labels shape: (20000, 43)
+Archive labels shape: (80000, 43)
+Indices shape: (20000, 5)
+s1->s2 Mean F1 Score: 0.5744
+Computing retrieval results for s2->s1
+Query labels shape: (20000, 43)
+Archive labels shape: (80000, 43)
+Indices shape: (20000, 5)
+s2->s1 Mean F1 Score: 0.5650
+Computing retrieval results for s1->s1
+Query labels shape: (20000, 43)
+Archive labels shape: (80000, 43)
+Indices shape: (20000, 5)
+s1->s1 Mean F1 Score: 0.6609
+Computing retrieval results for s2->s2
+Query labels shape: (20000, 43)
+Archive labels shape: (80000, 43)
+Indices shape: (20000, 5)
+s2->s2 Mean F1 Score: 0.7457
+Testing model: checkpoints/multiblock/best_model_epoch_10_ 3.1340.pth
+Extracting embeddings for training and testing sets...
+Original embedding shape: torch.Size([256, 196, 768])
+After pooling shape: torch.Size([256, 768])
+Original embedding shape: torch.Size([256, 196, 768])
+After pooling shape: torch.Size([256, 768])
+Original embedding shape: torch.Size([256, 196, 768])
+After pooling shape: torch.Size([256, 768])
+Original embedding shape: torch.Size([256, 196, 768])
+After pooling shape: torch.Size([256, 768])
+Computing retrieval results for s1->s2
+Query labels shape: (20000, 43)
+Archive labels shape: (80000, 43)
+Indices shape: (20000, 5)
+s1->s2 Mean F1 Score: 0.5760
+Computing retrieval results for s2->s1
+Query labels shape: (20000, 43)
+Archive labels shape: (80000, 43)
+Indices shape: (20000, 5)
+s2->s1 Mean F1 Score: 0.5604
+Computing retrieval results for s1->s1
+Query labels shape: (20000, 43)
+Archive labels shape: (80000, 43)
+Indices shape: (20000, 5)
+s1->s1 Mean F1 Score: 0.6604
+Computing retrieval results for s2->s2
+Query labels shape: (20000, 43)
+Archive labels shape: (80000, 43)
+Indices shape: (20000, 5)
+s2->s2 Mean F1 Score: 0.7459
+Testing model: checkpoints/multiblock/best_model_epoch_11_ 3.1201.pth
+Extracting embeddings for training and testing sets...
+Original embedding shape: torch.Size([256, 196, 768])
+After pooling shape: torch.Size([256, 768])
+Original embedding shape: torch.Size([256, 196, 768])
+After pooling shape: torch.Size([256, 768])
+Original embedding shape: torch.Size([256, 196, 768])
+After pooling shape: torch.Size([256, 768])
+Original embedding shape: torch.Size([256, 196, 768])
+After pooling shape: torch.Size([256, 768])
+Computing retrieval results for s1->s2
+Query labels shape: (20000, 43)
+Archive labels shape: (80000, 43)
+Indices shape: (20000, 5)
+s1->s2 Mean F1 Score: 0.5856
+Computing retrieval results for s2->s1
+Query labels shape: (20000, 43)
+Archive labels shape: (80000, 43)
+Indices shape: (20000, 5)
+s2->s1 Mean F1 Score: 0.5685
+Computing retrieval results for s1->s1
+Query labels shape: (20000, 43)
+Archive labels shape: (80000, 43)
+Indices shape: (20000, 5)
+s1->s1 Mean F1 Score: 0.6597
+Computing retrieval results for s2->s2
+Query labels shape: (20000, 43)
+Archive labels shape: (80000, 43)
+Indices shape: (20000, 5)
+s2->s2 Mean F1 Score: 0.7470
+Testing model: checkpoints/multiblock/best_model_epoch_12_ 3.1073.pth
+Extracting embeddings for training and testing sets...
+Original embedding shape: torch.Size([256, 196, 768])
+After pooling shape: torch.Size([256, 768])
+Original embedding shape: torch.Size([256, 196, 768])
+After pooling shape: torch.Size([256, 768])
+Original embedding shape: torch.Size([256, 196, 768])
+After pooling shape: torch.Size([256, 768])
+Original embedding shape: torch.Size([256, 196, 768])
+After pooling shape: torch.Size([256, 768])
+Computing retrieval results for s1->s2
+Query labels shape: (20000, 43)
+Archive labels shape: (80000, 43)
+Indices shape: (20000, 5)
+s1->s2 Mean F1 Score: 0.5734
+Computing retrieval results for s2->s1
+Query labels shape: (20000, 43)
+Archive labels shape: (80000, 43)
+Indices shape: (20000, 5)
+s2->s1 Mean F1 Score: 0.5938
+Computing retrieval results for s1->s1
+Query labels shape: (20000, 43)
+Archive labels shape: (80000, 43)
+Indices shape: (20000, 5)
+s1->s1 Mean F1 Score: 0.6592
+Computing retrieval results for s2->s2
+Query labels shape: (20000, 43)
+Archive labels shape: (80000, 43)
+Indices shape: (20000, 5)
+s2->s2 Mean F1 Score: 0.7468
+Testing model: checkpoints/multiblock/best_model_epoch_13_ 3.0963.pth
+Extracting embeddings for training and testing sets...
+Original embedding shape: torch.Size([256, 196, 768])
+After pooling shape: torch.Size([256, 768])
+Original embedding shape: torch.Size([256, 196, 768])
+After pooling shape: torch.Size([256, 768])
+Original embedding shape: torch.Size([256, 196, 768])
+After pooling shape: torch.Size([256, 768])
+Original embedding shape: torch.Size([256, 196, 768])
+After pooling shape: torch.Size([256, 768])
+Computing retrieval results for s1->s2
+Query labels shape: (20000, 43)
+Archive labels shape: (80000, 43)
+Indices shape: (20000, 5)
+s1->s2 Mean F1 Score: 0.5629
+Computing retrieval results for s2->s1
+Query labels shape: (20000, 43)
+Archive labels shape: (80000, 43)
+Indices shape: (20000, 5)
+s2->s1 Mean F1 Score: 0.5958
+Computing retrieval results for s1->s1
+Query labels shape: (20000, 43)
+Archive labels shape: (80000, 43)
+Indices shape: (20000, 5)
+s1->s1 Mean F1 Score: 0.6588
+Computing retrieval results for s2->s2
+Query labels shape: (20000, 43)
+Archive labels shape: (80000, 43)
+Indices shape: (20000, 5)
+s2->s2 Mean F1 Score: 0.7470
+Testing model: checkpoints/multiblock/best_model_epoch_14_ 3.0823.pth
+Extracting embeddings for training and testing sets...
+Original embedding shape: torch.Size([256, 196, 768])
+After pooling shape: torch.Size([256, 768])
+Original embedding shape: torch.Size([256, 196, 768])
+After pooling shape: torch.Size([256, 768])
+Original embedding shape: torch.Size([256, 196, 768])
+After pooling shape: torch.Size([256, 768])
+Original embedding shape: torch.Size([256, 196, 768])
+After pooling shape: torch.Size([256, 768])
+Computing retrieval results for s1->s2
+Query labels shape: (20000, 43)
+Archive labels shape: (80000, 43)
+Indices shape: (20000, 5)
+s1->s2 Mean F1 Score: 0.5591
+Computing retrieval results for s2->s1
+Query labels shape: (20000, 43)
+Archive labels shape: (80000, 43)
+Indices shape: (20000, 5)
+s2->s1 Mean F1 Score: 0.5404
+Computing retrieval results for s1->s1
+Query labels shape: (20000, 43)
+Archive labels shape: (80000, 43)
+Indices shape: (20000, 5)
+s1->s1 Mean F1 Score: 0.6574
+Computing retrieval results for s2->s2
+Query labels shape: (20000, 43)
+Archive labels shape: (80000, 43)
+Indices shape: (20000, 5)
+s2->s2 Mean F1 Score: 0.7472
+Testing model: checkpoints/multiblock/best_model_epoch_15_ 3.0730.pth
+Extracting embeddings for training and testing sets...
+Original embedding shape: torch.Size([256, 196, 768])
+After pooling shape: torch.Size([256, 768])
+Original embedding shape: torch.Size([256, 196, 768])
+After pooling shape: torch.Size([256, 768])
+Original embedding shape: torch.Size([256, 196, 768])
+After pooling shape: torch.Size([256, 768])
+Original embedding shape: torch.Size([256, 196, 768])
+After pooling shape: torch.Size([256, 768])
+Computing retrieval results for s1->s2
+Query labels shape: (20000, 43)
+Archive labels shape: (80000, 43)
+Indices shape: (20000, 5)
+s1->s2 Mean F1 Score: 0.5410
+Computing retrieval results for s2->s1
+Query labels shape: (20000, 43)
+Archive labels shape: (80000, 43)
+Indices shape: (20000, 5)
+s2->s1 Mean F1 Score: 0.5364
+Computing retrieval results for s1->s1
+Query labels shape: (20000, 43)
+Archive labels shape: (80000, 43)
+Indices shape: (20000, 5)
+s1->s1 Mean F1 Score: 0.6566
+Computing retrieval results for s2->s2
+Query labels shape: (20000, 43)
+Archive labels shape: (80000, 43)
+Indices shape: (20000, 5)
+s2->s2 Mean F1 Score: 0.7473
+Testing model: checkpoints/multiblock/best_model_epoch_16_ 3.0665.pth
+Extracting embeddings for training and testing sets...
+Original embedding shape: torch.Size([256, 196, 768])
+After pooling shape: torch.Size([256, 768])
+Original embedding shape: torch.Size([256, 196, 768])
+After pooling shape: torch.Size([256, 768])
+Original embedding shape: torch.Size([256, 196, 768])
+After pooling shape: torch.Size([256, 768])
+Original embedding shape: torch.Size([256, 196, 768])
+After pooling shape: torch.Size([256, 768])
+Computing retrieval results for s1->s2
+Query labels shape: (20000, 43)
+Archive labels shape: (80000, 43)
+Indices shape: (20000, 5)
+s1->s2 Mean F1 Score: 0.5410
+Computing retrieval results for s2->s1
+Query labels shape: (20000, 43)
+Archive labels shape: (80000, 43)
+Indices shape: (20000, 5)
+s2->s1 Mean F1 Score: 0.5372
+Computing retrieval results for s1->s1
+Query labels shape: (20000, 43)
+Archive labels shape: (80000, 43)
+Indices shape: (20000, 5)
+s1->s1 Mean F1 Score: 0.6572
+Computing retrieval results for s2->s2
+Query labels shape: (20000, 43)
+Archive labels shape: (80000, 43)
+Indices shape: (20000, 5)
+s2->s2 Mean F1 Score: 0.7479
+Testing model: checkpoints/multiblock/best_model_epoch_17_ 3.0624.pth
+Extracting embeddings for training and testing sets...
+Original embedding shape: torch.Size([256, 196, 768])
+After pooling shape: torch.Size([256, 768])
+Original embedding shape: torch.Size([256, 196, 768])
+After pooling shape: torch.Size([256, 768])
+Original embedding shape: torch.Size([256, 196, 768])
+After pooling shape: torch.Size([256, 768])
+Original embedding shape: torch.Size([256, 196, 768])
+After pooling shape: torch.Size([256, 768])
+Computing retrieval results for s1->s2
+Query labels shape: (20000, 43)
+Archive labels shape: (80000, 43)
+Indices shape: (20000, 5)
+s1->s2 Mean F1 Score: 0.5410
+Computing retrieval results for s2->s1
+Query labels shape: (20000, 43)
+Archive labels shape: (80000, 43)
+Indices shape: (20000, 5)
+s2->s1 Mean F1 Score: 0.5391
+Computing retrieval results for s1->s1
+Query labels shape: (20000, 43)
+Archive labels shape: (80000, 43)
+Indices shape: (20000, 5)
+s1->s1 Mean F1 Score: 0.6574
+Computing retrieval results for s2->s2
+Query labels shape: (20000, 43)
+Archive labels shape: (80000, 43)
+Indices shape: (20000, 5)
+s2->s2 Mean F1 Score: 0.7479
+Testing model: checkpoints/multiblock/best_model_epoch_18_ 3.0569.pth
+Extracting embeddings for training and testing sets...
+Original embedding shape: torch.Size([256, 196, 768])
+After pooling shape: torch.Size([256, 768])
+Original embedding shape: torch.Size([256, 196, 768])
+After pooling shape: torch.Size([256, 768])
+Original embedding shape: torch.Size([256, 196, 768])
+After pooling shape: torch.Size([256, 768])
+Original embedding shape: torch.Size([256, 196, 768])
+After pooling shape: torch.Size([256, 768])
+Computing retrieval results for s1->s2
+Query labels shape: (20000, 43)
+Archive labels shape: (80000, 43)
+Indices shape: (20000, 5)
+s1->s2 Mean F1 Score: 0.5595
+Computing retrieval results for s2->s1
+Query labels shape: (20000, 43)
+Archive labels shape: (80000, 43)
+Indices shape: (20000, 5)
+s2->s1 Mean F1 Score: 0.5412
+Computing retrieval results for s1->s1
+Query labels shape: (20000, 43)
+Archive labels shape: (80000, 43)
+Indices shape: (20000, 5)
+s1->s1 Mean F1 Score: 0.6578
+Computing retrieval results for s2->s2
+Query labels shape: (20000, 43)
+Archive labels shape: (80000, 43)
+Indices shape: (20000, 5)
+s2->s2 Mean F1 Score: 0.7479
+Testing model: checkpoints/multiblock/best_model_epoch_19_ 3.0554.pth
+Extracting embeddings for training and testing sets...
+Original embedding shape: torch.Size([256, 196, 768])
+After pooling shape: torch.Size([256, 768])
+Original embedding shape: torch.Size([256, 196, 768])
+After pooling shape: torch.Size([256, 768])
+Original embedding shape: torch.Size([256, 196, 768])
+After pooling shape: torch.Size([256, 768])
+Original embedding shape: torch.Size([256, 196, 768])
+After pooling shape: torch.Size([256, 768])
+Computing retrieval results for s1->s2
+Query labels shape: (20000, 43)
+Archive labels shape: (80000, 43)
+Indices shape: (20000, 5)
+s1->s2 Mean F1 Score: 0.5395
+Computing retrieval results for s2->s1
+Query labels shape: (20000, 43)
+Archive labels shape: (80000, 43)
+Indices shape: (20000, 5)
+s2->s1 Mean F1 Score: 0.5473
+Computing retrieval results for s1->s1
+Query labels shape: (20000, 43)
+Archive labels shape: (80000, 43)
+Indices shape: (20000, 5)
+s1->s1 Mean F1 Score: 0.6577
+Computing retrieval results for s2->s2
+Query labels shape: (20000, 43)
+Archive labels shape: (80000, 43)
+Indices shape: (20000, 5)
+s2->s2 Mean F1 Score: 0.7484
+Testing model: checkpoints/multiblock/best_model_epoch_20_ 3.0530.pth
+Extracting embeddings for training and testing sets...
+Original embedding shape: torch.Size([256, 196, 768])
+After pooling shape: torch.Size([256, 768])
+Original embedding shape: torch.Size([256, 196, 768])
+After pooling shape: torch.Size([256, 768])
+Original embedding shape: torch.Size([256, 196, 768])
+After pooling shape: torch.Size([256, 768])
+Original embedding shape: torch.Size([256, 196, 768])
+After pooling shape: torch.Size([256, 768])
+Computing retrieval results for s1->s2
+Query labels shape: (20000, 43)
+Archive labels shape: (80000, 43)
+Indices shape: (20000, 5)
+s1->s2 Mean F1 Score: 0.5595
+Computing retrieval results for s2->s1
+Query labels shape: (20000, 43)
+Archive labels shape: (80000, 43)
+Indices shape: (20000, 5)
+s2->s1 Mean F1 Score: 0.5473
+Computing retrieval results for s1->s1
+Query labels shape: (20000, 43)
+Archive labels shape: (80000, 43)
+Indices shape: (20000, 5)
+s1->s1 Mean F1 Score: 0.6586
+Computing retrieval results for s2->s2
+Query labels shape: (20000, 43)
+Archive labels shape: (80000, 43)
+Indices shape: (20000, 5)
+s2->s2 Mean F1 Score: 0.7481
+Testing model: checkpoints/multiblock/best_model_epoch_21_ 3.0498.pth
+Extracting embeddings for training and testing sets...
+Original embedding shape: torch.Size([256, 196, 768])
+After pooling shape: torch.Size([256, 768])
+Original embedding shape: torch.Size([256, 196, 768])
+After pooling shape: torch.Size([256, 768])
+Original embedding shape: torch.Size([256, 196, 768])
+After pooling shape: torch.Size([256, 768])
+Original embedding shape: torch.Size([256, 196, 768])
+After pooling shape: torch.Size([256, 768])
+Computing retrieval results for s1->s2
+Query labels shape: (20000, 43)
+Archive labels shape: (80000, 43)
+Indices shape: (20000, 5)
+s1->s2 Mean F1 Score: 0.5410
+Computing retrieval results for s2->s1
+Query labels shape: (20000, 43)
+Archive labels shape: (80000, 43)
+Indices shape: (20000, 5)
+s2->s1 Mean F1 Score: 0.5479
+Computing retrieval results for s1->s1
+Query labels shape: (20000, 43)
+Archive labels shape: (80000, 43)
+Indices shape: (20000, 5)
+s1->s1 Mean F1 Score: 0.6587
+Computing retrieval results for s2->s2
+Query labels shape: (20000, 43)
+Archive labels shape: (80000, 43)
+Indices shape: (20000, 5)
+s2->s2 Mean F1 Score: 0.7483
+Testing model: checkpoints/multiblock/best_model_epoch_22_ 3.0491.pth
+Extracting embeddings for training and testing sets...
+Original embedding shape: torch.Size([256, 196, 768])
+After pooling shape: torch.Size([256, 768])
+Original embedding shape: torch.Size([256, 196, 768])
+After pooling shape: torch.Size([256, 768])

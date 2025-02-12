@@ -216,8 +216,9 @@ def main(model_id, device):
             total_q_prec = .0
             total_q_rec = .0
             total_q_f1 = .0
-
+            print(topk_labels)
             for r in topk_labels:
+                print(r)
                 num_correct = np.logical_and(q, r).sum()
                 prec = num_correct / r.sum()
                 rec = num_correct / q.sum()

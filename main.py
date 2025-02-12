@@ -9,7 +9,9 @@ from cross_sensor import CrossSensorPredictor
 from vicreg import vicreg_loss as vicregloss
 from ijepa.src.masks.utils import apply_masks
 from ijepa.src.masks.random import MaskCollator 
+from ijepa.src.masks.multiblock import MaskCollator as MBMaskCollator
 from ijepa.src.transforms import make_transforms
+from ijepa.src.utils.tensors import repeat_interleave_batch
 from config import get_arguments
 from dataloader import make_custom_dataloader
 import os
@@ -47,7 +49,7 @@ def main():
     args = get_arguments()
     device = args.device if torch.cuda.is_available() else 'cpu'
     
-    wandb.init(project="CMR_Jepa", config=args)
+    wandb.init(project="CMR_Jepa", config=args, name='multiBlock_from_37_epochs')
     wandb.config.update(args)
 
     main_directory = "/raid/biplab/datasets/BENv1/BENMMfinal/"
@@ -140,7 +142,7 @@ def main():
     best_epoch = 0
     
     # Create checkpoint directory
-    save_dir = './checkpoints'
+    save_dir = './checkpoints/multiblock'
     os.makedirs(save_dir, exist_ok=True)
     
     for epoch in range(start_epoch, args.num_epochs):
@@ -155,22 +157,36 @@ def main():
 
             x1 = udata1.to(device)
             x2 = udata2.to(device)
-            masks_1 = masks_enc[0].to(device)
-            masks_2 = masks_pred[0].to(device)
+            # masks_1 = masks_enc[0].to(device)
+            # masks_2 = masks_pred[0].to(device)
+
+            masks_1 = [u.to(device, non_blocking=True) for u in masks_enc]
+            masks_2 = [u.to(device, non_blocking=True) for u in masks_pred]
+
             optimizer.zero_grad()
 
 
             with autocast(enabled=not args.use_bfloat16):
+
                 z1 = encoder1(x1, masks_1)
                 z2 = encoder2(x2, masks_1)
                 z1_pred = predictor1(z1, masks_1, masks_2)
                 z2_pred = predictor2(z2, masks_1, masks_2)
                 z1_target = target_encoder2(x1)
                 z2_target = target_encoder1(x2)
+
+                # print(z1_target.shape)
                 z1_target = F.layer_norm(z1_target, (z1_target.size(-1),))
+                B = len(z1_target)
                 z1_target = apply_masks(z1_target, masks_2)
+                z1_target = repeat_interleave_batch(z1_target, B, repeat=len(masks_enc))
+                # print(z1_target.shape)
+
                 z2_target = F.layer_norm(z2_target, (z2_target.size(-1),))
+                B = len(z2_target)
                 z2_target = apply_masks(z2_target, masks_2)
+                z2_target = repeat_interleave_batch(z2_target, B, repeat=len(masks_enc))
+                
                 z1_cross, z2_cross = cross_predictor(z1_pred, z2_pred) # contrastive
 
                 vicreg_loss = vicregloss(z1.mean(dim = 1), z2.mean(dim = 1)) 

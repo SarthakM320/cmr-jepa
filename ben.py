@@ -42,7 +42,7 @@ class BigEarthNetDataset(Dataset):
 
     def _load_image_paths(self):
         image_paths = []
-        for layer1 in tqdm(os.listdir(self.root_dir)):
+        for layer1 in os.listdir(self.root_dir):
             layer1_path = os.path.join(self.root_dir, layer1)
             if os.path.isdir(layer1_path):
                 for file in os.listdir(layer1_path):
@@ -66,7 +66,7 @@ class BigEarthNetDataset(Dataset):
         all_unique_labels = set()
         
         # First pass: collect all unique labels
-        for layer1 in tqdm(os.listdir(self.root_dir)):
+        for layer1 in os.listdir(self.root_dir):
             layer1_path = os.path.join(self.root_dir, layer1)
             if os.path.isdir(layer1_path):
                 label_file = os.path.join(layer1_path, 'labels_metadata.json')
@@ -74,11 +74,11 @@ class BigEarthNetDataset(Dataset):
                     with open(label_file, 'r') as f:
                         label_data = json.load(f)
                         all_unique_labels.update(label_data['labels'])
-        
+            
         label_binarizer = MultiLabelBinarizer()
         label_binarizer.fit([list(all_unique_labels)])
         
-        for layer1 in tqdm(os.listdir(self.root_dir)):
+        for layer1 in os.listdir(self.root_dir):
             layer1_path = os.path.join(self.root_dir, layer1)
             if os.path.isdir(layer1_path):
                 label_file = os.path.join(layer1_path, 'labels_metadata.json')

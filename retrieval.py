@@ -200,13 +200,14 @@ def calculate_f1(query_labels, archive_labels, indices, k):
 
     return np.mean(f1_scores)
 
-def main():
+def main(args):
     # Set device
-    device = torch.device('cuda:1' if torch.cuda.is_available() else 'cpu')
+    device = torch.device('cuda:2' if torch.cuda.is_available() else 'cpu')
     
     # Define paths
-    load_path = '/raid/biplab/sarthak/cmr-jepa/checkpoints/best_model_epoch_6_ 3.0266.pth'
-    
+    # load_path = '/raid/biplab/sarthak/cmr-jepa/checkpoints/best_model_epoch_6_ 3.0266.pth'
+    load_path = args.path
+
     # Load model
     print("Loading model...")
     encoder1, predictor1, encoder2, predictor2 = load_model_checkpoint(load_path, device)
@@ -259,6 +260,52 @@ def main():
     query_features_s2, query_labels_s2 = extract_embeddings(encoder2, predictor2, test_loader2, device)
     
     features_dict = {
+        's1->s2':{
+            'query': {
+                'features': query_features_s1,
+                'labels': query_labels_s1
+            },
+            'archive': {
+                'features': archive_features_s2,
+                'labels': archive_labels_s2
+            }
+        },
+        's2->s1':{
+            'query': {
+                'features': query_features_s2,
+                'labels': query_labels_s2
+            },
+            'archive': {
+                'features': archive_features_s1,
+                'labels': archive_labels_s1
+                }
+        }
+    }
+
+    print('MultiModal')
+
+    for modality in features_dict.keys():
+        query = features_dict[modality]['query']
+        archive = features_dict[modality]['archive']
+
+        # Compute nearest neighbors
+        k = 5
+        print(f"Computing {k}-nearest neighbors...")
+        distances, indices = compute_knn(query['features'], archive['features'], k)
+        
+        # Calculate F1 score
+        print("Calculating F1 score...")
+        avg_f1 = calculate_f1(query['labels'], archive['labels'], indices, k)
+        
+        # Print results
+        print("\nRetrieval Results:")
+        print("------------------")
+        print(f"Modality: {modality}")
+        print("Model - ", load_path)
+        print(f"Mean F1 Score: {(avg_f1):.4f}")
+
+
+    features_dict = {
         's1':{
             'query': {
                 'features': query_features_s1,
@@ -280,6 +327,7 @@ def main():
                 }
         }
     }
+    print('UniModal')
 
     for modality in features_dict.keys():
         query = features_dict[modality]['query']
@@ -302,4 +350,7 @@ def main():
         print(f"Mean F1 Score: {(avg_f1):.4f}")
 
 if __name__ == "__main__":
-    main()
+    import argparse
+    parser = argparse.ArgumentParser()
+    parser.add_argument('--path', required=True)
+    main(parser.parse_args())
