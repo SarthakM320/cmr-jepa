@@ -7,8 +7,15 @@ import torch
 from torch.utils.data import Dataset, DataLoader, Subset, random_split
 import torchvision.transforms as transforms
 from PIL import Image
+Image.MAX_IMAGE_PIXELS = None
 import json
 from typing import Any, Optional, List
+import rasterio
+from logging import getLogger
+import warnings
+warnings.filterwarnings("ignore")
+
+logger = getLogger()
 
 CATEGORIES = ["airport", "airport_hangar", "airport_terminal", "amusement_park",
               "aquaculture", "archaeological_site", "barn", "border_checkpoint",
@@ -84,7 +91,7 @@ class FmowRGB(SatelliteDataset):
     def __init__(self, json_path, transform, is_train=True):
         """
         Creates Dataset for regular RGB image classification (usually used for fMoW-RGB dataset).
-        :param csv_path: csv_path (string): path to csv file.
+        :param json_path: json_path (string): path to csv file.
         :param transform: pytorch transforms for transforms and tensor conversion.
         """
         super().__init__(in_c=3)
@@ -93,12 +100,11 @@ class FmowRGB(SatelliteDataset):
         # Read the csv file
         self.image_arr = json.load(open(json_path, 'r'))['train' if is_train else 'val']
         # Calculate len
-        self.data_len = len(self.data_info.index)
 
     def __getitem__(self, index):
         # Get image name from the pandas df
         single_image_name = self.image_arr[index]
-        # Open image
+        # Open 
         img_as_img = Image.open(single_image_name)
         # Transform the image
         img_as_tensor = self.transforms(img_as_img)
@@ -115,7 +121,7 @@ class FmowRGBRetrieval(SatelliteDataset):
     def __init__(self, json_path, transform, is_train=True):
         """
         Creates Dataset for regular RGB image classification (usually used for fMoW-RGB dataset).
-        :param csv_path: csv_path (string): path to csv file.
+        :param json_path: json_path (string): path to csv file.
         :param transform: pytorch transforms for transforms and tensor conversion.
         """
         super().__init__(in_c=3)
@@ -168,52 +174,30 @@ class FmowSentinel(SatelliteDataset):
     def __init__(self,
                  json_path: str,
                  transform: Any,
-                 label_type: str = 'one_hot',
-                 masked_bands: Optional[List[int]] = None,
-                 dropped_bands: Optional[List[int]] = None):
+                 label_type: str = 'one-hot',is_train=True):
         """
         Creates dataset for multi-spectral single image classification.
         Usually used for fMoW-Sentinel dataset.
-        :param csv_path: path to csv file.
+        :param json_path: path to csv file.
         :param transform: pytorch Transform for transforms and tensor conversion
-        :param years: List of years to take images from, None to not filter
         :param categories: List of categories to take images from, None to not filter
         :param label_type: 'values' for single label, 'one-hot' for one hot labels
-        :param masked_bands: List of indices corresponding to which bands to mask out
-        :param dropped_bands:  List of indices corresponding to which bands to drop from input image tensor
         """
         super().__init__(in_c=13)
-        self.df = pd.read_csv(csv_path) \
-            .sort_values(['category', 'location_id', 'timestamp'])
-
         # Filter by category
         self.categories = CATEGORIES
-        if categories is not None:
-            self.categories = categories
-            self.df = self.df.loc[categories]
-
-        # Filter by year
-        if years is not None:
-            self.df['year'] = [int(timestamp.split('-')[0]) for timestamp in self.df['timestamp']]
-            self.df = self.df[self.df['year'].isin(years)]
-
-        self.indices = self.df.index.unique().to_numpy()
-
-        self.transform = transform
+        
 
         if label_type not in self.label_types:
             raise ValueError(
                 f'FMOWDataset label_type {label_type} not allowed. Label_type must be one of the following:',
                 ', '.join(self.label_types))
         self.label_type = label_type
-
-        self.masked_bands = masked_bands
-        self.dropped_bands = dropped_bands
-        if self.dropped_bands is not None:
-            self.in_c = self.in_c - len(dropped_bands)
+        self.image_arr = json.load(open(json_path, 'r'))['train' if is_train else 'val']
+        self.transforms = transform
 
     def __len__(self):
-        return len(self.df)
+        return len(self.image_arr)
 
     def open_image(self, img_path):
         with rasterio.open(img_path) as data:
@@ -231,27 +215,15 @@ class FmowSentinel(SatelliteDataset):
         :param idx: Index of (image, label) pair in dataset dataframe. (c, h, w)
         :return: Torch Tensor image, and integer label as a tuple.
         """
-        selection = self.df.iloc[idx]
+        selection = self.image_arr[idx]
 
         # images = [torch.FloatTensor(rasterio.open(img_path).read()) for img_path in image_paths]
-        images = self.open_image(selection['image_path'])  # (h, w, c)
-        if self.masked_bands is not None:
-            images[:, :, self.masked_bands] = np.array(self.mean)[self.masked_bands]
+        images = self.open_image(selection)  # (h, w, c)
+        
 
-        labels = self.categories.index(selection['category'])
-
-        img_as_tensor = self.transform(images)  # (c, h, w)
-        if self.dropped_bands is not None:
-            keep_idxs = [i for i in range(img_as_tensor.shape[0]) if i not in self.dropped_bands]
-            img_as_tensor = img_as_tensor[keep_idxs, :, :]
-
-        sample = {
-            'images': images,
-            'labels': labels,
-            'image_ids': selection['image_id'],
-            'timestamps': selection['timestamp']
-        }
-        return img_as_tensor, labels
+        img_as_tensor = self.transforms(images)  # (c, h, w)
+       
+        return img_as_tensor
 
     @staticmethod
     def build_transform(is_train, input_size, mean, std):
@@ -283,3 +255,90 @@ class FmowSentinel(SatelliteDataset):
         t.append(transforms.CenterCrop(input_size))
 
         return transforms.Compose(t)
+    
+def build_fmow_dataset(dataset_type, is_train) -> SatelliteDataset:
+    """
+    Initializes a SatelliteDataset object given provided 
+    :param is_train: Whether we want the dataset for training or evaluation
+    :param args: Argparser args object with provided arguments
+    :return: SatelliteDataset object.
+    """
+    json_path = f'fmow_data/{dataset_type}.json'
+
+    if dataset_type == 'fmow_rgb':
+        mean = FmowRGB.mean
+        std = FmowRGB.std
+        transform = FmowRGB.build_transform(is_train, 224, mean, std)
+        dataset = FmowRGB(json_path, transform, is_train=is_train)
+    elif dataset_type == 'fmow_sentinel':
+        mean = FmowSentinel.mean
+        std = FmowSentinel.std
+        transform = FmowSentinel.build_transform(is_train, 224, mean, std)
+        dataset = FmowSentinel(json_path, transform, is_train = is_train)
+   
+    else:
+        raise ValueError(f"Invalid dataset type: {dataset_type}")
+
+    return dataset
+
+
+def make_custom_dataloader(
+    transform,
+    batch_size,
+    collator=None,
+    pin_mem=False,
+    num_workers=10,
+    drop_last=True
+):
+    fmow_rgb_train = build_fmow_dataset('fmow_rgb', is_train=True)
+    fmow_sentinel_train = build_fmow_dataset('fmow_sentinel', is_train=True)
+    fmow_rgb_test = build_fmow_dataset('fmow_rgb', is_train=False)
+    fmow_sentinel_test = build_fmow_dataset('fmow_sentinel', is_train=False)
+
+    logger.info('FMOW dataset created')
+    logger.info(f'FMOW RGB: {len(fmow_rgb_train)} training samples, {len(fmow_rgb_test)} test samples')
+    logger.info(f'FMOW SENTINEL: {len(fmow_sentinel_train)} training samples, {len(fmow_sentinel_test)} test samples')
+
+    train_loader1 = DataLoader(
+        fmow_rgb_train,
+        collate_fn=collator,
+        batch_size=batch_size,
+        drop_last=drop_last,
+        pin_memory=pin_mem,
+        num_workers=num_workers,
+        persistent_workers=False
+    )
+
+    test_loader1 = DataLoader(
+        fmow_rgb_test,
+        collate_fn=collator,
+        batch_size=batch_size,
+        drop_last=False,  
+        pin_memory=pin_mem,
+        num_workers=num_workers,
+        persistent_workers=False
+    )
+    
+    train_loader2 = DataLoader(
+        fmow_sentinel_train,
+        collate_fn=collator,
+        batch_size=batch_size,
+        drop_last=drop_last,
+        pin_memory=pin_mem,
+        num_workers=num_workers,
+        persistent_workers=False
+    )
+
+    test_loader2 = DataLoader(
+        fmow_sentinel_test,
+        collate_fn=collator,
+        batch_size=batch_size,
+        drop_last=False,  
+        pin_memory=pin_mem,
+        num_workers=num_workers,
+        persistent_workers=False
+    )
+    logger.info('Train and test dataloaders created')
+
+    return fmow_rgb_train, fmow_rgb_test, train_loader1, test_loader1, None, None, fmow_sentinel_train, fmow_sentinel_test, train_loader2, test_loader2, None, None
+
