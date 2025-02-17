@@ -22,7 +22,7 @@ handler.setLevel(INFO)
 logger.addHandler(handler)
 
 # File handler for logging
-file_handler = FileHandler('retrieval_outputs/random_all.log')
+file_handler = FileHandler('retrieval_outputs/random_depth_12_all.log')
 file_handler.setLevel(INFO)
 logger.addHandler(file_handler)
 
@@ -59,8 +59,8 @@ def load_model_checkpoint(load_path, device):
     """
     Load model and checkpoint from the given path.
     """
-    predictor1, encoder1 = init_model(device=device, input_channels=2)
-    predictor2, encoder2 = init_model(device=device, input_channels=12)
+    predictor1, encoder1 = init_model(device=device, input_channels=2, pred_depth=12)
+    predictor2, encoder2 = init_model(device=device, input_channels=12, pred_depth=12)
     cross_predictor = CrossSensorPredictor().to(device)
 
     checkpoint = torch.load(load_path, map_location=device)
@@ -192,7 +192,7 @@ def calculate_f1(query_labels, archive_labels, indices, k):
     return np.mean(f1_scores)
 
 def main(args, paths):
-    device = torch.device('cuda:7' if torch.cuda.is_available() else 'cpu')
+    device = torch.device('cuda:4' if torch.cuda.is_available() else 'cpu')
     logger.info(device)
     collator = MaskCollator()
     

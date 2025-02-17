@@ -26,9 +26,7 @@ handler.setLevel(INFO)
 logger.addHandler(handler)
 
 # File handler for logging
-file_handler = FileHandler('training.log')
-file_handler.setLevel(INFO)
-logger.addHandler(file_handler)
+
 
 def set_seed(seed: int = 42):
     """Set seed for reproducibility across multiple frameworks."""
@@ -48,8 +46,12 @@ def main():
     set_seed(42)
     args = get_arguments()
     device = args.device if torch.cuda.is_available() else 'cpu'
+    exp_name = 'random_pred_depth_12'
+    file_handler = FileHandler(f'logs/{exp_name}.log')
+    file_handler.setLevel(INFO)
+    logger.addHandler(file_handler)
     
-    wandb.init(project="CMR_Jepa", config=args, name='multiBlock_from_37_epochs')
+    wandb.init(project="CMR_Jepa", config=args, name=exp_name)
     wandb.config.update(args)
 
     main_directory = "/raid/biplab/datasets/BENv1/BENMMfinal/"
@@ -84,8 +86,8 @@ def main():
     # Initialize models
     # encoder1 = VisionTransformer(in_chans=2).to(device)
     # encoder2 = VisionTransformer(in_chans=12).to(device)
-    predictor1, encoder1 = init_model(img_size=args.img_size, device=device, input_channels=2)
-    predictor2, encoder2 = init_model(img_size=args.img_size, device=device, input_channels=12)
+    predictor1, encoder1 = init_model(img_size=args.img_size, device=device, input_channels=2, pred_depth=12)
+    predictor2, encoder2 = init_model(img_size=args.img_size, device=device, input_channels=12, pred_depth=12)
     
     target_encoder1 = VisionTransformer(in_chans=12).to(device)
     target_encoder2 = VisionTransformer(in_chans=2).to(device)
@@ -142,7 +144,7 @@ def main():
     best_epoch = 0
     
     # Create checkpoint directory
-    save_dir = './checkpoints/multiblock'
+    save_dir = f'./checkpoints/{exp_name}'
     os.makedirs(save_dir, exist_ok=True)
     
     for epoch in range(start_epoch, args.num_epochs):

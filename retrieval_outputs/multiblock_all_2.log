@@ -578,3 +578,500 @@ Original embedding shape: torch.Size([256, 196, 768])
 After pooling shape: torch.Size([256, 768])
 Original embedding shape: torch.Size([256, 196, 768])
 After pooling shape: torch.Size([256, 768])
+
+Computing retrieval results for s1->s2
+Query labels shape: (20000, 43)
+Archive labels shape: (80000, 43)
+Indices shape: (20000, 5)
+s1->s2 Mean F1 Score: 0.5410
+Computing retrieval results for s2->s1
+Query labels shape: (20000, 43)
+Archive labels shape: (80000, 43)
+Indices shape: (20000, 5)
+s2->s1 Mean F1 Score: 0.5431
+Computing retrieval results for s1->s1
+Query labels shape: (20000, 43)
+Archive labels shape: (80000, 43)
+Indices shape: (20000, 5)
+s1->s1 Mean F1 Score: 0.6594
+Computing retrieval results for s2->s2
+Query labels shape: (20000, 43)
+Archive labels shape: (80000, 43)
+Indices shape: (20000, 5)
+s2->s2 Mean F1 Score: 0.7481
+Testing model: checkpoints/multiblock/best_model_epoch_24_ 3.0466.pth
+Extracting embeddings for training and testing sets...
+  0%|                                                                                                                                                                                              | 0/313 [00:00<?, ?it/s]Original embedding shape: torch.Size([256, 196, 768])
+After pooling shape: torch.Size([256, 768])
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 313/313 [11:25<00:00,  2.19s/it]
+  0%|                                                                                                                                                                                              | 0/313 [00:00<?, ?it/s]Original embedding shape: torch.Size([256, 196, 768])
+After pooling shape: torch.Size([256, 768])
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 313/313 [11:51<00:00,  2.27s/it]
+  0%|                                                                                                                                                                                               | 0/79 [00:00<?, ?it/s]Original embedding shape: torch.Size([256, 196, 768])
+After pooling shape: torch.Size([256, 768])
+100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 79/79 [02:51<00:00,  2.18s/it]
+  0%|                                                                                                                                                                                               | 0/79 [00:00<?, ?it/s]Original embedding shape: torch.Size([256, 196, 768])
+After pooling shape: torch.Size([256, 768])
+100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 79/79 [02:58<00:00,  2.26s/it]
+Computing retrieval results for s1->s2
+Query labels shape: (20000, 43)
+Archive labels shape: (80000, 43)
+Indices shape: (20000, 5)
+s1->s2 Mean F1 Score: 0.5559
+Computing retrieval results for s2->s1
+Query labels shape: (20000, 43)
+Archive labels shape: (80000, 43)
+Indices shape: (20000, 5)
+s2->s1 Mean F1 Score: 0.5490
+Computing retrieval results for s1->s1
+Query labels shape: (20000, 43)
+Archive labels shape: (80000, 43)
+Indices shape: (20000, 5)
+s1->s1 Mean F1 Score: 0.6606
+Computing retrieval results for s2->s2
+Query labels shape: (20000, 43)
+Archive labels shape: (80000, 43)
+Indices shape: (20000, 5)
+s2->s2 Mean F1 Score: 0.7473
+Testing model: checkpoints/multiblock/best_model_epoch_25_ 3.0450.pth
+Extracting embeddings for training and testing sets...
+  0%|                                                                                                                                                                                              | 0/313 [00:00<?, ?it/s]Original embedding shape: torch.Size([256, 196, 768])
+After pooling shape: torch.Size([256, 768])
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 313/313 [11:25<00:00,  2.19s/it]
+  0%|                                                                                                                                                                                              | 0/313 [00:00<?, ?it/s]Original embedding shape: torch.Size([256, 196, 768])
+After pooling shape: torch.Size([256, 768])
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 313/313 [11:47<00:00,  2.26s/it]
+  0%|                                                                                                                                                                                               | 0/79 [00:00<?, ?it/s]Original embedding shape: torch.Size([256, 196, 768])
+After pooling shape: torch.Size([256, 768])
+100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 79/79 [02:50<00:00,  2.15s/it]
+  0%|                                                                                                                                                                                               | 0/79 [00:00<?, ?it/s]Original embedding shape: torch.Size([256, 196, 768])
+After pooling shape: torch.Size([256, 768])
+100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 79/79 [02:59<00:00,  2.27s/it]
+Computing retrieval results for s1->s2
+Query labels shape: (20000, 43)
+Archive labels shape: (80000, 43)
+Indices shape: (20000, 5)
+s1->s2 Mean F1 Score: 0.5558
+Computing retrieval results for s2->s1
+Query labels shape: (20000, 43)
+Archive labels shape: (80000, 43)
+Indices shape: (20000, 5)
+s2->s1 Mean F1 Score: 0.5524
+Computing retrieval results for s1->s1
+Query labels shape: (20000, 43)
+Archive labels shape: (80000, 43)
+Indices shape: (20000, 5)
+s1->s1 Mean F1 Score: 0.6609
+Computing retrieval results for s2->s2
+Query labels shape: (20000, 43)
+Archive labels shape: (80000, 43)
+Indices shape: (20000, 5)
+s2->s2 Mean F1 Score: 0.7470
+Testing model: checkpoints/multiblock/best_model_epoch_26_ 3.0442.pth
+Extracting embeddings for training and testing sets...
+  0%|                                                                                                                                                                                              | 0/313 [00:00<?, ?it/s]Original embedding shape: torch.Size([256, 196, 768])
+After pooling shape: torch.Size([256, 768])
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 313/313 [11:16<00:00,  2.16s/it]
+  0%|                                                                                                                                                                                              | 0/313 [00:00<?, ?it/s]Original embedding shape: torch.Size([256, 196, 768])
+After pooling shape: torch.Size([256, 768])
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 313/313 [11:47<00:00,  2.26s/it]
+  0%|                                                                                                                                                                                               | 0/79 [00:00<?, ?it/s]Original embedding shape: torch.Size([256, 196, 768])
+After pooling shape: torch.Size([256, 768])
+100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 79/79 [02:50<00:00,  2.15s/it]
+  0%|                                                                                                                                                                                               | 0/79 [00:00<?, ?it/s]Original embedding shape: torch.Size([256, 196, 768])
+After pooling shape: torch.Size([256, 768])
+100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 79/79 [02:56<00:00,  2.24s/it]
+Computing retrieval results for s1->s2
+Query labels shape: (20000, 43)
+Archive labels shape: (80000, 43)
+Indices shape: (20000, 5)
+s1->s2 Mean F1 Score: 0.5558
+Computing retrieval results for s2->s1
+Query labels shape: (20000, 43)
+Archive labels shape: (80000, 43)
+Indices shape: (20000, 5)
+s2->s1 Mean F1 Score: 0.5473
+Computing retrieval results for s1->s1
+Query labels shape: (20000, 43)
+Archive labels shape: (80000, 43)
+Indices shape: (20000, 5)
+s1->s1 Mean F1 Score: 0.6611
+Computing retrieval results for s2->s2
+Query labels shape: (20000, 43)
+Archive labels shape: (80000, 43)
+Indices shape: (20000, 5)
+s2->s2 Mean F1 Score: 0.7468
+Testing model: checkpoints/multiblock/best_model_epoch_27_ 3.0409.pth
+Extracting embeddings for training and testing sets...
+  0%|                                                                                                                                                                                              | 0/313 [00:00<?, ?it/s]Original embedding shape: torch.Size([256, 196, 768])
+After pooling shape: torch.Size([256, 768])
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 313/313 [11:14<00:00,  2.16s/it]
+  0%|                                                                                                                                                                                              | 0/313 [00:00<?, ?it/s]Original embedding shape: torch.Size([256, 196, 768])
+After pooling shape: torch.Size([256, 768])
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 313/313 [11:41<00:00,  2.24s/it]
+  0%|                                                                                                                                                                                               | 0/79 [00:00<?, ?it/s]Original embedding shape: torch.Size([256, 196, 768])
+After pooling shape: torch.Size([256, 768])
+100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 79/79 [02:49<00:00,  2.15s/it]
+  0%|                                                                                                                                                                                               | 0/79 [00:00<?, ?it/s]Original embedding shape: torch.Size([256, 196, 768])
+After pooling shape: torch.Size([256, 768])
+100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 79/79 [02:59<00:00,  2.27s/it]
+Computing retrieval results for s1->s2
+Query labels shape: (20000, 43)
+Archive labels shape: (80000, 43)
+Indices shape: (20000, 5)
+s1->s2 Mean F1 Score: 0.5558
+Computing retrieval results for s2->s1
+Query labels shape: (20000, 43)
+Archive labels shape: (80000, 43)
+Indices shape: (20000, 5)
+s2->s1 Mean F1 Score: 0.5544
+Computing retrieval results for s1->s1
+Query labels shape: (20000, 43)
+Archive labels shape: (80000, 43)
+Indices shape: (20000, 5)
+s1->s1 Mean F1 Score: 0.6611
+Computing retrieval results for s2->s2
+Query labels shape: (20000, 43)
+Archive labels shape: (80000, 43)
+Indices shape: (20000, 5)
+s2->s2 Mean F1 Score: 0.7462
+Testing model: checkpoints/multiblock/best_model_epoch_28_ 3.0389.pth
+Extracting embeddings for training and testing sets...
+  0%|                                                                                                                                                                                              | 0/313 [00:00<?, ?it/s]Original embedding shape: torch.Size([256, 196, 768])
+After pooling shape: torch.Size([256, 768])
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 313/313 [11:27<00:00,  2.20s/it]
+  0%|                                                                                                                                                                                              | 0/313 [00:00<?, ?it/s]Original embedding shape: torch.Size([256, 196, 768])
+After pooling shape: torch.Size([256, 768])
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 313/313 [11:55<00:00,  2.28s/it]
+  0%|                                                                                                                                                                                               | 0/79 [00:00<?, ?it/s]Original embedding shape: torch.Size([256, 196, 768])
+After pooling shape: torch.Size([256, 768])
+100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 79/79 [02:51<00:00,  2.17s/it]
+  0%|                                                                                                                                                                                               | 0/79 [00:00<?, ?it/s]Original embedding shape: torch.Size([256, 196, 768])
+After pooling shape: torch.Size([256, 768])
+100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 79/79 [03:01<00:00,  2.29s/it]
+Computing retrieval results for s1->s2
+Query labels shape: (20000, 43)
+Archive labels shape: (80000, 43)
+Indices shape: (20000, 5)
+s1->s2 Mean F1 Score: 0.5558
+Computing retrieval results for s2->s1
+Query labels shape: (20000, 43)
+Archive labels shape: (80000, 43)
+Indices shape: (20000, 5)
+s2->s1 Mean F1 Score: 0.5536
+Computing retrieval results for s1->s1
+Query labels shape: (20000, 43)
+Archive labels shape: (80000, 43)
+Indices shape: (20000, 5)
+s1->s1 Mean F1 Score: 0.6622
+Computing retrieval results for s2->s2
+Query labels shape: (20000, 43)
+Archive labels shape: (80000, 43)
+Indices shape: (20000, 5)
+s2->s2 Mean F1 Score: 0.7460
+Testing model: checkpoints/multiblock/best_model_epoch_29_ 3.0371.pth
+Extracting embeddings for training and testing sets...
+  0%|                                                                                                                                                                                              | 0/313 [00:00<?, ?it/s]Original embedding shape: torch.Size([256, 196, 768])
+After pooling shape: torch.Size([256, 768])
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 313/313 [11:26<00:00,  2.19s/it]
+  0%|                                                                                                                                                                                              | 0/313 [00:00<?, ?it/s]Original embedding shape: torch.Size([256, 196, 768])
+After pooling shape: torch.Size([256, 768])
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 313/313 [11:57<00:00,  2.29s/it]
+  0%|                                                                                                                                                                                               | 0/79 [00:00<?, ?it/s]Original embedding shape: torch.Size([256, 196, 768])
+After pooling shape: torch.Size([256, 768])
+100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 79/79 [02:53<00:00,  2.19s/it]
+  0%|                                                                                                                                                                                               | 0/79 [00:00<?, ?it/s]Original embedding shape: torch.Size([256, 196, 768])
+After pooling shape: torch.Size([256, 768])
+100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 79/79 [03:01<00:00,  2.29s/it]
+Computing retrieval results for s1->s2
+Query labels shape: (20000, 43)
+Archive labels shape: (80000, 43)
+Indices shape: (20000, 5)
+s1->s2 Mean F1 Score: 0.5558
+Computing retrieval results for s2->s1
+Query labels shape: (20000, 43)
+Archive labels shape: (80000, 43)
+Indices shape: (20000, 5)
+s2->s1 Mean F1 Score: 0.5533
+Computing retrieval results for s1->s1
+Query labels shape: (20000, 43)
+Archive labels shape: (80000, 43)
+Indices shape: (20000, 5)
+s1->s1 Mean F1 Score: 0.6623
+Computing retrieval results for s2->s2
+Query labels shape: (20000, 43)
+Archive labels shape: (80000, 43)
+Indices shape: (20000, 5)
+s2->s2 Mean F1 Score: 0.7451
+Testing model: checkpoints/multiblock/best_model_epoch_30_ 3.0351.pth
+Extracting embeddings for training and testing sets...
+  0%|                                                                                                                                                                                              | 0/313 [00:00<?, ?it/s]Original embedding shape: torch.Size([256, 196, 768])
+After pooling shape: torch.Size([256, 768])
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 313/313 [11:30<00:00,  2.21s/it]
+  0%|                                                                                                                                                                                              | 0/313 [00:00<?, ?it/s]Original embedding shape: torch.Size([256, 196, 768])
+After pooling shape: torch.Size([256, 768])
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 313/313 [11:55<00:00,  2.29s/it]
+  0%|                                                                                                                                                                                               | 0/79 [00:00<?, ?it/s]Original embedding shape: torch.Size([256, 196, 768])
+After pooling shape: torch.Size([256, 768])
+100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 79/79 [02:52<00:00,  2.19s/it]
+  0%|                                                                                                                                                                                               | 0/79 [00:00<?, ?it/s]Original embedding shape: torch.Size([256, 196, 768])
+After pooling shape: torch.Size([256, 768])
+100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 79/79 [02:59<00:00,  2.27s/it]
+Computing retrieval results for s1->s2
+Query labels shape: (20000, 43)
+Archive labels shape: (80000, 43)
+Indices shape: (20000, 5)
+s1->s2 Mean F1 Score: 0.5763
+Computing retrieval results for s2->s1
+Query labels shape: (20000, 43)
+Archive labels shape: (80000, 43)
+Indices shape: (20000, 5)
+s2->s1 Mean F1 Score: 0.5524
+Computing retrieval results for s1->s1
+Query labels shape: (20000, 43)
+Archive labels shape: (80000, 43)
+Indices shape: (20000, 5)
+s1->s1 Mean F1 Score: 0.6632
+Computing retrieval results for s2->s2
+Query labels shape: (20000, 43)
+Archive labels shape: (80000, 43)
+Indices shape: (20000, 5)
+s2->s2 Mean F1 Score: 0.7451
+Testing model: checkpoints/multiblock/best_model_epoch_31_ 3.0319.pth
+Extracting embeddings for training and testing sets...
+  0%|                                                                                                                                                                                              | 0/313 [00:00<?, ?it/s]Original embedding shape: torch.Size([256, 196, 768])
+After pooling shape: torch.Size([256, 768])
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 313/313 [11:31<00:00,  2.21s/it]
+  0%|                                                                                                                                                                                              | 0/313 [00:00<?, ?it/s]Original embedding shape: torch.Size([256, 196, 768])
+After pooling shape: torch.Size([256, 768])
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 313/313 [11:52<00:00,  2.28s/it]
+  0%|                                                                                                                                                                                               | 0/79 [00:00<?, ?it/s]Original embedding shape: torch.Size([256, 196, 768])
+After pooling shape: torch.Size([256, 768])
+100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 79/79 [02:54<00:00,  2.21s/it]
+  0%|                                                                                                                                                                                               | 0/79 [00:00<?, ?it/s]Original embedding shape: torch.Size([256, 196, 768])
+After pooling shape: torch.Size([256, 768])
+100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 79/79 [02:59<00:00,  2.27s/it]
+Computing retrieval results for s1->s2
+Query labels shape: (20000, 43)
+Archive labels shape: (80000, 43)
+Indices shape: (20000, 5)
+s1->s2 Mean F1 Score: 0.5763
+Computing retrieval results for s2->s1
+Query labels shape: (20000, 43)
+Archive labels shape: (80000, 43)
+Indices shape: (20000, 5)
+s2->s1 Mean F1 Score: 0.5656
+Computing retrieval results for s1->s1
+Query labels shape: (20000, 43)
+Archive labels shape: (80000, 43)
+Indices shape: (20000, 5)
+s1->s1 Mean F1 Score: 0.6638
+Computing retrieval results for s2->s2
+Query labels shape: (20000, 43)
+Archive labels shape: (80000, 43)
+Indices shape: (20000, 5)
+s2->s2 Mean F1 Score: 0.7445
+Testing model: checkpoints/multiblock/best_model_epoch_32_ 3.0293.pth
+Extracting embeddings for training and testing sets...
+  0%|                                                                                                                                                                                              | 0/313 [00:00<?, ?it/s]Original embedding shape: torch.Size([256, 196, 768])
+After pooling shape: torch.Size([256, 768])
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 313/313 [11:26<00:00,  2.19s/it]
+  0%|                                                                                                                                                                                              | 0/313 [00:00<?, ?it/s]Original embedding shape: torch.Size([256, 196, 768])
+After pooling shape: torch.Size([256, 768])
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 313/313 [11:53<00:00,  2.28s/it]
+  0%|                                                                                                                                                                                               | 0/79 [00:00<?, ?it/s]Original embedding shape: torch.Size([256, 196, 768])
+After pooling shape: torch.Size([256, 768])
+100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 79/79 [02:52<00:00,  2.19s/it]
+  0%|                                                                                                                                                                                               | 0/79 [00:00<?, ?it/s]Original embedding shape: torch.Size([256, 196, 768])
+After pooling shape: torch.Size([256, 768])
+100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 79/79 [03:00<00:00,  2.28s/it]
+Computing retrieval results for s1->s2
+Query labels shape: (20000, 43)
+Archive labels shape: (80000, 43)
+Indices shape: (20000, 5)
+s1->s2 Mean F1 Score: 0.5763
+Computing retrieval results for s2->s1
+Query labels shape: (20000, 43)
+Archive labels shape: (80000, 43)
+Indices shape: (20000, 5)
+s2->s1 Mean F1 Score: 0.5549
+Computing retrieval results for s1->s1
+Query labels shape: (20000, 43)
+Archive labels shape: (80000, 43)
+Indices shape: (20000, 5)
+s1->s1 Mean F1 Score: 0.6642
+Computing retrieval results for s2->s2
+Query labels shape: (20000, 43)
+Archive labels shape: (80000, 43)
+Indices shape: (20000, 5)
+s2->s2 Mean F1 Score: 0.7442
+Testing model: checkpoints/multiblock/best_model_epoch_33_ 3.0272.pth
+Extracting embeddings for training and testing sets...
+  0%|                                                                                                                                                                                              | 0/313 [00:00<?, ?it/s]Original embedding shape: torch.Size([256, 196, 768])
+After pooling shape: torch.Size([256, 768])
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 313/313 [11:27<00:00,  2.20s/it]
+  0%|                                                                                                                                                                                              | 0/313 [00:00<?, ?it/s]Original embedding shape: torch.Size([256, 196, 768])
+After pooling shape: torch.Size([256, 768])
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 313/313 [11:55<00:00,  2.29s/it]
+  0%|                                                                                                                                                                                               | 0/79 [00:00<?, ?it/s]Original embedding shape: torch.Size([256, 196, 768])
+After pooling shape: torch.Size([256, 768])
+100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 79/79 [02:54<00:00,  2.21s/it]
+  0%|                                                                                                                                                                                               | 0/79 [00:00<?, ?it/s]Original embedding shape: torch.Size([256, 196, 768])
+After pooling shape: torch.Size([256, 768])
+100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 79/79 [02:59<00:00,  2.27s/it]
+Computing retrieval results for s1->s2
+Query labels shape: (20000, 43)
+Archive labels shape: (80000, 43)
+Indices shape: (20000, 5)
+s1->s2 Mean F1 Score: 0.5763
+Computing retrieval results for s2->s1
+Query labels shape: (20000, 43)
+Archive labels shape: (80000, 43)
+Indices shape: (20000, 5)
+s2->s1 Mean F1 Score: 0.5473
+Computing retrieval results for s1->s1
+Query labels shape: (20000, 43)
+Archive labels shape: (80000, 43)
+Indices shape: (20000, 5)
+s1->s1 Mean F1 Score: 0.6649
+Computing retrieval results for s2->s2
+Query labels shape: (20000, 43)
+Archive labels shape: (80000, 43)
+Indices shape: (20000, 5)
+s2->s2 Mean F1 Score: 0.7434
+Testing model: checkpoints/multiblock/best_model_epoch_34_ 3.0249.pth
+Extracting embeddings for training and testing sets...
+  0%|                                                                                                                                                                                              | 0/313 [00:00<?, ?it/s]Original embedding shape: torch.Size([256, 196, 768])
+After pooling shape: torch.Size([256, 768])
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 313/313 [11:28<00:00,  2.20s/it]
+  0%|                                                                                                                                                                                              | 0/313 [00:00<?, ?it/s]Original embedding shape: torch.Size([256, 196, 768])
+After pooling shape: torch.Size([256, 768])
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 313/313 [11:56<00:00,  2.29s/it]
+  0%|                                                                                                                                                                                               | 0/79 [00:00<?, ?it/s]Original embedding shape: torch.Size([256, 196, 768])
+After pooling shape: torch.Size([256, 768])
+100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 79/79 [02:52<00:00,  2.19s/it]
+  0%|                                                                                                                                                                                               | 0/79 [00:00<?, ?it/s]Original embedding shape: torch.Size([256, 196, 768])
+After pooling shape: torch.Size([256, 768])
+100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 79/79 [02:59<00:00,  2.28s/it]
+Computing retrieval results for s1->s2
+Query labels shape: (20000, 43)
+Archive labels shape: (80000, 43)
+Indices shape: (20000, 5)
+s1->s2 Mean F1 Score: 0.5763
+Computing retrieval results for s2->s1
+Query labels shape: (20000, 43)
+Archive labels shape: (80000, 43)
+Indices shape: (20000, 5)
+s2->s1 Mean F1 Score: 0.5473
+Computing retrieval results for s1->s1
+Query labels shape: (20000, 43)
+Archive labels shape: (80000, 43)
+Indices shape: (20000, 5)
+s1->s1 Mean F1 Score: 0.6648
+Computing retrieval results for s2->s2
+Query labels shape: (20000, 43)
+Archive labels shape: (80000, 43)
+Indices shape: (20000, 5)
+s2->s2 Mean F1 Score: 0.7431
+Testing model: checkpoints/multiblock/best_model_epoch_35_ 3.0233.pth
+Extracting embeddings for training and testing sets...
+  0%|                                                                                                                                                                                              | 0/313 [00:00<?, ?it/s]Original embedding shape: torch.Size([256, 196, 768])
+After pooling shape: torch.Size([256, 768])
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 313/313 [11:30<00:00,  2.21s/it]
+  0%|                                                                                                                                                                                              | 0/313 [00:00<?, ?it/s]Original embedding shape: torch.Size([256, 196, 768])
+After pooling shape: torch.Size([256, 768])
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 313/313 [11:53<00:00,  2.28s/it]
+  0%|                                                                                                                                                                                               | 0/79 [00:00<?, ?it/s]Original embedding shape: torch.Size([256, 196, 768])
+After pooling shape: torch.Size([256, 768])
+100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 79/79 [02:52<00:00,  2.18s/it]
+  0%|                                                                                                                                                                                               | 0/79 [00:00<?, ?it/s]Original embedding shape: torch.Size([256, 196, 768])
+After pooling shape: torch.Size([256, 768])
+100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 79/79 [02:59<00:00,  2.28s/it]
+Computing retrieval results for s1->s2
+Query labels shape: (20000, 43)
+Archive labels shape: (80000, 43)
+Indices shape: (20000, 5)
+s1->s2 Mean F1 Score: 0.5763
+Computing retrieval results for s2->s1
+Query labels shape: (20000, 43)
+Archive labels shape: (80000, 43)
+Indices shape: (20000, 5)
+s2->s1 Mean F1 Score: 0.5548
+Computing retrieval results for s1->s1
+Query labels shape: (20000, 43)
+Archive labels shape: (80000, 43)
+Indices shape: (20000, 5)
+s1->s1 Mean F1 Score: 0.6669
+Computing retrieval results for s2->s2
+Query labels shape: (20000, 43)
+Archive labels shape: (80000, 43)
+Indices shape: (20000, 5)
+s2->s2 Mean F1 Score: 0.7420
+Testing model: checkpoints/multiblock/best_model_epoch_36_ 3.0208.pth
+Extracting embeddings for training and testing sets...
+  0%|                                                                                                                                                                                              | 0/313 [00:00<?, ?it/s]Original embedding shape: torch.Size([256, 196, 768])
+After pooling shape: torch.Size([256, 768])
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 313/313 [11:28<00:00,  2.20s/it]
+  0%|                                                                                                                                                                                              | 0/313 [00:00<?, ?it/s]Original embedding shape: torch.Size([256, 196, 768])
+After pooling shape: torch.Size([256, 768])
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 313/313 [11:56<00:00,  2.29s/it]
+  0%|                                                                                                                                                                                               | 0/79 [00:00<?, ?it/s]Original embedding shape: torch.Size([256, 196, 768])
+After pooling shape: torch.Size([256, 768])
+100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 79/79 [02:53<00:00,  2.20s/it]
+  0%|                                                                                                                                                                                               | 0/79 [00:00<?, ?it/s]Original embedding shape: torch.Size([256, 196, 768])
+After pooling shape: torch.Size([256, 768])
+100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 79/79 [03:01<00:00,  2.30s/it]
+Computing retrieval results for s1->s2
+Query labels shape: (20000, 43)
+Archive labels shape: (80000, 43)
+Indices shape: (20000, 5)
+s1->s2 Mean F1 Score: 0.5763
+Computing retrieval results for s2->s1
+Query labels shape: (20000, 43)
+Archive labels shape: (80000, 43)
+Indices shape: (20000, 5)
+s2->s1 Mean F1 Score: 0.5473
+Computing retrieval results for s1->s1
+Query labels shape: (20000, 43)
+Archive labels shape: (80000, 43)
+Indices shape: (20000, 5)
+s1->s1 Mean F1 Score: 0.6682
+Computing retrieval results for s2->s2
+Query labels shape: (20000, 43)
+Archive labels shape: (80000, 43)
+Indices shape: (20000, 5)
+s2->s2 Mean F1 Score: 0.7417
+Testing model: checkpoints/multiblock/best_model_epoch_37_ 3.0206.pth
+Extracting embeddings for training and testing sets...
+  0%|                                                                                                                                                                                              | 0/313 [00:00<?, ?it/s]Original embedding shape: torch.Size([256, 196, 768])
+After pooling shape: torch.Size([256, 768])
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 313/313 [11:28<00:00,  2.20s/it]
+  0%|                                                                                                                                                                                              | 0/313 [00:00<?, ?it/s]Original embedding shape: torch.Size([256, 196, 768])
+After pooling shape: torch.Size([256, 768])
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 313/313 [11:55<00:00,  2.29s/it]
+  0%|                                                                                                                                                                                               | 0/79 [00:00<?, ?it/s]Original embedding shape: torch.Size([256, 196, 768])
+After pooling shape: torch.Size([256, 768])
+100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 79/79 [02:53<00:00,  2.19s/it]
+  0%|                                                                                                                                                                                               | 0/79 [00:00<?, ?it/s]Original embedding shape: torch.Size([256, 196, 768])
+After pooling shape: torch.Size([256, 768])
+100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 79/79 [03:00<00:00,  2.28s/it]
+Computing retrieval results for s1->s2
+Query labels shape: (20000, 43)
+Archive labels shape: (80000, 43)
+Indices shape: (20000, 5)
+s1->s2 Mean F1 Score: 0.5744
+Computing retrieval results for s2->s1
+Query labels shape: (20000, 43)
+Archive labels shape: (80000, 43)
+Indices shape: (20000, 5)
+s2->s1 Mean F1 Score: 0.5473
+Computing retrieval results for s1->s1
+Query labels shape: (20000, 43)
+Archive labels shape: (80000, 43)
+Indices shape: (20000, 5)
+s1->s1 Mean F1 Score: 0.6683
+Computing retrieval results for s2->s2
+Query labels shape: (20000, 43)
+Archive labels shape: (80000, 43)
+Indices shape: (20000, 5)
+s2->s2 Mean F1 Score: 0.7456
