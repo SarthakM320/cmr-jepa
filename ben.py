@@ -49,13 +49,13 @@ class BigEarthNetDataset(Dataset):
                     if self.modality == 2:
                         if file.endswith('2_image.npy'):
                             image_paths.append(os.path.join(layer1_path, file))
-                            if len(image_paths) >= self.max_imgs:
-                                return image_paths
+                            # if len(image_paths) >= self.max_imgs:
+                            #     return image_paths
                     else:
                         if file.endswith('1_image.npy'):
                             image_paths.append(os.path.join(layer1_path, file))
-                            if len(image_paths) >= self.max_imgs:
-                                return image_paths
+                            # if len(image_paths) >= self.max_imgs:
+                            #     return image_paths
 
                             
         return image_paths
@@ -77,6 +77,7 @@ class BigEarthNetDataset(Dataset):
             
         label_binarizer = MultiLabelBinarizer()
         label_binarizer.fit([list(all_unique_labels)])
+        print(label_binarizer.classes_)
         
         for layer1 in os.listdir(self.root_dir):
             layer1_path = os.path.join(self.root_dir, layer1)

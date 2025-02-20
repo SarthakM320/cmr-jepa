@@ -27,7 +27,7 @@ handler.setLevel(INFO)
 logger.addHandler(handler)
 
 # File handler for logging
-file_handler = FileHandler('logs/whole_training.log')
+file_handler = FileHandler('logs/fmow_training.log')
 file_handler.setLevel(INFO)
 logger.addHandler(file_handler)
 
@@ -50,7 +50,7 @@ def main():
     args = get_arguments()
     device = args.device if torch.cuda.is_available() else 'cpu'
     
-    wandb.init(project="CMR_Jepa", config=args, name='random_ben_whole')
+    wandb.init(project="CMR_Jepa", config=args, name='fmow')
     wandb.config.update(args)
 
     main_directory = "/raid/biplab/datasets/BENv1/BENMMfinal/"
@@ -68,29 +68,37 @@ def main():
         color_jitter=args.color_jitter
     )
 
-    train_dataset1, test_dataset1, train_loader1, test_loader1, train_sampler1, test_sampler1, train_dataset2, test_dataset2, train_loader2, test_loader2, train_sampler2, test_sampler2 = make_custom_dataloader(
+    # train_dataset1, test_dataset1, train_loader1, test_loader1, train_sampler1, test_sampler1, train_dataset2, test_dataset2, train_loader2, test_loader2, train_sampler2, test_sampler2 = make_custom_dataloader(
+    #     transform=transform, 
+    #     batch_size=args.batch_size,  
+    #     collator=mask_collator, 
+    #     pin_mem=0,  
+    #     num_workers=0, 
+    #     world_size=1, 
+    #     rank=0, 
+    #     root_path=main_directory, 
+    #     training=True, 
+    #     copy_data=False, 
+    #     drop_last=True
+    # )
+
+    train_dataset1, test_dataset1, train_loader1, test_loader1, train_sampler1, test_sampler1, train_dataset2, test_dataset2, train_loader2, test_loader2, train_sampler2, test_sampler2 = fmow_dataloader(
         transform=transform, 
         batch_size=args.batch_size,  
         collator=mask_collator, 
-        pin_mem=0,  
+        pin_mem=True,  
         num_workers=0, 
-        world_size=1, 
-        rank=0, 
-        root_path=main_directory, 
-        training=True, 
-        copy_data=False, 
         drop_last=True
     )
-
 
     # Initialize models
     # encoder1 = VisionTransformer(in_chans=2).to(device)
     # encoder2 = VisionTransformer(in_chans=12).to(device)
-    predictor1, encoder1 = init_model(img_size=args.img_size, device=device, input_channels=2)
-    predictor2, encoder2 = init_model(img_size=args.img_size, device=device, input_channels=12)
+    predictor1, encoder1 = init_model(img_size=args.img_size, device=device, input_channels=3)
+    predictor2, encoder2 = init_model(img_size=args.img_size, device=device, input_channels=13)
     
-    target_encoder1 = VisionTransformer(in_chans=12).to(device)
-    target_encoder2 = VisionTransformer(in_chans=2).to(device)
+    target_encoder1 = VisionTransformer(in_chans=13).to(device)
+    target_encoder2 = VisionTransformer(in_chans=3).to(device)
     cross_predictor = CrossSensorPredictor().to(device)
 
     trainable_modules = ['predictor1', 'predictor2', 'encoder1', 'encoder2', 'cross_predictor']
@@ -144,7 +152,7 @@ def main():
     best_epoch = 0
     
     # Create checkpoint directory
-    save_dir = './checkpoints/random_ben_whole'
+    save_dir = './checkpoints/fmow_random'
     os.makedirs(save_dir, exist_ok=True)
     
     for epoch in range(start_epoch, args.num_epochs):

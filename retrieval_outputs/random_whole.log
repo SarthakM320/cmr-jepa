@@ -1,0 +1,67 @@
+checkpoints/random_ben_whole/
+Starting process
+['checkpoints/random_ben_whole/best_model_epoch_1_ 3.0276.pth', 'checkpoints/random_ben_whole/best_model_epoch_2_ 3.0246.pth']
+cuda:2
+Testing model: checkpoints/random_ben_whole/best_model_epoch_1_ 3.0276.pth
+Extracting embeddings for training and testing sets...
+Original embedding shape: torch.Size([256, 196, 768])
+After pooling shape: torch.Size([256, 768])
+Original embedding shape: torch.Size([256, 196, 768])
+After pooling shape: torch.Size([256, 768])
+Original embedding shape: torch.Size([256, 196, 768])
+After pooling shape: torch.Size([256, 768])
+Original embedding shape: torch.Size([256, 196, 768])
+After pooling shape: torch.Size([256, 768])
+Computing retrieval results for s1->s2
+Query labels shape: (118065, 43)
+Archive labels shape: (472260, 43)
+Indices shape: (118065, 5)
+s1->s2 Mean F1 Score: 0.5567
+Computing retrieval results for s2->s1
+Query labels shape: (118065, 43)
+Archive labels shape: (472260, 43)
+Indices shape: (118065, 5)
+s2->s1 Mean F1 Score: 0.5567
+Computing retrieval results for s1->s1
+Query labels shape: (118065, 43)
+Archive labels shape: (472260, 43)
+Indices shape: (118065, 5)
+s1->s1 Mean F1 Score: 0.6730
+Computing retrieval results for s2->s2
+Query labels shape: (118065, 43)
+Archive labels shape: (472260, 43)
+Indices shape: (118065, 5)
+s2->s2 Mean F1 Score: 0.7556
+Testing model: checkpoints/random_ben_whole/best_model_epoch_2_ 3.0246.pth
+Extracting embeddings for training and testing sets...
+Original embedding shape: torch.Size([256, 196, 768])
+After pooling shape: torch.Size([256, 768])
+Original embedding shape: torch.Size([256, 196, 768])
+After pooling shape: torch.Size([256, 768])
+Original embedding shape: torch.Size([256, 196, 768])
+After pooling shape: torch.Size([256, 768])
+Original embedding shape: torch.Size([256, 196, 768])
+After pooling shape: torch.Size([256, 768])
+Computing retrieval results for s1->s2
+Query labels shape: (118065, 43)
+Archive labels shape: (472260, 43)
+Indices shape: (118065, 5)
+s1->s2 Mean F1 Score: 0.5569
+Computing retrieval results for s2->s1
+Query labels shape: (118065, 43)
+Archive labels shape: (472260, 43)
+Indices shape: (118065, 5)
+s2->s1 Mean F1 Score: 0.6004
+Computing retrieval results for s1->s1
+Query labels shape: (118065, 43)
+Archive labels shape: (472260, 43)
+Indices shape: (118065, 5)
+s1->s1 Mean F1 Score: 0.6738
+Computing retrieval results for s2->s2
+Query labels shape: (118065, 43)
+Archive labels shape: (472260, 43)
+Indices shape: (118065, 5)
+s2->s2 Mean F1 Score: 0.7561
+
+
+

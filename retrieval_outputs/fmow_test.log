@@ -1,0 +1,16 @@
+2025-02-20 01:49:36,951 - INFO - This is an INFO message.
+2025-02-20 01:49:36,951 - WARNING - This is a WARNING message.
+2025-02-20 01:49:36,951 - ERROR - This is an ERROR message.
+2025-02-20 01:49:36,951 - CRITICAL - This is a CRITICAL message.
+2025-02-20 01:49:36,952 - INFO - checkpoints/fmow_random/
+2025-02-20 01:49:36,952 - INFO - Starting process
+2025-02-20 01:49:36,952 - INFO - ['checkpoints/fmow_random/best_model_epoch_1_ 2.9033.pth', 'checkpoints/fmow_random/best_model_epoch_2_ 2.9010.pth', 'checkpoints/fmow_random/best_model_epoch_3_ 2.8979.pth']
+2025-02-20 01:49:38,460 - INFO - cuda:3
+2025-02-20 01:49:38,797 - INFO - FMOW dataset created
+2025-02-20 01:49:38,798 - INFO - FMOW RGB: 173641 training samples, 25133 test samples
+2025-02-20 01:49:38,798 - INFO - FMOW SENTINEL: 173641 training samples, 25133 test samples
+2025-02-20 01:49:38,798 - INFO - Train and test dataloaders created
+2025-02-20 01:49:38,798 - INFO - Testing model: checkpoints/fmow_random/best_model_epoch_1_ 2.9033.pth
+2025-02-20 01:49:43,938 - INFO - Extracting embeddings for training and testing sets...
+2025-02-20 01:49:54,708 - INFO - Original embedding shape: torch.Size([8, 196, 768])
+2025-02-20 01:49:54,729 - INFO - After pooling shape: torch.Size([8, 768])

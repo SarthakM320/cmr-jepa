@@ -44,8 +44,8 @@ class NpyImageDataset(Dataset):
         folder_count = 0
 
         for root_dir, dirs, files in os.walk(self.root):
-            if folder_count >= self.limit_folders:
-                break  # Stop once we reach the limit of folders
+            # if folder_count >= self.limit_folders:
+            #     break  # Stop once we reach the limit of folders
             
             if files:
                 folder_count += 1  # Count the folders with .npy files

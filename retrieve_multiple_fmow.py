@@ -9,22 +9,36 @@ from model import init_model
 from tqdm import tqdm
 import torch.multiprocessing as mp
 from cross_sensor import CrossSensorPredictor
-from dataloader import make_custom_dataloader
+from fmow_data.dataloader import make_custom_dataloader_retrieval
 from tqdm import tqdm
 from ben import make_bigearthnet
 from ijepa.src.masks.random import MaskCollator
-from logging import getLogger, StreamHandler, FileHandler, INFO
+from logging import getLogger, StreamHandler, FileHandler, INFO, Formatter
 
 logger = getLogger()
 logger.setLevel(INFO)
-handler = StreamHandler()
-handler.setLevel(INFO)
-logger.addHandler(handler)
 
-# File handler for logging
-file_handler = FileHandler('retrieval_outputs/test.log')
+# Console handler (stream)
+console_handler = StreamHandler()
+console_handler.setLevel(INFO)
+console_handler.setFormatter(Formatter('%(asctime)s - %(levelname)s - %(message)s'))
+
+# File handler
+file_handler = FileHandler('retrieval_outputs/fmow_test.log')
 file_handler.setLevel(INFO)
+file_handler.setFormatter(Formatter('%(asctime)s - %(levelname)s - %(message)s'))
+
+# Attach handlers to logger
+logger.addHandler(console_handler)
 logger.addHandler(file_handler)
+
+# Test logs
+logger.debug("This is a DEBUG message.")    # Won't be shown
+logger.info("This is an INFO message.")     # Will be shown
+logger.warning("This is a WARNING message.")# Won't be shown
+logger.error("This is an ERROR message.")   # Won't be shown
+logger.critical("This is a CRITICAL message.") # Won't be shown
+
 
 def transform(modality):
     if modality == 1:
@@ -59,8 +73,8 @@ def load_model_checkpoint(load_path, device):
     """
     Load model and checkpoint from the given path.
     """
-    predictor1, encoder1 = init_model(device=device, input_channels=2)
-    predictor2, encoder2 = init_model(device=device, input_channels=12)
+    predictor1, encoder1 = init_model(device=device, input_channels=3, pred_depth=12)
+    predictor2, encoder2 = init_model(device=device, input_channels=13, pred_depth=12)
     cross_predictor = CrossSensorPredictor().to(device)
 
     checkpoint = torch.load(load_path, map_location=device)
@@ -196,11 +210,9 @@ def main(args, paths):
     logger.info(device)
     collator = MaskCollator()
     
-    _, train_loader1, _ = make_bigearthnet(modality=1, batch_size=256, root_path=args.root_path, training=True, transform=transform(1), collator=collator)
-    _, train_loader2, _ = make_bigearthnet(modality=2, batch_size=256, root_path=args.root_path, training=True, transform=transform(2), collator=collator)
-    _, test_loader1, _ = make_bigearthnet(modality=1, batch_size=256, root_path=args.root_path, training=False, transform=transform(1), collator=collator)
-    _, test_loader2, _ = make_bigearthnet(modality=2, batch_size=256, root_path=args.root_path, training=False, transform=transform(2), collator=collator)
-    
+    train_loader1, test_loader1, train_loader2, test_loader2 = make_custom_dataloader_retrieval(
+        64, collator=collator, num_workers=64
+    )
     for load_path in paths:
         logger.info(f"Testing model: {load_path}")
         encoder1, predictor1, encoder2, predictor2 = load_model_checkpoint(load_path, device)
